@@ -21,6 +21,7 @@ const u16 gEggMoves[] = {
               MOVE_OUTRAGE,
               MOVE_BEAT_UP,
               MOVE_SWORDS_DANCE,
+              MOVE_DRAGON_RUSH,
               MOVE_DRAGON_DANCE),
 
     egg_moves(SQUIRTLE,

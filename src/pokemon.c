@@ -5850,13 +5850,18 @@ static u16 GetBattleBGM(void)
         case TRAINER_CLASS_CHAMPION:
             return MUS_VS_CHAMPION;
         case TRAINER_CLASS_LEADER:
-        case TRAINER_CLASS_ELITE_FOUR:
             return MUS_VS_GYM_LEADER;
+        case TRAINER_CLASS_ELITE_FOUR:
+            return MUS_VS_ELITE_FOUR;
         case TRAINER_CLASS_BOSS:
+            return MUS_VS_GIOVANNI;
         case TRAINER_CLASS_TEAM_ROCKET:
+            return MUS_VS_ROCKET;
         case TRAINER_CLASS_COOLTRAINER:
         case TRAINER_CLASS_GENTLEMAN:
+        case TRAINER_CLASS_RIVAL_EARLY:
         case TRAINER_CLASS_RIVAL_LATE:
+            return MUS_VS_RIVAL;
         default:
             return MUS_VS_TRAINER;
         }

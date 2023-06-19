@@ -1517,6 +1517,11 @@ static const u16 sGrammarMoveUsedTable[] =
     MOVE_ENDEAVOR,
     MOVE_TICKLE,
     MOVE_COVET,
+
+    MOVE_CROSS_POISON,
+    MOVE_POISON_JAB,
+    MOVE_GUNK_SHOT,
+
     MOVE_NONE
 };
 

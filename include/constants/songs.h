@@ -352,6 +352,17 @@
 #define MUS_TRAINER_TOWER         344 // MUS_RG_T_TOWER
 #define MUS_SLOW_PALLET           345 // MUS_RG_SLOWMASARA
 #define MUS_TEACHY_TV_MENU        346 // MUS_RG_TVNOIZE
+#define MUS_AREA_ZERO        	  347
+#define MUS_ENCOUNTER_ROCKET2     348
+#define MUS_VS_ROCKET     	      349
+#define MUS_VS_GIOVANNI        	  350
+#define MUS_VS_RIVAL     	      351
+#define MUS_VS_ELITE_FOUR     	  352
+#define MUS_BRAILE     	  	      353
+#define MUS_ICE_CAVE     	      354
+#define MUS_CERULEAN_CAVE     	  356
+#define MUS_ROCK_TUNNEL     	  357
+#define MUS_POKE_MART     	      358
 
 #define MUS_NONE                    0xFFFF
 

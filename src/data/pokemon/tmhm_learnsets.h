@@ -1087,6 +1087,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(HM05_FLASH)),
 
     [SPECIES_VENOMOTH]    = TMHM_LEARNSET(TMHM(TM06_TOXIC)
+                                        | TMHM(TM04_CALM_MIND)
                                         | TMHM(TM10_HIDDEN_POWER)
                                         | TMHM(TM11_SUNNY_DAY)
                                         | TMHM(TM15_HYPER_BEAM)
@@ -4601,7 +4602,9 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM22_SOLAR_BEAM)
                                         | TMHM(TM27_RETURN)
                                         | TMHM(TM32_DOUBLE_TEAM)
+                                        | TMHM(TM35_FLAMETHROWER)
                                         | TMHM(TM36_SLUDGE_BOMB)
+                                        | TMHM(TM38_FIRE_BLAST)
                                         | TMHM(TM42_FACADE)
                                         | TMHM(TM43_SECRET_POWER)
                                         | TMHM(TM44_REST)

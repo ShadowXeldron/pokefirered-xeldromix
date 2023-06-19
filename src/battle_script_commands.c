@@ -646,6 +646,7 @@ static const u8 *const sMoveEffectBS_Ptrs[] =
     [MOVE_EFFECT_RAPIDSPIN]        = BattleScript_MoveEffectSleep,
     [MOVE_EFFECT_REMOVE_PARALYSIS] = BattleScript_MoveEffectSleep,
     [MOVE_EFFECT_ATK_DEF_DOWN]     = BattleScript_MoveEffectSleep,
+    [MOVE_EFFECT_DEF_SP_DEF_DOWN]  = BattleScript_MoveEffectSleep,
     [MOVE_EFFECT_RECOIL_33]        = BattleScript_MoveEffectRecoil,
 };
 
@@ -2707,6 +2708,10 @@ void SetMoveEffect(bool8 primary, u8 certain)
             case MOVE_EFFECT_ATK_DEF_DOWN: // SuperPower
                 BattleScriptPush(gBattlescriptCurrInstr + 1);
                 gBattlescriptCurrInstr = BattleScript_AtkDefDown;
+                break;
+            case MOVE_EFFECT_DEF_SP_DEF_DOWN: // Close Combat
+                BattleScriptPush(gBattlescriptCurrInstr + 1);
+                gBattlescriptCurrInstr = BattleScript_DefSpDefDown;
                 break;
             case MOVE_EFFECT_RECOIL_33: // Double Edge
                 gBattleMoveDamage = gHpDealt / 3;

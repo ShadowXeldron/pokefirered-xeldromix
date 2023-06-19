@@ -346,6 +346,17 @@ gSongTable::
 	song mus_trainer_tower, 0, 0
 	song mus_slow_pallet, 0, 0
 	song mus_teachy_tv_menu, 0, 0
+	song mus_area_zero, 0, 0
+	song mus_encounter_rocket2, 0, 0
+	song mus_vs_rocket, 0, 0
+	song mus_vs_rival, 0, 0
+	song mus_vs_elite_four, 0, 0
+	song mus_braile, 0, 0
+	song mus_ice_cave, 0, 0
+	song mus_cerulean_cave, 0, 0
+	song mus_rock_tunnel, 0, 0
+	song mus_ice_cave, 0, 0
+	song mus_poke_mart, 0, 0
 
 dummy_song_header:
 	.byte 0, 0, 0, 0
