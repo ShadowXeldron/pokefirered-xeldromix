@@ -378,10 +378,34 @@ gBattleAnims_Moves::
 	.4byte Move_CROSS_POISON
 	.4byte Move_POISON_JAB
 	.4byte Move_GUNK_SHOT
+	.4byte Move_BUG_BUZZ
+	.4byte Move_X_SCISSOR
+	.4byte Move_INFESTATION
+	.4byte Move_STRUGGLE_BUG
+	.4byte Move_DRACO_METEOR
+	.4byte Move_DRAGON_RUSH
+	.4byte Move_DRAGON_PULSE
+	.4byte Move_SHADOW_SNEAK
+	.4byte Move_OMINOUS_WIND
+	.4byte Move_SHADOW_CLAW
 	.4byte Move_DARK_PULSE
 	.4byte Move_NIGHT_SLASH
+	.4byte Move_SNARL
+	.4byte Move_BULLET_PUNCH
+	.4byte Move_IRON_HEAD
+	.4byte Move_STONE_EDGE
 	.4byte Move_ICE_SHARD
 	.4byte Move_AQUA_JET
+	.4byte Move_BRAVE_BIRD
+	.4byte Move_FLAME_TAIL
+	.4byte Move_SHELL_SHOCK
+	.4byte Move_POISON_IVY
+	.4byte Move_QUADRA_SLAM
+	.4byte Move_EXTINCTION
+	.4byte Move_CLOSE_COMBAT
+	.4byte Move_DRAGON_ASCENT
+	.4byte Move_HEADLONG_RUSH
+	.4byte Move_AIR_SLASH
 
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
@@ -10211,56 +10235,36 @@ Move_POISON_JAB:
 	end
 
 Move_GUNK_SHOT:
-	loadspritegfx ANIM_TAG_SHADOW_BALL
-	createsoundtask SoundTask_LoopSEAdjustPanning, SE_M_MIST, SOUND_PAN_ATTACKER, SOUND_PAN_TARGET, 5, 5, 0, 5
-	createsprite gShadowBallSpriteTemplate, ANIM_TARGET, 2, 16, 16, 8
-	waitforvisualfinish
-	playsewithpan SE_M_TOXIC, SOUND_PAN_TARGET
-	createvisualtask AnimTask_ShakeMon2, 2, ANIM_TARGET, 4, 0, 8, 1
-	waitforvisualfinish
-	end
-
+Move_BUG_BUZZ:
+Move_X_SCISSOR:
+Move_INFESTATION:
+Move_STRUGGLE_BUG:
+Move_DRACO_METEOR:
+Move_DRAGON_RUSH:
+Move_DRAGON_PULSE:
+Move_SHADOW_SNEAK:
+Move_OMINOUS_WIND:
+Move_SHADOW_CLAW:
 Move_DARK_PULSE:
-	loadspritegfx ANIM_TAG_IMPACT
-	monbg ANIM_TARGET
-	setalpha 12, 8
-	playsewithpan SE_M_DOUBLE_SLAP, SOUND_PAN_TARGET
-	createsprite gBasicHitSplatSpriteTemplate, ANIM_ATTACKER, 2, 0, 0, ANIM_TARGET, 2
-	createvisualtask AnimTask_ShakeMon, 2, ANIM_TARGET, 3, 0, 6, 1
-	waitforvisualfinish
-	clearmonbg ANIM_TARGET
-	blendoff
-	end
-
 Move_NIGHT_SLASH:
-	loadspritegfx ANIM_TAG_SLASH
-	createsprite gSlashSliceSpriteTemplate, ANIM_TARGET, 2, 1, -8, 0
-	playsewithpan SE_M_DOUBLE_SLAP, SOUND_PAN_TARGET
-	delay 4
-	createsprite gSlashSliceSpriteTemplate, ANIM_TARGET, 2, 1, 8, 0
-	createvisualtask AnimTask_ShakeMon2, 2, ANIM_TARGET, 4, 0, 18, 1
-	playsewithpan SE_M_DOUBLE_SLAP, SOUND_PAN_TARGET
-	waitforvisualfinish
-	end
-
+Move_SNARL:
+Move_BULLET_PUNCH:
+Move_IRON_HEAD:
+Move_STONE_EDGE:
 Move_ICE_SHARD:
-	loadspritegfx ANIM_TAG_SLASH
-	createsprite gSlashSliceSpriteTemplate, ANIM_TARGET, 2, 1, -8, 0
-	playsewithpan SE_M_DOUBLE_SLAP, SOUND_PAN_TARGET
-	delay 4
-	createsprite gSlashSliceSpriteTemplate, ANIM_TARGET, 2, 1, 8, 0
-	createvisualtask AnimTask_ShakeMon2, 2, ANIM_TARGET, 4, 0, 18, 1
-	playsewithpan SE_M_DOUBLE_SLAP, SOUND_PAN_TARGET
-	waitforvisualfinish
-	end
-
 Move_AQUA_JET:
+Move_BRAVE_BIRD:
+Move_FLAME_TAIL:
+Move_SHELL_SHOCK:
+Move_POISON_IVY:
+Move_QUADRA_SLAM:
+Move_EXTINCTION:
+Move_CLOSE_COMBAT:
+Move_DRAGON_ASCENT:
+Move_HEADLONG_RUSH:
+Move_AIR_SLASH:
 	loadspritegfx ANIM_TAG_SLASH
 	createsprite gSlashSliceSpriteTemplate, ANIM_TARGET, 2, 1, -8, 0
-	playsewithpan SE_M_DOUBLE_SLAP, SOUND_PAN_TARGET
-	delay 4
-	createsprite gSlashSliceSpriteTemplate, ANIM_TARGET, 2, 1, 8, 0
-	createvisualtask AnimTask_ShakeMon2, 2, ANIM_TARGET, 4, 0, 18, 1
 	playsewithpan SE_M_DOUBLE_SLAP, SOUND_PAN_TARGET
 	waitforvisualfinish
 	end

@@ -4,7 +4,7 @@
 static const u16 sBulbasaurLevelUpLearnset[] = { // Bulbasaur was used as the move test dummy
     //LEVEL_UP_MOVE(1, MOVE_TACKLE),
     //LEVEL_UP_MOVE(4, MOVE_GROWL),
-    LEVEL_UP_MOVE(1, MOVE_ICE_SHARD),
+    LEVEL_UP_MOVE(1, MOVE_ENERGY_BALL),
     LEVEL_UP_MOVE(4, MOVE_AQUA_JET),
     LEVEL_UP_MOVE(4, MOVE_IRON_HEAD),
     LEVEL_UP_MOVE(4, MOVE_BRAVE_BIRD),

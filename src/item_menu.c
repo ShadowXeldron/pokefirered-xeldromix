@@ -1792,8 +1792,7 @@ static void Task_ItemContext_Sell(u8 taskId)
     s16 *data = gTasks[taskId].data;
     if (gSpecialVar_ItemId == ITEM_TM_CASE)
     {
-        ItemMenu_SetExitCallback(GoToTMCase_Sell);
-        ItemMenu_StartFadeToExitCallback(taskId);
+        StringExpandPlaceholders(gStringVar4, gText_OhNoICantBuyThat);
     }
     else if (gSpecialVar_ItemId == ITEM_BERRY_POUCH)
     {
@@ -1825,6 +1824,7 @@ static void Task_ItemContext_Sell(u8 taskId)
     }
 }
 
+// Selling TMs is now impossible
 static void GoToTMCase_Sell(void)
 {
     InitTMCase(TMCASE_SELL, ReturnToBagMenuFromSubmenu_Sell, FALSE);

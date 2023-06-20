@@ -396,8 +396,74 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_CLOSE_COMBAT]  = _("Close Combat"),
     [MOVE_DRAGON_ASCENT] = _("DragonAscent"),
 
+    [MOVE_AIR_SLASH]     = _("Air Slash"),
+    [MOVE_AQUA_TAIL]     = _("Close Combat"),
+    [MOVE_AURA_SPHERE]   = _("DragonAscent"),
+    [MOVE_DISCHARGE]     = _("Discharge"),
+    [MOVE_DOUBLE_HIT]    = _("Double Hit"),
+    [MOVE_DRAIN_PUNCH]   = _("Drain Punch"),
+    [MOVE_EARTH_POWER]   = _("Earth Power"),
+    [MOVE_ENERGY_BALL]   = _("Energy Ball"),
+    [MOVE_FIRE_FANG]     = _("Fire Fang"),
+    [MOVE_FLARE_BLITZ]   = _("Flare Blitz"),
+    [MOVE_FLASH_CANNON]  = _("Flash Cannon"),
+    [MOVE_FOCUS_BLAST]   = _("Focus Blast"),
+    [MOVE_FORCE_PALM]    = _("Force Palm"),
+    [MOVE_GRASS_KNOT]    = _("Grass Knot"),
+    [MOVE_ICE_FANG]      = _("Ice Fang"),
+    [MOVE_LAVA_PLUME]    = _("Lava Plume"),
+    [MOVE_MAGNET_BOMB]   = _("Magnet Bomb"),
+    [MOVE_MIRROR_SHOT]   = _("Mirror Shot"),
+    [MOVE_MUD_BOMB]      = _("Mud Bomb"),
+    [MOVE_NASTY_PLOT]    = _("Nasty Plot"),
+    [MOVE_POWER_GEM]     = _("Power Gem"),
+    [MOVE_POWER_WHIP]    = _("Power Whip"),
+    [MOVE_PSYCHO_CUT]    = _("Psycho Cut"),
+    [MOVE_ROCK_CLIMB]    = _("Rock Climb"),
+    [MOVE_SEED_BOMB]     = _("Seed Bomb"),
+    [MOVE_THUNDER_FANG]  = _("Thunder Fang"),
+    [MOVE_WOOD_HAMMER]   = _("Wood Hammer"),
+
+    [MOVE_BULLDOZE]      = _("Bulldoze"),
+    [MOVE_DRILL_RUN]     = _("Drill Run"),
+    [MOVE_DUAL_CHOP]     = _("Dual Chop"),
+    [MOVE_ELECTROWEB]    = _("Electroweb"),
+    [MOVE_ICICLE_CRASH]  = _("Icicle Crash"),
+    [MOVE_INFERNO]       = _("Inferno"),
+    [MOVE_LEAF_TORNADO]  = _("Leaf Tornado"),
+    [MOVE_LOW_SWEEP]     = _("Low Sweep"),
+    [MOVE_RAZOR_SHELL]   = _("Razor Shell"),
+    [MOVE_SCALD]         = _("Scald"),
+    [MOVE_SLUDGE_WAVE]   = _("Sludge Wave"),
+    [MOVE_WILD_CHARGE]   = _("Wild Charge"),
+
+    [MOVE_BOOMBURST]     = _("Boomburst"),
+    [MOVE_MYSTICAL_FIRE] = _("Drill Run"),
+    [MOVE_NUZZLE]        = _("Nuzzle"),
+    [MOVE_ELECTROWEB]    = _("Electroweb"),
+    [MOVE_PETAL_BLIZZARD]= _("PetalBlizard"), // You can tell this game hates me because I had to ommit a "z" from Blizzard
+    [MOVE_PHANTOM_FORCE] = _("PhantomForce"),
+    [MOVE_POWER_UP_PUNCH]= _("PowerUpPunch"),
+  [MOVE_PRECIPICE_BLADES]= _("PrepicBlades"), // This inconsistency drives me oh so very mad. Almost as mad as that damn character limit!
+    [MOVE_ORIGIN_PULSE]  = _("Origin Pulse"),
     
+    [MOVE_LIQUIDATION]   = _("Liquidation"),
+    [MOVE_LUNGE]         = _("Lunge"),
+    [MOVE_PSYCHIC_FANGS] = _("PsychicFangs"),
     
+    [MOVE_LIQUIDATION]   = _("DualWingbeat"),
+    [MOVE_LUNGE]         = _("Raging Fury"),
+    [MOVE_TRIPLE_AXEL]   = _("Triple Axel"),
+
+    [MOVE_AQUA_CUTTER]   = _("Aqua Cutter"),
+    [MOVE_CHILLING_WATER]= _("ChillyWater"),
+    [MOVE_POUNCE]        = _("Pounce"),
+
+    [MOVE_GIGA_IMPACT]   = _("Giga Impact"),
+   [MOVE_HIGH_HORSEPOWER]= _("HiHorsepower"),
+
+
+
     
     
     //[MOVE_ICE_FANG]      = _("Ice Fang")

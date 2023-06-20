@@ -1861,7 +1861,8 @@ s32 MoveBattleBar(u8 battlerId, u8 healthboxSpriteId, u8 whichBar, u8 unused)
                                           gBattleSpritesDataPtr->battleBars[battlerId].receivedValue,
                                           &gBattleSpritesDataPtr->battleBars[battlerId].currValue,
                                           B_HEALTHBAR_NUM_TILES,
-                                          1);
+                                          max(gBattleSpritesDataPtr->battleBars[battlerId].maxValue / 32, 1)); // From another Emerald tutorial: https://github.com/pret/pokeemerald/wiki/Faster-HP-Drain
+                                          //I can already se ethe Emerald guys going "uhhh why you no mod emereld; emereld betterer". Well, to that I say... STOP BEING A VILLAGER!
     }
     else // exp bar
     {
