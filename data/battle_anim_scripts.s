@@ -375,6 +375,7 @@ gBattleAnims_Moves::
 	.4byte Move_WATER_PULSE
 	.4byte Move_DOOM_DESIRE
 	.4byte Move_PSYCHO_BOOST
+	@ Pre-Split custom moves
 	.4byte Move_CROSS_POISON
 	.4byte Move_POISON_JAB
 	.4byte Move_GUNK_SHOT
@@ -405,7 +406,79 @@ gBattleAnims_Moves::
 	.4byte Move_CLOSE_COMBAT
 	.4byte Move_DRAGON_ASCENT
 	.4byte Move_HEADLONG_RUSH
+	@ Gen 4
 	.4byte Move_AIR_SLASH
+	.4byte Move_AQUA_TAIL
+    .4byte Move_AURA_SPHERE
+    .4byte Move_DISCHARGE
+    .4byte Move_DOUBLE_HIT
+    .4byte Move_DRAIN_PUNCH
+    .4byte Move_EARTH_POWER
+    .4byte Move_ENERGY_BALL
+    .4byte Move_FIRE_FANG
+    .4byte Move_FLARE_BLITZ
+    .4byte Move_FLASH_CANNON
+    .4byte Move_FOCUS_BLAST
+    .4byte Move_FORCE_PALM
+    .4byte Move_GRASS_KNOT
+    .4byte Move_ICE_FANG
+    .4byte Move_LAVA_PLUME
+    .4byte Move_MAGNET_BOMB
+    .4byte Move_MIRROR_SHOT
+    .4byte Move_MUD_BOMB
+    .4byte Move_NASTY_PLOT
+    .4byte Move_POWER_GEM
+    .4byte Move_POWER_WHIP
+    .4byte Move_PSYCHO_CUT
+    .4byte Move_ROCK_CLIMB
+    .4byte Move_SEED_BOMB
+    .4byte Move_THUNDER_FANG
+    .4byte Move_WOOD_HAMMER
+    @Gen 5
+    .4byte Move_BULLDOZE
+    .4byte Move_DRILL_RUN
+    .4byte Move_DUAL_CHOP
+    .4byte Move_ELECTROWEB
+    .4byte Move_ICICLE_CRASH
+    .4byte Move_INFERNO
+    .4byte Move_LEAF_TORNADO
+    .4byte Move_LOW_SWEEP
+    .4byte Move_RAZOR_SHELL
+    .4byte Move_SCALD
+    .4byte Move_SLUDGE_WAVE
+    .4byte Move_WILD_CHARGE
+    @ Gen 6
+    .4byte Move_BOOMBURST
+    .4byte Move_MYSTICAL_FIRE
+    .4byte Move_NUZZLE
+    .4byte Move_PETAL_BLIZZARD
+    .4byte Move_PHANTOM_FORCE
+    .4byte Move_POWER_UP_PUNCH
+    .4byte Move_PRECIPICE_BLADES
+    .4byte Move_ORIGIN_PULSE
+    @Gen 7
+    .4byte Move_LIQUIDATION
+    .4byte Move_LUNGE
+    .4byte Move_PSYCHIC_FANGS
+    @Gen 8
+    .4byte Move_DUAL_WINGBEAT
+    .4byte Move_RAGING_FURY
+    .4byte Move_TRIPLE_AXEL
+    @ Gen 9
+    .4byte Move_AQUA_CUTTER
+    .4byte Move_CHILLING_WATER
+    .4byte Move_POUNCE
+    @ More that I forgot - whoops
+    .4byte Move_GIGA_IMPACT
+    .4byte Move_HIGH_HORSEPOWER
+    @ Fairy Moves
+    .4byte Move_BABY_DOLL_EYES
+    .4byte Move_DAZZLING_GLEAM
+    .4byte Move_DISARMING_VOICE
+    .4byte Move_DRAINING_KISS
+    .4byte Move_FAIRY_WIND
+    .4byte Move_MOONBLAST
+    .4byte Move_PLAY_ROUGH
 
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
@@ -10263,6 +10336,70 @@ Move_CLOSE_COMBAT:
 Move_DRAGON_ASCENT:
 Move_HEADLONG_RUSH:
 Move_AIR_SLASH:
+Move_AQUA_TAIL:
+Move_AURA_SPHERE:
+Move_DISCHARGE:
+Move_DOUBLE_HIT:
+Move_DRAIN_PUNCH:
+Move_EARTH_POWER:
+Move_ENERGY_BALL:
+Move_FIRE_FANG:
+Move_FLARE_BLITZ:
+Move_FLASH_CANNON:
+Move_FOCUS_BLAST:
+Move_FORCE_PALM:
+Move_GRASS_KNOT:
+Move_ICE_FANG:
+Move_LAVA_PLUME:
+Move_MAGNET_BOMB:
+Move_MIRROR_SHOT:
+Move_MUD_BOMB:
+Move_NASTY_PLOT:
+Move_POWER_GEM:
+Move_POWER_WHIP:
+Move_PSYCHO_CUT:
+Move_ROCK_CLIMB:
+Move_SEED_BOMB:
+Move_THUNDER_FANG:
+Move_WOOD_HAMMER:
+Move_BULLDOZE:
+Move_DRILL_RUN:
+Move_DUAL_CHOP:
+Move_ELECTROWEB:
+Move_ICICLE_CRASH:
+Move_INFERNO:
+Move_LEAF_TORNADO:
+Move_LOW_SWEEP:
+Move_RAZOR_SHELL:
+Move_SCALD:
+Move_SLUDGE_WAVE:
+Move_WILD_CHARGE:
+Move_BOOMBURST:
+Move_MYSTICAL_FIRE:
+Move_NUZZLE:
+Move_PETAL_BLIZZARD:
+Move_PHANTOM_FORCE:
+Move_POWER_UP_PUNCH:
+Move_PRECIPICE_BLADES:
+Move_ORIGIN_PULSE:
+Move_LIQUIDATION:
+Move_LUNGE:
+Move_PSYCHIC_FANGS:
+Move_DUAL_WINGBEAT:
+Move_RAGING_FURY:
+Move_TRIPLE_AXEL:
+Move_AQUA_CUTTER:
+Move_CHILLING_WATER:
+Move_POUNCE:
+Move_GIGA_IMPACT:
+Move_HIGH_HORSEPOWER:
+Move_BABY_DOLL_EYES:
+Move_DAZZLING_GLEAM:
+Move_DISARMING_VOICE:
+Move_DRAINING_KISS:
+Move_FAIRY_WIND:
+Move_MOONBLAST:
+Move_PLAY_ROUGH:
 	loadspritegfx ANIM_TAG_SLASH
 	createsprite gSlashSliceSpriteTemplate, ANIM_TARGET, 2, 1, -8, 0
 	playsewithpan SE_M_DOUBLE_SLAP, SOUND_PAN_TARGET

@@ -462,6 +462,16 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_GIGA_IMPACT]   = _("Giga Impact"),
    [MOVE_HIGH_HORSEPOWER]= _("HiHorsepower"),
 
+    [MOVE_BABY_DOLL_EYES]= _("BabyDollEyes"),
+    [MOVE_DAZZLING_GLEAM]= _("DazzlingGleam"),
+   [MOVE_DISARMING_VOICE]= _("DsarmingVoice"),
+    [MOVE_DRAINING_KISS] = _("Draining Kiss"),
+    [MOVE_FAIRY_WIND]    = _("Fairy Wind"),
+    [MOVE_MOONBLAST]     = _("Moonblast"),
+    [MOVE_PLAY_ROUGH]    = _("Play Rough"),
+
+
+
 
 
     

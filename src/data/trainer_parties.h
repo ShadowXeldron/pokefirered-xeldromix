@@ -5789,7 +5789,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderBrock[] = {
     },
     {
         .iv = 0,
-        .lvl = 8,
+        .lvl = 12,
         .species = SPECIES_RHYHORN,
         .moves = {MOVE_HORN_ATTACK, MOVE_TAIL_WHIP, MOVE_ROCK_TOMB, MOVE_NONE},
     },
@@ -6012,14 +6012,14 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderSabrina[] = {
     {
         .iv = 0,
         .lvl = 37,
-        .species = SPECIES_VENOMOTH,
-        .moves = {MOVE_PSYCHIC, MOVE_SLUDGE_BOMB, MOVE_SIGNAL_BEAM, MOVE_CALM_MIND},
+        .species = SPECIES_GRUMPIG,
+        .moves = {MOVE_PSYCHIC, MOVE_CONFUSE_RAY, MOVE_SHADOW_BALL, MOVE_CALM_MIND},
     },
     {
         .iv = 0,
         .lvl = 38,
         .species = SPECIES_SLOWBRO,
-        .moves = {MOVE_YAWN, MOVE_DREAM_EATER, MOVE_CALM_MIND, MOVE_WATER_PULSE},
+        .moves = {MOVE_YAWN, MOVE_DREAM_EATER, MOVE_CALM_MIND, MOVE_SURF},
     },
     {
         .iv = 0,

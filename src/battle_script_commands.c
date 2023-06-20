@@ -7023,13 +7023,13 @@ static void Cmd_tryconversiontypechange(void)
     {
         moveType = gBattleMoves[gBattleMons[gBattlerAttacker].moves[moveChecked]].type;
 
-        if (moveType == TYPE_MYSTERY)
-        {
-            if (IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_GHOST))
-                moveType = TYPE_GHOST;
-            else
-                moveType = TYPE_NORMAL;
-        }
+        //if (moveType == TYPE_MYSTERY)
+        //{
+        //    if (IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_GHOST))
+        //        moveType = TYPE_GHOST;
+        //    else
+        //        moveType = TYPE_NORMAL;
+        //}
         if (moveType != gBattleMons[gBattlerAttacker].type1
             && moveType != gBattleMons[gBattlerAttacker].type2)
         {
@@ -7049,13 +7049,13 @@ static void Cmd_tryconversiontypechange(void)
 
             moveType = gBattleMoves[gBattleMons[gBattlerAttacker].moves[moveChecked]].type;
 
-            if (moveType == TYPE_MYSTERY)
-            {
-                if (IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_GHOST))
-                    moveType = TYPE_GHOST;
-                else
-                    moveType = TYPE_NORMAL;
-            }
+           // if (moveType == TYPE_MYSTERY)
+           // {
+           //     if (IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_GHOST))
+           //         moveType = TYPE_GHOST;
+           //     else
+           //         moveType = TYPE_NORMAL;
+           // }
         }
         while (moveType == gBattleMons[gBattlerAttacker].type1 || moveType == gBattleMons[gBattlerAttacker].type2);
 
@@ -8527,8 +8527,8 @@ static void Cmd_hiddenpowercalc(void)
     // Subtract 3 instead of 1 below because 2 types are excluded (TYPE_NORMAL and TYPE_MYSTERY)
     // The final + 1 skips past Normal, and the following conditional skips TYPE_MYSTERY
     gBattleStruct->dynamicMoveType = ((NUMBER_OF_MON_TYPES - 3) * typeBits) / 63 + 1;
-    if (gBattleStruct->dynamicMoveType >= TYPE_MYSTERY)
-        gBattleStruct->dynamicMoveType++;
+    //if (gBattleStruct->dynamicMoveType >= TYPE_MYSTERY)
+    //    gBattleStruct->dynamicMoveType++;
     gBattleStruct->dynamicMoveType |= F_DYNAMIC_TYPE_1 | F_DYNAMIC_TYPE_2;
 
     gBattlescriptCurrInstr++;

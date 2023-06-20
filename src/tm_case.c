@@ -1720,8 +1720,8 @@ static void SpriteCB_SwapDisc(struct Sprite *sprite)
     }
 }
 
-// - 1 excludes TYPE_MYSTERY
-#define NUM_DISC_COLORS ((NUMBER_OF_MON_TYPES - 1) * 16)
+// - 1 excludes TYPE_MYSTERY, so that's why I removed it
+#define NUM_DISC_COLORS ((NUMBER_OF_MON_TYPES) * 16)
 
 static void LoadDiscTypePalettes(void)
 {

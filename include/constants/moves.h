@@ -452,8 +452,16 @@
 // More that I forgot - whoops
 #define MOVE_GIGA_IMPACT 441
 #define MOVE_HIGH_HORSEPOWER 442
+// Fairy Moves
+#define MOVE_BABY_DOLL_EYES 443
+#define MOVE_DAZZLING_GLEAM 444
+#define MOVE_DISARMING_VOICE 445
+#define MOVE_DRAINING_KISS 446
+#define MOVE_FAIRY_WIND 447
+#define MOVE_MOONBLAST 448
+#define MOVE_PLAY_ROUGH 449
 
-#define MOVES_COUNT 443
+#define MOVES_COUNT 450
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

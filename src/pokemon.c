@@ -2557,8 +2557,9 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
             damage = 1;
     }
 
-    if (type == TYPE_MYSTERY)
-        damage = 0; // is ??? type. does 0 damage.
+    // Retconned "mystery" into "fairy"
+    //if (type == TYPE_MYSTERY)
+    //    damage = 0; // is ??? type. does 0 damage.
 
     if (IS_MOVE_SPECIAL(gCurrentMove))
     {

@@ -4387,9 +4387,9 @@ BattleScript_FlushMessageBox::
 	return
 
 
-// MOVE_EFFECT_DEF_SP_DEF_DOWN
+@ MOVE_EFFECT_DEF_SP_DEF_DOWN
 
-// Close Combat
+@ Close Combat
 BattleScript_DefSpDefDown::
 	setbyte sSTAT_ANIM_PLAYED, FALSE
 	playstatchangeanimation BS_ATTACKER, BIT_SPDEF | BIT_SPDEF, STAT_CHANGE_CANT_PREVENT | STAT_CHANGE_NEGATIVE | STAT_CHANGE_MULTIPLE_STATS
