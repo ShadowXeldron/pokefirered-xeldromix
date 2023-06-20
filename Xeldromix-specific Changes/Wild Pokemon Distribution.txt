@@ -1,0 +1,9 @@
+IN BREIF:
+
+- Kanto's biodiversity is now a lot better - you should now be able to encounter Pokemon from the Hoenn and Johto regions! Encounter tables are loosely based on HGSS and the Let's Go games.
+- Every route contains a different Pokemon in each encounter slot. This means that you'll see far more Pokemon on your quest
+- You can now catch extra starters
+
+Areas
+
+

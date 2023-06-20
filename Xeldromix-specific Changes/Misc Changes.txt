@@ -1,0 +1,23 @@
+Miscalaneous/QoL Changes
+
+- (If Physical/Special split isn't added) Dark is now physical and Ghost is now special
+- (If I can) Added Fairy type (if no Physical/Special split, it will be a Special type)
+- Replaced the upper floor of every Pokemon Center with Pokemon Services. The name rater, move deleter and move reminder are now available in every Pokemon Center so you don't have to winge at me for having to use HMs (seriously, just git gud)
+- Removes the silly noun capitalisation that all games prior to Gen 4 (and technically 5 when you consider that they weren't decapping the 'mon names in Gen 4)
+- Non-renewable TMs now have unlimited uses. Renewable TMs have been renamed to TRs.
+- You can buy Heart Scales at the Sevii Islands 
+- Flash is now considered a TM rather than a HM since it technically isn't required (I suffered through Rock Tunnel in my mono-Poison playthrough without it)
+- Added nature mints. You can get them in Lavendar Town from the former Name Rater
+- You start with running shoes because I run in my normal shoes all the time in the real world
+- British (i.e, correct) English is used where possible (with the exception of Pokemon Center. I would correct it to Centre but that would make scripting a pain)
+- Updated some Pokemon's movepools a bit so you don't have to rely on Poison Sting during the midgame. Note that you don't get crazy coverage like in the newer games, so you'll still need to vary up your team.
+- The Fighting Dojo now gives you a Tyrogue instead of a choice between two Hitmons. Now you can evolve it into whatever Hitmon you please.
+- (If I can) More music!
+- Removed all netplay functionality because, let's be honest, you're never going to encounter another person with a GBA, an Everdive (or similar flashcart) and this ROM hack
+- The National Dex is available from the start
+- Changed certain songs and also added a few (mainly in the Seviis and in areas that re-use music)
+- (If I can) added biome-specific wild battle music. In addition:
+	The vanilla legendary bird theme plays for 5% and 4% rarity encounters
+	The vanilla Metwo theme plays for the ultra-rare 1% encounters
+- (If I can) The Marowak Ghost and the Berry Woods Hypno are now Totem Pokemon
+- Pokemon who had their stats buffed in later generations have had those buffs carried over
