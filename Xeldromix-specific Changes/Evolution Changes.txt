@@ -4,7 +4,15 @@ IN BREIF:
 
 - Trade evolutions are evolved by friendship instead
 - Trade evolutions that require a held item are instead evolved by using that held item from the bag.
-- Pokemon that  (Similar to Sword and Shield)
-- (If I learn how to add mons) Some Pokemon from later generations have been added; this is exclusively Pokemon who evolve from older 'mons.
+- Pokemon that would evolve due to a super electric current or whatever will now instead evolve with a Thunder Stone (Similar to Sword and Shield)
+- Some Pokemon from later generations have been added; this is exclusively Pokemon who evolve from older 'mons.
 - Friendship evolutions can now be obtained prior to getting the National 'Dex
 - Espeon and Umbreon use the Sun and Moon stone respectively. This is not a QoL feature and don't complain if it gets axed if I figure out how to add back the day-night cycle.
+
+TODO
+
+Eevee -> Umbreon (use a Moon Stone)
+Eevee -> Glaceon (use a Dawn Stone; I need to add that)
+Scyther -> Kleavor (use a Hard Stone)
+
+Ursaring -> Ursaluna (use a Moon Stone)
