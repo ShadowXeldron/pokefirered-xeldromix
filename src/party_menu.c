@@ -4291,6 +4291,8 @@ static void CB2_UseItem(void)
     {
         GiveMoveToMon(&gPlayerParty[gPartyMenu.slotId], ItemIdToBattleMoveId(gSpecialVar_ItemId));
         AdjustFriendship(&gPlayerParty[gPartyMenu.slotId], FRIENDSHIP_EVENT_LEARN_TMHM);
+        if (gSpecialVar_ItemId < ITEM_HM01)
+            RemoveBagItem(gSpecialVar_ItemId, 1);
         SetMainCallback2(gPartyMenu.exitCallback);
     }
     else
@@ -4812,6 +4814,8 @@ static void Task_LearnedMove(u8 taskId)
     {
         AdjustFriendship(mon, FRIENDSHIP_EVENT_LEARN_TMHM);
         // Unlited use TMs FTL
+        //if (item < ITEM_HM01)
+        //    RemoveBagItem(item, 1);
     }
     GetMonNickname(mon, gStringVar1);
     StringCopy(gStringVar2, gMoveNames[learnMoveId]);
