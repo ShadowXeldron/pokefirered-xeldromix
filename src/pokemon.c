@@ -40,6 +40,7 @@
 #define SPECIES_TO_HOENN(name)      [SPECIES_##name - 1] = HOENN_DEX_##name
 #define SPECIES_TO_NATIONAL(name)   [SPECIES_##name - 1] = NATIONAL_DEX_##name
 #define HOENN_TO_NATIONAL(name)     [HOENN_DEX_##name - 1] = NATIONAL_DEX_##name
+#define ABILITY_MOVES_END 0xFFFF
 
 struct MonSpritesGfxManager
 {
@@ -54,6 +55,93 @@ struct MonSpritesGfxManager
     struct SpriteTemplate *templates;
     struct SpriteFrameImage *frameImages;
 };
+
+static const u16 sPunchingMovesTable[] = 
+{
+    MOVE_BULLET_PUNCH,
+    MOVE_COMET_PUNCH,
+    MOVE_DIZZY_PUNCH,
+    MOVE_DRAIN_PUNCH,
+    MOVE_DYNAMIC_PUNCH,
+    MOVE_FIRE_PUNCH,
+    MOVE_ICE_PUNCH,
+    MOVE_THUNDER_PUNCH,
+    MOVE_FOCUS_PUNCH,
+    MOVE_MACH_PUNCH,
+    MOVE_MEGA_PUNCH,
+    MOVE_POWER_UP_PUNCH,
+    MOVE_SHADOW_PUNCH,
+    MOVE_SKY_UPPERCUT,
+    MOVE_HEADLONG_RUSH,
+    MOVE_METEOR_MASH,
+    MOVE_QUADRA_SLAM,   
+    ABILITY_MOVES_END
+};
+
+static const u16 sSlashMovesTable[] = 
+{
+    MOVE_AERIAL_ACE,
+    MOVE_AIR_CUTTER,
+    MOVE_AIR_SLASH,
+    MOVE_AQUA_CUTTER,
+    MOVE_FURY_CUTTER,
+    MOVE_LEAF_BLADE,
+    MOVE_NIGHT_SLASH,
+    MOVE_PSYCHO_CUT,
+    MOVE_RAZOR_SHELL,
+    MOVE_SLASH,
+    MOVE_X_SCISSOR,
+    MOVE_CROSS_POISON,
+    MOVE_CUT,
+    MOVE_RAZOR_LEAF,
+    ABILITY_MOVES_END
+};
+
+int isInPunchTable(u16 x)
+{
+    // From https://www.tutorialkart.com/c-programming/c-check-if-array-contains-specified-element/#gsc.tab=0
+     
+    int arrLen = sizeof sPunchingMovesTable / sizeof sPunchingMovesTable[0];
+    int isElementPresent = 0;
+     
+    for (int i = 0; i < arrLen; i++) {
+        if (sPunchingMovesTable[i] == x) {
+            isElementPresent = 1;
+            break;
+        }
+    }
+     
+    if (isElementPresent) {
+        return 1;
+    } else {
+        return 0;
+    }
+     
+    return 0;
+}
+
+int isInSlashTable(u16 x)
+{
+    // From https://www.tutorialkart.com/c-programming/c-check-if-array-contains-specified-element/#gsc.tab=0
+     
+    int arrLen = sizeof sSlashMovesTable / sizeof sSlashMovesTable[0];
+    int isElementPresent = 0;
+     
+    for (int i = 0; i < arrLen; i++) {
+        if (sPunchingMovesTable[i] == x) {
+            isElementPresent = 1;
+            break;
+        }
+    }
+     
+    if (isElementPresent) {
+        return 1;
+    } else {
+        return 0;
+    }
+     
+    return 0;
+}
 
 static EWRAM_DATA u8 sLearningMoveTableID = 0;
 EWRAM_DATA u8 gPlayerPartyCount = 0;
@@ -2500,10 +2588,34 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         gBattleMovePower = (150 * gBattleMovePower) / 100;
     if (type == TYPE_BUG && attacker->ability == ABILITY_SWARM && attacker->hp <= (attacker->maxHP / 3))
         gBattleMovePower = (150 * gBattleMovePower) / 100;
+    if (attacker->ability == ABILITY_TECHNICIAN && gBattleMovePower <= 60)
+        gBattleMovePower = (150 * gBattleMovePower) / 100;
+    
+    // Unlike Iron Fist, there's a few special slashing moves. Therefore, I'm putting it over here.
+    if (attacker->ability == ABILITY_SHARPNESS) // Note to self: Find a more efficient method
+    {
+        int isElementPresent = 0;
+        for (int i = 0; i < 14; i++)
+        {
+            if (sPunchingMovesTable[i] == gCurrentMove) {
+                isElementPresent = 1;
+                break;
+            }
+        }
 
-    // Self-destruct / Explosion cut defense in half
-    if (gBattleMoves[gCurrentMove].effect == EFFECT_EXPLOSION)
-        defense /= 2;
+        if (isElementPresent) {
+                gBattleMovePower = (150 * gBattleMovePower) / 100;
+            }
+        
+        // I was using a ton of loops here and I swear it wasn't working
+        //BattleStringExpandPlaceholdersToDisplayedString(gBattleText_GetPumped);
+
+        //gBattleMovePower = (150 * gBattleMovePower) / 100;
+    }
+
+    // Self-destruct / Explosion cut defense in half? More like cut from the game!
+    //if (gBattleMoves[gCurrentMove].effect == EFFECT_EXPLOSION)
+    //    defense /= 2;
 
     if (IS_MOVE_PHYSICAL(gCurrentMove))
     {
@@ -2555,6 +2667,20 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         // Moves always do at least 1 damage.
         if (damage == 0)
             damage = 1;
+
+        // Ability-based move buffs
+        // Code based on the Soundproof check; see battle_util.c
+        if (attacker->ability == ABILITY_IRON_FIST) // Note to self: Find a more efficient method
+        {
+            if (isInPunchTable(gCurrentMove))
+            {
+                BattleStringExpandPlaceholdersToDisplayedString(gBattleText_GetPumped);
+                gBattleMovePower = (120 * gBattleMovePower) / 100;
+            }
+        }
+                
+            
+            
     }
 
     // Retconned "mystery" into "fairy"
@@ -2603,8 +2729,6 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         // Moves hitting both targets do half damage in double battles
         if ((gBattleTypeFlags & BATTLE_TYPE_DOUBLE) && gBattleMoves[move].target == MOVE_TARGET_BOTH && CountAliveMonsInBattle(BATTLE_ALIVE_DEF_SIDE) == 2)
             damage /= 2;
-
-        
     }
 
     // Are effects of weather negated with cloud nine or air lock

@@ -1,0 +1,31 @@
+NEW AREAS
+
+Cinnabar Volcano
+A new optional dungeon containing Entei at the end. This is meant to be the volcano that erupted and destroyed Cinnabar Island.
+PROGRESS - Basically 1%. At least this idea has one map.
+
+PLANNED
+
+Elegant Valley
+Another area at the Sevii Islands. It's accessible by entering a cave at One Island. As the name suggests, it's meant as a place for you to grind out your effort values. The Elite Four and the eighth gym will be seeing a level spike that can be mitigated by the Sevii Islands sidequest and training at this location.
+
+This was inspired by an old Roblox Pokemon fan game which had an area of the same name that served a similar purpose.
+
+The Valley is split into one area for every stat. 
+	HP AREA - The field accessed by surfing in. A Channeler in the center of the map will offer to reset your lead Pokemon's effort values in exchange for a Heart Scale. There's also a rest house where you
+	can heal.
+	ATTACK AREA - A craggy area. Outside of the Attack EVs, you'll want to come here for the free Choice Band
+	DEFENCE AREA - A cave full of rocky things. With Rock Smash in hand, you can break open the Secret Chamber.
+	SPECIAL ATTACK AREA - A waterfront. The Psychic TM has been moved here and is hidden behind a Strength puzzle.
+	SPECIAL DEFENCE AREA - A flower field. The Cut Master for Leaf Blade is located here. 
+	SPEED AREA - Open fields located at the back of the area. There's a heart-shaped pond that only contains Luvdisc on top of a waterfall - return once you get the HM for Waterfall in order to farm infinite
+	Heart Scales.
+	SECRET CHAMBER - This is a chamber hidden behind Rock Smash. It contains a braile puzzle involving an Awakening and leads to Jirachi.
+
+Despite being a good spot to train, the Pokemon here have an Elite Four power level. While this means you'll be getting more experience, you will still need to put in sufficient training.
+
+WOULD BE NICE TO HAVE BUT I WOULDN'T COUNT ON IT
+
+Restore unused Sevii Islands maps or recycle them into Elegant Valley
+
+Maybe Johto?

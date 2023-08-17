@@ -236,12 +236,17 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectDragonDance            @ EFFECT_DRAGON_DANCE
 	.4byte BattleScript_EffectCamouflage             @ EFFECT_CAMOUFLAGE
 	.4byte BattleScript_EffectCloseCombat            @ EFFECT_CLOSE_COMBAT
+	.4byte BattleScript_EffectPsychoForce            @ EFFECT_PSYCHO_FORCE
+	.4byte BattleScript_EffectGlitzyGlow             @ EFFECT_GLITZY_GLOW
+	.4byte BattleScript_EffectBaddyBad            	 @ EFFECT_BADDY_BAD
 
 BattleScript_EffectHit::
 	jumpifnotmove MOVE_SURF, BattleScript_HitFromAtkCanceler
 	jumpifnostatus3 BS_TARGET, STATUS3_UNDERWATER, BattleScript_HitFromAtkCanceler
 	orword gHitMarker, HITMARKER_IGNORE_UNDERWATER
 	setbyte sDMG_MULTIPLIER, 2
+	jumpifmove MOVE_GLITZY_GLOW, PrintReflectLightScreenSafeguardString
+	jumpifmove MOVE_BADDY_BAD, PrintReflectLightScreenSafeguardString
 BattleScript_HitFromAtkCanceler::
 	attackcanceler
 BattleScript_HitFromAccCheck::
@@ -632,7 +637,7 @@ BattleScript_DoMultiHit::
 	healthbarupdate BS_TARGET
 	datahpupdate BS_TARGET
 	critmessage
-	waitmessage B_WAIT_TIME_LONG
+	waitmessage B_WAIT_TIME_SHORT
 	printstring STRINGID_EMPTYSTRING3
 	waitmessage 1
 	addbyte sMULTIHIT_STRING + 4, 1
@@ -644,7 +649,7 @@ BattleScript_MultiHitNoMoreHits::
 	pause B_WAIT_TIME_SHORT
 BattleScript_MultiHitPrintStrings::
 	resultmessage
-	waitmessage B_WAIT_TIME_LONG
+	waitmessage B_WAIT_TIME_SHORT
 	jumpifmovehadnoeffect BattleScript_MultiHitEnd
 	copyarray gBattleTextBuff1, sMULTIHIT_STRING, 6
 	printstring STRINGID_HITXTIMES
@@ -1918,6 +1923,12 @@ BattleScript_EffectThunder::
 	setmoveeffect MOVE_EFFECT_PARALYSIS
 	orword gHitMarker, HITMARKER_IGNORE_ON_AIR
 	goto BattleScript_EffectHit
+
+BattleScript_EffectHurricane::
+	setmoveeffect MOVE_EFFECT_PARALYSIS
+	orword gHitMarker, HITMARKER_IGNORE_ON_AIR
+	goto BattleScript_EffectHit
+
 
 BattleScript_EffectTeleport::
 	attackcanceler
@@ -4408,3 +4419,40 @@ BattleScript_DefSpDefDownDefFail::
 	waitmessage B_WAIT_TIME_LONG
 BattleScript_DefSpDefDownSpDefFail::
 	return
+
+@ Psycho Force
+
+BattleScript_EffectPsychoForce::
+	attackcanceler
+	attackstring
+	ppreduce
+	jumpifstat BS_ATTACKER, CMP_LESS_THAN, STAT_SPATK, MAX_STAT_STAGE, BattleScript_PsychoForceDoMoveAnim
+	jumpifstat BS_ATTACKER, CMP_EQUAL, STAT_SPDEF, MAX_STAT_STAGE, BattleScript_CantRaiseMultipleStats
+BattleScript_PsychoForceDoMoveAnim::
+	attackanimation
+	waitanimation
+	setbyte sSTAT_ANIM_PLAYED, FALSE
+	playstatchangeanimation BS_ATTACKER, BIT_SPATK | BIT_SPDEF, 0
+	setstatchanger STAT_SPATK, 2, FALSE
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR, BattleScript_PsychoForceTrySpDef
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_PsychoForceTrySpDef
+	printfromtable gStatUpStringIds
+	waitmessage B_WAIT_TIME_LONG
+BattleScript_PsychoForceTrySpDef::
+	setstatchanger STAT_SPDEF, 2, FALSE
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR, BattleScript_PsychoForceEnd
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_INCREASE, BattleScript_PsychoForceEnd
+	printfromtable gStatUpStringIds
+	waitmessage B_WAIT_TIME_LONG
+BattleScript_PsychoForceEnd::
+	goto BattleScript_MoveEnd
+
+@ Baddy Bad and Glitzy Glow
+
+BattleScript_EffectGlitzyGlow::
+	setlightscreen
+	goto BattleScript_EffectHit
+
+BattleScript_EffectBaddyBad::
+	setreflect
+	goto BattleScript_EffectHit

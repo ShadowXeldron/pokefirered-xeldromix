@@ -1,0 +1,290 @@
+POKEMON CHANGES
+As a general rule of thumb, if that Pokemon can mega evolve then I'm essentially making their mega into their base form (sans stat changes)
+
+SPEAROW
+ ~ Is now pure Flying
+
+FEAROW
+ ~ Is now pure Flying
+
+PIDGEY
+ ~ Is now pure Flying
+
+PIDGEOTTO
+ ~ Is now pure Flying
+
+PIDGEOT
+ ~ Is now pure Flying
+ # The Kanto birds have always felt pure-Flying to me.
+
+SUNFLORA
+ ~ Is now Fire/Grass
+ + Base Special Attack increased to 125
+ # It's now a Fire-type so that it can be even more about sunlight. The Special Attack buff was stolen from this video: https://www.youtube.com/watch?v=Cm9m_Z2dDzc
+
+VENONAT
+ ~ Is now Psychic/Poison
+ 
+VENOMOTH
+ ~ Is now Psychic/Poison
+ + Can now have Levitate as a secondary ability
+ # The Venos are Psychics now because they are heavily asociated with the Psychic-type
+ 
+NIDOKING
+ - Attack lowered to 94
+ + Special Attack increasted to 94
+ # This is meant for Sheer Force. If I can't add it then I'll revert the change or fully convert Nidoking into a special attacker.
+
+EKANS
+ ~ Is now Poison/Dark
+
+ARBOK
+ ~ Is now Poison/Dark
+
+GYARADOS
+ ~ Is now Water/Dragon
+
+POLITOED
+ + Secondary ability changed from Damp to Drizzle
+ # I'm sorry! I couldn't help it!
+ 
+VULPIX
+ + Can now have Drought as a secondary ability
+
+NINETALES
+ ~ Is now Fire/Ghost
+ + Can now have Drought as a secondary ability
+ # The Weather Wars are NEVER over. Also, Ninetales is frequently asociated with curses and stuff so I made it into a Ghost-type
+ 
+DUSTOX
+ + Increased base Special Defence to 100
+ # This is for consistency with the buff that Beautifly recieved
+
+GROUDON
+ ~ Is now Fire/Ground
+ # This should absolutely benefit its Drought ability by adding some Fire STAB. Groudon's already a busted legendart anyway, but this should hopefully put him closer to par with Kyogre.
+
+TORCHIC
+ + Ability is now Speed Boost
+
+COMBUSKEN
+ + Ability is now Speed Boost
+ 
+BLAZIKEN
+ + Ability is now Speed Boost
+ 
+MUDKIP
+ + Ability is now Swift Swim
+
+MARSHTOMP
+ + Ability is now Swift Swim
+ 
+SWAMPERT
+ + Ability is now Swift Swim
+
+TREECKO
+ + Base Attack is now 65
+ - Base Special Attack is now 45
+ ~ Ability is now Lightning Rod
+
+GROVYLE
+ + Base Attack is now 85
+ - Base Special Attack is now 65
+ ~ Ability is now Lightning Rod
+ 
+SCEPTILE
+ + Base Attack is now 105
+ - Base Special Attack is now 85
+ ~ Ability is now Lightning Rod
+ # Will make this line's ability Unburden if I can add it since Sceptile is now a physical attacker
+
+MAWILE
+ - Base Attack lowered 55
+ + Base Special Attack increased to 85
+ + Primary ability changed from Hyper Cutter to Huge Power
+ 
+ONIX
+ + Base HP increased to 85
+ + Base Attack increased to 75
+ # It's worth noting that Onix's terrible vanilla stats are actually an intentional Gen 1-ism. This video goes into detail about it: https://www.youtube.com/watch?v=vMHRjyQFKcQ
+ # Since this hack targets experienced Pokemaniacs, there's no reason for Onix to serve as a type matchups tutorial and has therefore been buffed to be able to better serve its purpose as a physical wall.
+
+STEELIX
+ + Base HP increased to 90
+ # Despite all that, there's no way I'm letting an evolution have less HP than its base form, defensive typing be damned.
+
+MAROWAK
+ ~ Is now Ground/Ghost
+
+KANGASKAHN
+ ~ Is now Normal/Ground
+
+PSYDUCK
+ ~ Is now Water/Psychic
+
+GOLDUCK
+ ~ Is now Water/Psychic
+
+CHIMECHO
+ ~ Is now Psychic/Ghost
+
+AMPHAROS
+ ~ Is now Electric/Dragon
+
+SWABLU
+ ~ Is now Dragon/Fairy
+ + Now has Serene Grace as a secondary ability
+
+ALTARIA
+ ~ Is now Dragon/Fairy
+ + Now has Serene Grace as a secondary ability 
+
+HARIYAMA
+ ~ Is now Fighting/Ground
+ # This is to justify adding Headlong Rush (itself a sumo wrestling move; considering that Hariyama is a sumo wrestler) as well as to give it something unique over other Fighting-types
+
+DUNSPARCE
+ ~ Is now Dragon/Ground
+ - No longer has Run Away as a secondary ability
+ # Well, this is more like a buff considering that Serene Grace is way better than Run Away but, uh, consistency.
+
+DELIBIRD
+ + Base HP is now 85
+ + Base Attack is now 80
+ + Base Defence is now 110
+ + Base Speed is now 90
+ + Base Special Attack is now 120
+ + Base Special Defence is now 60
+ # Arceus have mercy on thy soul. These stats are based on Iron Bundle, albiet nowhere near as ridiculous. His level up movepool is also now based on Iron Bundle, albiet with an emphasis on Flying over Water. These huge buffs have definitively made Delibird the mascot of FireRed Xeldromix.
+
+ELECTABUZZ
+ ~ Is now Electric/Fightning
+ + Base Attack is now 95
+ - Base Special Attack is now 83
+
+LEDIAN
+ ~ Is now Bug/Electric
+ ~ Now has Levitate as an ability instead of Early Bird
+ # This is because he looks like Pulseman (who, for reference, is destroyed by water). I also gave it Levitate since it flies.
+ 
+BEEDRILL
+ + Base Attack is now 100
+
+CATERPIE
+ + Base Special Attack is now 30
+ - Base Attack is now 20
+
+METAPOD
+ + Base Attack is now 30
+ + Base Special Attack is now 35
+
+BUTTERFREE
+ ~ Is now Bug/Psychic
+ ~ Ability changed to Prankster 
+ + Base Special Attack is now 100
+ + Base Special Defence is now 90
+ + Base Speed is now 85
+
+SUCKLE
+ + Base HP increased to 80
+ # I love Shuckle, you love Suckle, we love Shuckle, Shuckle, Shuckle, I love Shuckle. This beefier bulk should make him a better defensive option overall in a world where the only hazards are spikes (for reference, I like Shuckle because he can set up webs and rocks before getting off a bit of chip with the Rocky Helmet).
+ 
+PORYGON
+ ~ Is now Electric/Normal
+
+SANDSLASH
+ ~ Is now Ground/Steel
+
+DELCATTY
+ ~ Is now Normal/Fairy
+ + Base Speed is now 115
+ + Base HP is now 90
+ + Base Defence is now 75
+ + Base Special Defence is now 75
+ # Buffs stolen from https://www.youtube.com/watch?v=6JI5y5h5QqA
+
+MASQUERAIN
+ ~ Is now Bug/Water
+ + Base Speed is now 120
+ + Base Special Defence is now 100
+
+VOLBEAT
+ ~ Is now Bug/Fire
+ + Base Special Attack is now 120
+
+ILUMISE
+ ~ Is now Bug/Psychic
+
+SEVIPER
+ + Base Speed is now 100 
+ # Buffs stolen from https://www.youtube.com/watch?v=6JI5y5h5QqA
+
+CHIMECHO
+ ~ Is now Psychic/Ghost
+ + Base HP is now 85
+ + Base Defence is now 110 
+ + Base Special Defence is now 130
+ + Base Speed is now 90
+ # I think I've created a monster. Psychic/Ghost has two 4x weaknesses, so giving it the special bulk to eat those attacks 
+ 
+WIGGLYTUFF
+ + Base Attack is now 85
+ + Base Special Attack is now 85
+ + Base Speed is now 65
+ # I just felt like making Wigglytuff a mixed attacker. While the Xigglyxuffs mainly learn phsyical attacks, I still wanted them to be able to make use of Hyper Voice. The speed bump also allows it to work better as a support Pokemon, even if 65 isn't all that much in the grand scheme of things
+
+VOLTORB
+ + Base Attack is now 55
+ - Base Special Attack is now 30
+ 
+ELECTRODE
+ + Base Attack is now 80
+ - Base Special Attack is now 50
+ # This is to make it a more efficient user of Explosion
+
+DODRIO
+ ~ Now only gets Speed Boost as an ability
+ # No, game balance isn't a real thing. Go away.
+
+TROPIUS
+ + Base HP increased to 110
+ + Base Attack increased to 75
+ + Base Defence increased to 85
+ + Base Speed increased to 65
+ + Base Special Attack increased to 85
+ + Base Special Defence increased to 90
+ ~ Is now Grass/Dragon
+ + Can now have Thick Fat as a secondary ability
+ # Grass/Dragon is a unique combination in the context of this hack. Thick Fat is meant to counteract the 4x Ice weakness. The stat buffs are to make this new dragon more draconic whilst also making them less weird to look at. What is it with me an my obsession with multiples of 5?
+
+DUSKNOIR
+ + Base HP increased to 80
+ ~ Is now Ghost/Dark
+ # There's no Eviolite Dusclops to fall back on here, so this famous time traveling villain has recieved some nice buffs to help out on the defence side
+
+URSALUNA
+ - Base Attack lowered to 120
+ # Power creep.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

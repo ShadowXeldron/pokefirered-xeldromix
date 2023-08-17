@@ -2200,5 +2200,184 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(32, 56),
         .y_offset = 6,
     },
+
+    // Newmons
+    [SPECIES_HAPPINY] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_LICKILICKY] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_RHYPERIOR] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_TANGROWTH] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_MIME_JR] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_ELECTIVIRE] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_MAGMORTAR] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_GLACEON] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_SYLVEON] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_MUNCHLAX] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_TOGEKISS] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_BONSLY] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_MAGNEZONE] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_AMBIPOM] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_MISMAGIUS] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_GLISCOR] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_WEAVILE] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_MANTYKE] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_MAMOSWINE] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_GALLADE] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_PROBOPASS] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_CHINGLING] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_FROSLASS] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_BUDEW] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_BUDEW] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_YANMEGA] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_HONCHKROW] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_ANNIHLAPE] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_KLEAVOR] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_FARIGIRAF] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_DUDUNSPARSE] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_URSALUNA] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_WYRDEER] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_ROSERADE] =
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+    [SPECIES_PORYGONZ] = // Last-minute Porygon-Z. Whoops!
+    {
+        .size = MON_COORDS_SIZE(24, 40),
+        .y_offset = 13,
+    },
+
+    // Rouge the Bat was here
 };
 

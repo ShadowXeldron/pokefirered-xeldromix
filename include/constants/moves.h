@@ -461,7 +461,43 @@
 #define MOVE_MOONBLAST 448
 #define MOVE_PLAY_ROUGH 449
 
-#define MOVES_COUNT 450
+//Random Stuff
+#define MOVE_PSYCHO_FORCE 450 // Mewtwo's Signature Move
+#define MOVE_WAVE_CRASH 451 // Gyarados' Signature Move
+#define MOVE_HURRICANE 452
+#define MOVE_PARADOX 453
+#define MOVE_AFTER_BURNER 454
+#define MOVE_LANDSLIDE 455
+#define MOVE_TRIO_TUNNEL 456
+#define MOVE_BRAINSTORM 457
+#define MOVE_SMART_STRIKE 458
+#define MOVE_ROCK_WRECKER 459
+
+// Eeveelution moves (derived from Partner Eevee's signature moves)
+
+#define MOVE_BOUNCY_BUBBLE 460 // Vaporeon, drains HP
+#define MOVE_BUZZY_BUZZ 461 // Jolteon, paralyses
+#define MOVE_SIZZLY_SLIDE 462 // Flareon, burns
+#define MOVE_GLITZY_GLOW 464 // Espeon, sets up Light Screen
+#define MOVE_BADDY_BAD 465 // Umbreon, sets up Reflect
+#define MOVE_SAPPY_SEED 466 // Leafeon, sets up Leech Seed
+#define MOVE_FREEZY_FROST 467 // Glaceon, resets all stat changes
+#define MOVE_SPARKLY_SWIRL 468 // Sylveon, triggers Heal Bell. That sounds absolutely broken.
+
+// Why did they get the guy who came up with the Fortnite location names to come up with the LGPE signature moves?
+// And no, I haven't played Lets Go. I was put off the second I found out that the game is stupid easy.
+
+// Without ado, more random stuff
+#define MOVE_RAGE_FIST 469
+#define MOVE_SUCKER_PUNCH 470
+#define MOVE_QUIVER_DANCE 471
+#define MOVE_TWIN_BEAM 472
+#define MOVE_HYPER_DRILL 473
+#define MOVE_SACRED_SWORD 474
+#define MOVE_ZEN_HEADBUTT 475
+#define MOVE_PSYSHIELD_BASH 476
+
+#define MOVES_COUNT 477
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

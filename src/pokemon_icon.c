@@ -465,7 +465,44 @@ const u8 *const gMonIconTable[] = {
     [SPECIES_UNOWN_Y]     = gMonIcon_UnownY,
     [SPECIES_UNOWN_Z]     = gMonIcon_UnownZ,
     [SPECIES_UNOWN_EMARK] = gMonIcon_UnownExclamationMark,
-    [SPECIES_UNOWN_QMARK] = gMonIcon_UnownQuestionMark
+    [SPECIES_UNOWN_QMARK] = gMonIcon_UnownQuestionMark,
+
+    // Newmons
+
+    [SPECIES_HAPPINY]     = gMonIcon_UnownL,
+    [SPECIES_LICKILICKY]  = gMonIcon_UnownL,
+    [SPECIES_RHYPERIOR]   = gMonIcon_UnownL,
+    [SPECIES_MIME_JR]     = gMonIcon_UnownL,
+    [SPECIES_ELECTIVIRE]  = gMonIcon_UnownL,
+    [SPECIES_MAGMORTAR]   = gMonIcon_UnownL,
+    [SPECIES_GLACEON]     = gMonIcon_UnownL,
+    [SPECIES_LEAFEON]     = gMonIcon_UnownL,
+    [SPECIES_SYLVEON]     = gMonIcon_UnownL,
+    [SPECIES_PORYGONZ]    = gMonIcon_UnownL,
+    [SPECIES_MUNCHLAX]    = gMonIcon_UnownL,
+    [SPECIES_TOGEKISS]    = gMonIcon_UnownL,
+    [SPECIES_BONSLY]      = gMonIcon_UnownL,
+    [SPECIES_MAGNEZONE]   = gMonIcon_UnownL,
+    [SPECIES_AMBIPOM]     = gMonIcon_UnownL,
+    [SPECIES_MISMAGIUS]   = gMonIcon_UnownL,
+    [SPECIES_GLISCOR]     = gMonIcon_UnownL,
+    [SPECIES_WEAVILE]     = gMonIcon_UnownL,
+    [SPECIES_MANTYKE]     = gMonIcon_UnownL,
+    [SPECIES_MAMOSWINE]   = gMonIcon_UnownL,
+    [SPECIES_GALLADE]     = gMonIcon_UnownL,
+    [SPECIES_PROBOPASS]   = gMonIcon_UnownL,
+    [SPECIES_CHINGLING]   = gMonIcon_UnownL,
+    [SPECIES_FROSLASS]    = gMonIcon_UnownL,
+    [SPECIES_BUDEW]       = gMonIcon_UnownL,
+    [SPECIES_YANMEGA]     = gMonIcon_UnownL,
+    [SPECIES_HONCHKROW]   = gMonIcon_UnownL,
+    [SPECIES_ANNIHLAPE]   = gMonIcon_UnownL,
+    [SPECIES_KLEAVOR]     = gMonIcon_UnownL,
+    [SPECIES_FARIGIRAF]   = gMonIcon_UnownL,
+    [SPECIES_DUDUNSPARSE]  = gMonIcon_UnownL,
+    [SPECIES_URSALUNA]    = gMonIcon_UnownL,
+    [SPECIES_WYRDEER]     = gMonIcon_UnownL,
+    [SPECIES_ROSERADE]    = gMonIcon_UnownL
 };
 
 const u8 gMonIconPaletteIndices[] = {
@@ -908,7 +945,44 @@ const u8 gMonIconPaletteIndices[] = {
     [SPECIES_UNOWN_Y]     = 0,
     [SPECIES_UNOWN_Z]     = 0,
     [SPECIES_UNOWN_EMARK] = 0,
-    [SPECIES_UNOWN_QMARK] = 0
+    [SPECIES_UNOWN_QMARK] = 0,
+
+    // Newmons
+
+    [SPECIES_HAPPINY]     = 2,
+    [SPECIES_LICKILICKY]  = 2,
+    [SPECIES_RHYPERIOR]   = 2,
+    [SPECIES_MIME_JR]     = 2,
+    [SPECIES_ELECTIVIRE]  = 2,
+    [SPECIES_MAGMORTAR]   = 2,
+    [SPECIES_GLACEON]     = 2,
+    [SPECIES_LEAFEON]     = 2,
+    [SPECIES_SYLVEON]     = 2,
+    [SPECIES_PORYGONZ]    = 2,
+    [SPECIES_MUNCHLAX]    = 2,
+    [SPECIES_TOGEKISS]    = 2,
+    [SPECIES_BONSLY]      = 2,
+    [SPECIES_MAGNEZONE]   = 2,
+    [SPECIES_AMBIPOM]     = 2,
+    [SPECIES_MISMAGIUS]   = 2,
+    [SPECIES_GLISCOR]     = 2,
+    [SPECIES_WEAVILE]     = 2,
+    [SPECIES_MANTYKE]     = 2,
+    [SPECIES_MAMOSWINE]   = 2,
+    [SPECIES_GALLADE]     = 2,
+    [SPECIES_PROBOPASS]   = 2,
+    [SPECIES_CHINGLING]   = 2,
+    [SPECIES_FROSLASS]    = 2,
+    [SPECIES_BUDEW]       = 2,
+    [SPECIES_YANMEGA]     = 2,
+    [SPECIES_HONCHKROW]   = 2,
+    [SPECIES_ANNIHLAPE]   = 2,
+    [SPECIES_KLEAVOR]     = 2,
+    [SPECIES_FARIGIRAF]   = 2,
+    [SPECIES_DUDUNSPARSE] = 2,
+    [SPECIES_URSALUNA]    = 2,
+    [SPECIES_WYRDEER]     = 2,
+    [SPECIES_ROSERADE]    = 2
 };
 
 const struct SpritePalette gMonIconPaletteTable[] = {

@@ -444,7 +444,7 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_PETAL_BLIZZARD]= _("PetalBlizard"), // You can tell this game hates me because I had to ommit a "z" from Blizzard
     [MOVE_PHANTOM_FORCE] = _("PhantomForce"),
     [MOVE_POWER_UP_PUNCH]= _("PowerUpPunch"),
-  [MOVE_PRECIPICE_BLADES]= _("PrepicBlades"), // This inconsistency drives me oh so very mad. Almost as mad as that damn character limit!
+    [MOVE_PRECIPICE_BLADES]= _("PrepicBlades"), // This spacing inconsistency drives me oh so very mad. Almost as mad as that damn character limit!
     [MOVE_ORIGIN_PULSE]  = _("Origin Pulse"),
     
     [MOVE_LIQUIDATION]   = _("Liquidation"),
@@ -460,30 +460,16 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_POUNCE]        = _("Pounce"),
 
     [MOVE_GIGA_IMPACT]   = _("Giga Impact"),
-   [MOVE_HIGH_HORSEPOWER]= _("HiHorsepower"),
+    [MOVE_HIGH_HORSEPOWER]= _("HiHorsepower"),
 
     [MOVE_BABY_DOLL_EYES]= _("BabyDollEyes"),
-    [MOVE_DAZZLING_GLEAM]= _("DazzlingGleam"),
-   [MOVE_DISARMING_VOICE]= _("DsarmingVoice"),
-    [MOVE_DRAINING_KISS] = _("Draining Kiss"),
+    [MOVE_DAZZLING_GLEAM]= _("DazzlinGleam"),
+    [MOVE_DISARMING_VOICE]= _("DisarmVoice"),
+    [MOVE_DRAINING_KISS] = _("Drain Kiss"),
     [MOVE_FAIRY_WIND]    = _("Fairy Wind"),
     [MOVE_MOONBLAST]     = _("Moonblast"),
     [MOVE_PLAY_ROUGH]    = _("Play Rough"),
 
 
-
-
-
-    
-    
-    //[MOVE_ICE_FANG]      = _("Ice Fang")
-    //[MOVE_FIRE_FANG]     = _("Fire Fang")
-    //[MOVE_THUNDER_FANG]  = _("Thunder Fang")
-    
-    //[MOVE_DISARMING_VOICE]     = _("Disarming Voice")
-    //[MOVE_FAIRY_WIND]     = _("Fairy Wind")
-    //[MOVE_MOONBLAST]     = _("Moonblast")
-    //[MOVE_DRAINING_KISS]     = _("Draining Kiss")
-    
     
 };

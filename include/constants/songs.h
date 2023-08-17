@@ -352,6 +352,8 @@
 #define MUS_TRAINER_TOWER         344 // MUS_RG_T_TOWER
 #define MUS_SLOW_PALLET           345 // MUS_RG_SLOWMASARA
 #define MUS_TEACHY_TV_MENU        346 // MUS_RG_TVNOIZE
+
+// New Tracks
 #define MUS_AREA_ZERO        	  347
 #define MUS_ENCOUNTER_ROCKET2     348
 #define MUS_VS_ROCKET     	      349

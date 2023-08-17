@@ -241,6 +241,8 @@
 #define FLAG_SNATCH_AFFECTED        (1 << 3)
 #define FLAG_MIRROR_MOVE_AFFECTED   (1 << 4)
 #define FLAG_KINGS_ROCK_AFFECTED    (1 << 5)
+#define FLAG_SHARPNESS_AFFECTED     (1 << 6) // This is me being lazy
+#define FLAG_TRIAGE_AFFECTED        (1 << 7) // This is me being lazy 
 
 // Growth rates
 #define GROWTH_MEDIUM_FAST  0

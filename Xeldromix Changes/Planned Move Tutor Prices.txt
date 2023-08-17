@@ -1,0 +1,42 @@
+MOVE TUTOR COSTS (might swap these for items)
+
+FLRG (all locations are the same as in the original)
+Mega Kick - 2500
+Mega Punch - 2000
+Seismic Toss - 1000
+Rock Slide - 4500
+Softboiled - 7000
+Thunder Wave - 1500 (First time is free)
+Substitute - 4500
+Metronome - 1250
+Double-Edge - 6000
+Explosion - 9500
+Ultimate Moves - Free
+Body Slam - 3000
+Swords Dance - 5000
+
+Emerald
+Rollout - Mt. Moon
+Fury Cutter - Viridian Forest (this is the Bug Catcher who looks at the wall - he's a big fan of the Cut Masters and has the same requirements as them; albiet without the gym badge requirement)
+Swagger - Viridian City Pokemon Fan Club
+Elemental Punches, Dynamic Punch - Saffron Fighting Dojo
+Sleep Talk - Fuschia City (the old Move Deleter)
+Icy Wind
+Dream Eater
+Mud Slap - Pewter City Museum
+Swift
+Defence Curl, Psych Up, Endure - Viridian City Pokemon Trainers School 
+Snore
+
+
+Cut Masters (all are free, but they require you to beat them in a battle before teaching and will only teach the move if you have the right gym badge)
+Aqua Cutter - SS Anne (specifically the captain; requires Lt. Surge)
+Cross Poison - Fuscia City (requires Koga)
+Night Slash - Team Rocket's Hideout (requires Erika)
+Psycho Cut - Saffron City (replaces Uncle Psychic because being able to get a TM for Psychic before Erika in a game where TMs have unlimited uses is way too overpowered) 
+Leaf Blade - Elegant Valley (attack area, requires Giovanni)
+Sacred Sword - Altering Cave (requires beating all of the other Cut Masters)
+
+Other New
+Triple Axel - Seafoam Cavern
+Draco Meteor - Pokemon League

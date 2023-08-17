@@ -325,8 +325,11 @@ const u8 gTypeEffectiveness[372] =
     TYPE_WATER, TYPE_WATER, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_WATER, TYPE_GRASS, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_WATER, TYPE_GROUND, TYPE_MUL_SUPER_EFFECTIVE,
+    TYPE_WATER, TYPE_STEEL, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_WATER, TYPE_ROCK, TYPE_MUL_SUPER_EFFECTIVE,
+    TYPE_WATER, TYPE_ELECTRIC, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_WATER, TYPE_DRAGON, TYPE_MUL_NOT_EFFECTIVE,
+    TYPE_WATER, TYPE_WATER, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_ELECTRIC, TYPE_WATER, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_ELECTRIC, TYPE_ELECTRIC, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_ELECTRIC, TYPE_GRASS, TYPE_MUL_NOT_EFFECTIVE,
@@ -339,11 +342,9 @@ const u8 gTypeEffectiveness[372] =
     TYPE_GRASS, TYPE_POISON, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_GRASS, TYPE_GROUND, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_GRASS, TYPE_FLYING, TYPE_MUL_NOT_EFFECTIVE,
-    TYPE_GRASS, TYPE_BUG, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_GRASS, TYPE_ROCK, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_GRASS, TYPE_DRAGON, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_GRASS, TYPE_STEEL, TYPE_MUL_NOT_EFFECTIVE,
-    TYPE_ICE, TYPE_WATER, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_ICE, TYPE_GRASS, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_ICE, TYPE_ICE, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_ICE, TYPE_GROUND, TYPE_MUL_SUPER_EFFECTIVE,
@@ -351,6 +352,7 @@ const u8 gTypeEffectiveness[372] =
     TYPE_ICE, TYPE_DRAGON, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_ICE, TYPE_STEEL, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_ICE, TYPE_FIRE, TYPE_MUL_NOT_EFFECTIVE,
+    TYPE_ICE, TYPE_WATER, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_FIGHTING, TYPE_NORMAL, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_FIGHTING, TYPE_ICE, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_FIGHTING, TYPE_POISON, TYPE_MUL_NOT_EFFECTIVE,
@@ -395,12 +397,11 @@ const u8 gTypeEffectiveness[372] =
     TYPE_BUG, TYPE_DARK, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_BUG, TYPE_STEEL, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_ROCK, TYPE_FIRE, TYPE_MUL_SUPER_EFFECTIVE,
-    TYPE_ROCK, TYPE_ICE, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_ROCK, TYPE_FIGHTING, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_ROCK, TYPE_GROUND, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_ROCK, TYPE_FLYING, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_ROCK, TYPE_BUG, TYPE_MUL_SUPER_EFFECTIVE,
-    TYPE_ROCK, TYPE_STEEL, TYPE_MUL_NOT_EFFECTIVE,
+    TYPE_ROCK, TYPE_STEEL, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_GHOST, TYPE_NORMAL, TYPE_MUL_NO_EFFECT,
     TYPE_GHOST, TYPE_PSYCHIC, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_GHOST, TYPE_DARK, TYPE_MUL_NOT_EFFECTIVE,
@@ -408,6 +409,7 @@ const u8 gTypeEffectiveness[372] =
     TYPE_GHOST, TYPE_GHOST, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_DRAGON, TYPE_DRAGON, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_DRAGON, TYPE_STEEL, TYPE_MUL_NOT_EFFECTIVE,
+    TYPE_DRAGON, TYPE_ICE, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_DARK, TYPE_FIGHTING, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_DARK, TYPE_PSYCHIC, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_DARK, TYPE_GHOST, TYPE_MUL_SUPER_EFFECTIVE,
@@ -416,8 +418,7 @@ const u8 gTypeEffectiveness[372] =
     TYPE_STEEL, TYPE_FIRE, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_STEEL, TYPE_WATER, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_STEEL, TYPE_ELECTRIC, TYPE_MUL_NOT_EFFECTIVE,
-    TYPE_STEEL, TYPE_ICE, TYPE_MUL_SUPER_EFFECTIVE,
-    TYPE_STEEL, TYPE_ROCK, TYPE_MUL_SUPER_EFFECTIVE,
+    TYPE_STEEL, TYPE_GRASS, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_STEEL, TYPE_STEEL, TYPE_MUL_NOT_EFFECTIVE,
     TYPE_FAIRY, TYPE_DARK, TYPE_MUL_SUPER_EFFECTIVE,
     TYPE_FAIRY, TYPE_DRAGON, TYPE_MUL_SUPER_EFFECTIVE,
@@ -3509,11 +3510,36 @@ u8 GetWhoStrikesFirst(u8 battler1, u8 battler2, bool8 ignoreChosenMoves)
         else
             moveBattler2 = MOVE_NONE;
     }
+
+    // Triage code. Blame my brother for asking for this.
+    u8 prio1 = gBattleMoves[moveBattler1].priority;
+    u8 prio2 = gBattleMoves[moveBattler2].priority;
+
+    if ((gBattleMons[battler1].ability == ABILITY_TRIAGE) && (gBattleMoves[moveBattler1].flags & FLAG_TRIAGE_AFFECTED))
+    {
+        prio1 += 3; // Boosts the priority of healing moves
+    }
+
+    else if ((gBattleMons[battler1].ability == ABILITY_PRANKSTER) && (gBattleMoves[moveBattler1].category == MOVE_CATEGORY_PHYSICAL))
+    {
+        prio1 += 1; // Boosts the priority of status moves
+    }
+
+    if ((gBattleMons[battler2].ability == ABILITY_TRIAGE) && (gBattleMoves[moveBattler2].flags & FLAG_TRIAGE_AFFECTED))
+    {
+        prio2 += 3; // Boosts the priority of healing moves
+    }
+
+    else if ((gBattleMons[battler2].ability == ABILITY_PRANKSTER) && (gBattleMoves[moveBattler2].category == MOVE_CATEGORY_PHYSICAL))
+    {
+        prio2 += 1; // Boosts the priority of status moves
+    }
+
     // both move priorities are different than 0
-    if (gBattleMoves[moveBattler1].priority != 0 || gBattleMoves[moveBattler2].priority != 0)
+    if (prio1 != 0 || prio2 != 0)
     {
         // both priorities are the same
-        if (gBattleMoves[moveBattler1].priority == gBattleMoves[moveBattler2].priority)
+        if (prio1 == prio2)
         {
             if (speedBattler1 == speedBattler2 && Random() & 1)
                 strikesFirst = 2; // same speeds, same priorities
@@ -3521,7 +3547,7 @@ u8 GetWhoStrikesFirst(u8 battler1, u8 battler2, bool8 ignoreChosenMoves)
                 strikesFirst = 1; // battler2 has more speed
             // else battler1 has more speed
         }
-        else if (gBattleMoves[moveBattler1].priority < gBattleMoves[moveBattler2].priority)
+        else if (prio1 < prio2)
             strikesFirst = 1; // battler2's move has greater priority
         // else battler1's move has greater priority
     }

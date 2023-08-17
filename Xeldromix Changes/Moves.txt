@@ -1,0 +1,172 @@
+Changes made to moves in the Xeldromix project
+
+Key:
+
++ Buff
+- Nerf
+~ Neutral Change
+* Change made for parity with newer games (will also be prefixed with another symbol if need be)
+^ Change made to moves added in later generations in order to improve/balance them
+? Change that may be made if I get around to expanding the game's features enough
+# Comment
+
+HM Alterations
+(HMs are still in the game because I have Retro Pokemon Stockholm Syndrome. These changes are made to make them a bit more viable)
+
+
+CUT
++ Has a boosted critical hit rate
+~ Is now Steel-type
+
+FLASH
++ Now does damage; it has a power of 40
++ Now has 85% accuracy
+- PP lowered to 10
+~ Is now a Fairy-type Special Move
+# These changes basically turn it into a better version of Mud-Slap and make it into a Fairy coverage option during the early game
+
+FLY
++ Increased power to 70
+# 90 (which is its power from DP onward) seems a bit much for when you get it
+
+STRENGTH
++ Now has a 10% chance to flinch
+
+ROCK SMASH
++ Increased power to 75
+- Lowered accuracy to 95%
+# You'd expect Rock Smash to be at least decent for when you obtain it. It's now essentially Fighting-type Razor Shell.
+
+DIVE
++* Increased power to 80
+
+KNOCK OFF
+- No longer increases in power if it knocks off an opponent's held item
+
+Normal Moves
+
+SPIKE CANNON
+- Lowered power to 18
+~ Is now Rock-type
+# This is meant to make it equivalent to a lesser version of Rock Blast. Also, no Normal-types can actually learn Spike Cannon so why is it a Normal-type move? Needless to say, it's no wonder that they forgot all about this move until Gen 7 and eventually axed it altogether in Gen 8.
+
+SPLASH
+~ Is now Water-type
+# It's still useless and the type change was only for consistency with Pokemon Go. Any complaining memers who are mad that I didn't turn it into a 255 power never-missing Water-type multi-hitting version of Pay Day that also fully restores your HP will be sent to the lava pit. With that said, I have another plan for those who are dedicated enough to get a Magikarp to Level 100... (something that would benefit Gyarados in particular)
+
+KINESIS
+~ Is now Special
++ Power increased to 65
++ Accuracy increased to 100
++ Now removes held items, doing double damage if an item is removed
+- No longer lowers accuracy
+# Yes I really did turn Kinesis into Knock Off. I like it when my signature moves don't suck.
+
+SUBMISSION
++ Power increased to 95
++ Accuracy increased to 100
+- PP reduced to 15
+# 80 power and 80% accuracy for a recoil move that's usually learned somewhat late doesn't make sense. It makes a bit more sense in Gen 1 where Submission is a department store TM, but since the much more useful Brick Break has taken its place as the Department Store TM it doesn't really need that balancing factor. And besides, this move is called Hell Wheel in Japan and that's just rad; why would we let such a rad-sounding move be such a letdown?
+
+WILD CHARGE
++ No longer does recoil damage
+
+ROLLING KICK
++ Power increased to 80
++ Accuracy increased to 95
+
+TWINEEDLE
++ Power increased to 24
++ Now has a 25% chance to poison per hit
+
+ROCK THROW
++ Accuracy increased to 100
+# This is to give it something over the progression-mandatory Rock Tomb.
+
+MOVE NAME CHANGES
+
+Some move names from later generations have been on the recieving end of the character limit and, as a result, have had to be renamed.
+Draining Kiss -> Drain Kiss
+Disarming Voice -> DisarmVoice
+
+
+STUFF I'F LIKE TO ADD IF I CAN
+
+
+Maybe New Moves?
+
+PARTNER MOVES
+
+Pikachu
+
+Zippy Zap (learned when evolving into Raichu, making it Raichu's new signature move)
+Splishy Splash (learned at level 40; can be used as a replacement for Surf)
+Floaty Fall (learned at level 65, can be used as a replacement for Fly)
+Pika Papow (learned upon evolving from Pichu)
+
+Eevee (NOTE: All typed moves are now learned by the Eeveelutions upon evolving)
+
+Bouncy Bubble
+Buzzy Buzz
+Sizzly Slide
+Glitzy Glow
+Baddy Bad
+Sappy Seed (REQUIRES ADDING LEAFEON!)
+Freezy Frost (REQUIRES ADDING GLACEON!)
+Sparkly Swirl (REQUIRES ADDING SYLVEON!)
+Veevee Volley (learned at level 100; if I can I'll make it either Physical or Special depending on which of the user's stats are higher)
+
+CUSTOM MOVES
+
+Brainstorm (Psychic-type Special Double-Edge)
+
+Flame Tail (Chairzard's new signature move; basically Fire-type Iron Tail)
+Poison Ivy (Venusaur's new signature move, it's pretty much Poison Sting with 85 power)
+Shell Shock (Blastoise's new signature move, effectively a better version of Whirlpool)
+After Burner (Arcanine's new signature move, it's a Fire-type verion of Extreme Speed)
+Trio Tunnel (Dugtrio's new signature move, it's Gen 1 Dig with 15 PP)
+Quadra Slam (Machamp's new signature move, it's a multihit with a power of 30)
+Landslide (Golem's new signature move, it's a 120 base power Rock-type move with 80% accuracy and a chance to flinch)
+Extinction (Move exclusive to all fossilmons. It's Rock-type Self-Destruct)
+Tyrant Breath (Move exclusive to Tyranitar. It's Dark-type Giga Impact)
+Psycho Force (Mew and Mewtwo's new signature move, it's effectively two Calm Minds or Gen 1 Amnesia)
+
+Chill Crush (Regirock's new signature move, it's Ice-type Hyper Beam)
+Stone Crush (Regirock's new signature move, it's Rock-type Hyper Beam)
+Metal Crush (Registeel's new signature move, it's Steel-type Hyper Beam)
+
+First Frost (Articuno's new signature move. It's 100% accurate Blizzard)
+Dual Shock (Zapdos's new signature move. It's 100% accurate Thunder)
+Triple Fire (Moltres's new signature move. It's 100% accurate Fire Blast)
+
+Storm Dash (Raikou's new signature move, it's boosted priority Electric-type Double Edge)
+Burning Dash (Entei's new signature move, it's boosted priority Fire-type Double Edge)
+Crystal Dash (Suicune's new signature move, it's boosted priority Water-type Double Edge)
+
+Paradox (Celebi's new signature move, it's Psychic-type Fly with 100 base power)
+
+Miracle Power (Secondary signature move for Mew, fully restores HP and all status effects as well as provide Focus Energy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

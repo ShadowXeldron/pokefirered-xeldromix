@@ -421,7 +421,7 @@
 
 // Future Gen Imports beyond this point
 
-// Gen 4
+// Gen 4 (and also Sylveon)
 #define SPECIES_HAPPINY 412
 #define SPECIES_LICKILICKY 413
 #define SPECIES_RHYPERIOR 414
@@ -456,11 +456,15 @@
 #define SPECIES_ANNIHLAPE 440
 #define SPECIES_KLEAVOR 441
 #define SPECIES_FARIGIRAF 442
-#define SPECIES_DUDUNSPARE 443
+#define SPECIES_DUDUNSPARSE 443
 #define SPECIES_URSALUNA 444
 #define SPECIES_WYRDEER 445
 
-#define SPECIES_EGG 446
+// Whoops I forgot Roserade and Dusknoir
+#define SPECIES_ROSERADE 446
+#define SPECIES_DUSKNOIR 447
+
+#define SPECIES_EGG 448
 
 #define NUM_SPECIES SPECIES_EGG
 

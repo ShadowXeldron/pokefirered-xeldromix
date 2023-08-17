@@ -2,7 +2,7 @@ static const struct InGameTrade sInGameTrades[] = {
     [INGAME_TRADE_MR_MIME] = 
     {
         .nickname = _("Mimien"),
-        .species = SPECIES_MR_MIME,
+        .species = SPECIES_KIRLIA,
         .ivs = {20, 15, 17, 24, 23, 22},
         .abilityNum = 0,
         .otId = 1985,
@@ -17,8 +17,8 @@ static const struct InGameTrade sInGameTrades[] = {
     }, 
     [INGAME_TRADE_JYNX] = 
     {
-        .nickname = _("Zynx"),
-        .species = SPECIES_JYNX,
+        .nickname = _("Mana"),
+        .species = SPECIES_MANTYKE,
         .ivs = {18, 17, 18, 22, 25, 21},
         .abilityNum = 0,
         .otId = 36728,
@@ -29,7 +29,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("Donte"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_POLIWHIRL
+        .requestedSpecies = SPECIES_SMOOCHUM
     }, 
     [INGAME_TRADE_NIDORAN] = 
     {
@@ -165,8 +165,8 @@ static const struct InGameTrade sInGameTrades[] = {
     },
     [INGAME_TRADE_SEEL] = 
     {
-        .nickname = _("Seelor"),
-        .species = SPECIES_SEEL,
+        .nickname = _("Approval"),
+        .species = SPECIES_SPHEAL,
         .ivs = {24, 15, 22, 16, 23, 22},
         .abilityNum = 0,
         .otId = 9853,
@@ -186,7 +186,7 @@ static const u16 sInGameTradeMailMessages[][10] = {
         EC_WORD_THAT_S,
         EC_WORD_A,
         EC_WORD_HEALTHY,
-        EC_POKEMON(JYNX),
+        EC_POKEMON(MANTYKE),
         EC_WORD_EXCL,
         EC_WORD_BE,
         EC_WORD_KIND,

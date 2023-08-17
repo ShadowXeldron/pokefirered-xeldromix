@@ -2,7 +2,7 @@
   "id": "MAP_SEAFOAM_ISLANDS_B2F",
   "name": "SeafoamIslands_B2F",
   "layout": "LAYOUT_SEAFOAM_ISLANDS_B2F",
-  "music": "MUS_VIRIDIAN_FOREST",
+  "music": "MUS_ICE_CAVE",
   "region_map_section": "MAPSEC_SEAFOAM_ISLANDS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,7 +13,7 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "type": "object",
@@ -137,6 +137,10 @@
       "dest_warp_id": "6"
     }
   ],
-  "coord_events": [],
-  "bg_events": []
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }
