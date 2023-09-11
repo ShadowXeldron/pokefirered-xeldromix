@@ -245,8 +245,8 @@ BattleScript_EffectHit::
 	jumpifnostatus3 BS_TARGET, STATUS3_UNDERWATER, BattleScript_HitFromAtkCanceler
 	orword gHitMarker, HITMARKER_IGNORE_UNDERWATER
 	setbyte sDMG_MULTIPLIER, 2
-	jumpifmove MOVE_GLITZY_GLOW, PrintReflectLightScreenSafeguardString
-	jumpifmove MOVE_BADDY_BAD, PrintReflectLightScreenSafeguardString
+	@jumpifmove MOVE_GLITZY_GLOW, PrintReflectLightScreenSafeguardString
+	@jumpifmove MOVE_BADDY_BAD, PrintReflectLightScreenSafeguardString
 BattleScript_HitFromAtkCanceler::
 	attackcanceler
 BattleScript_HitFromAccCheck::

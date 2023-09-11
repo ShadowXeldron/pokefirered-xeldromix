@@ -144,7 +144,7 @@ HARIYAMA
  # This is to justify adding Headlong Rush (itself a sumo wrestling move; considering that Hariyama is a sumo wrestler) as well as to give it something unique over other Fighting-types
 
 DUNSPARCE
- ~ Is now Dragon/Ground
+ ~ Is now Dragon/Normal
  - No longer has Run Away as a secondary ability
  # Well, this is more like a buff considering that Serene Grace is way better than Run Away but, uh, consistency.
 
@@ -255,7 +255,7 @@ TROPIUS
  + Base Special Defence increased to 90
  ~ Is now Grass/Dragon
  + Can now have Thick Fat as a secondary ability
- # Grass/Dragon is a unique combination in the context of this hack. Thick Fat is meant to counteract the 4x Ice weakness. The stat buffs are to make this new dragon more draconic whilst also making them less weird to look at. What is it with me an my obsession with multiples of 5?
+ # Grass/Dragon is a unique combination in the context of this hack. Thick Fat is meant to counteract the 4x Ice weakness. The stat buffs are to make this new dragon more draconic whilst also making the stats less weird to look at. What is it with me an my obsession with multiples of 5?
 
 DUSKNOIR
  + Base HP increased to 80
@@ -266,14 +266,22 @@ URSALUNA
  - Base Attack lowered to 120
  # Power creep.
 
+MAGCARGO
+ ~ Now has the custom ability Corona - this has the effects of Flame Body in addition to providing a Water immunity.
+ # Arickus have mercy on thee. The ability was stolen from this video: https://www.youtube.com/watch?v=CLkaGFNWo0g
 
+CLOYSTER
+ - Base Defence lowered to 140
+ + Base Attack increased to 105
+ + Base HP increased to 80
 
+BARBOACH
+ + Base Special Attack increased to 56
 
-
-
-
-
-
+WHISCASH
+ + Base HP increased to 125
+ + Base Special Attack increased to 110
+ # I'm reimagining Whiscash as a bulky special attacker to differentiate it from Swampet.
 
 
 

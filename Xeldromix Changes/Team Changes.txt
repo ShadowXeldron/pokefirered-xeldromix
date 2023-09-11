@@ -5,3 +5,11 @@ IN BREIF
 - All boss trainers (Blue, Gym Leaders, the Elite 4, Giovanni, etc.) have a full team of 6
 - Gyms are now actually monotype (so Koga's gym isn't full of Hypnos and Sandslashes for example)
 - The Marowak Ghost is now at a much higher level
+
+BROCK
+
+Kabuto 13
+Lileep 13
+Anorith 13
+
+BROCK REMATCH

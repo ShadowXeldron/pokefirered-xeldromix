@@ -8773,6 +8773,7 @@ static const u32 sTMHMLearnsets[][2] =
                                         | TMHM(TM32_DOUBLE_TEAM)
                                         | TMHM(TM36_SLUDGE_BOMB)
                                         | TMHM(TM37_SANDSTORM)
+                                        | TMHM(TM39_ROCK_TOMB) // Excuse to put it on the one that I gave Brock
                                         | TMHM(TM42_FACADE)
                                         | TMHM(TM43_SECRET_POWER)
                                         | TMHM(TM44_REST)
