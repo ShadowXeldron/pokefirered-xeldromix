@@ -283,11 +283,25 @@ WHISCASH
  + Base Special Attack increased to 110
  # I'm reimagining Whiscash as a bulky special attacker to differentiate it from Swampet.
 
+VIBRAVA
+ + Base attack increased to 120
+ # I don't like how Vibrava's attack stat gets weaker upon evolving
 
+FLYGON
+ + Base HP increased to 130
+ + Base Attack increased to 120
+ + Base Special Attack increased to 120
+ + Base Speed increased to 100
+ # Flygon deserved better than such a bad stat spread
 
+SEEL
+ + Base Speed increased to 65
+ + Base Special Attack increased to 75
 
-
-
+DEWGONG
+ + Base Speed increased to 100
+ + Base Special Attack increased to 115
+ # Even by Gen 1 standards Dewgong has rather stupid stats
 
 
 
