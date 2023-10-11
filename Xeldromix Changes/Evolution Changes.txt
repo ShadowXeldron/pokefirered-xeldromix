@@ -18,9 +18,9 @@ Eevee -> Glaceon (use a Dawn Stone; I need to add that. I also see no reason to 
 Eevee -> Sylveon (use a Shiny Stone; I need to add that)
 
 Misdreavus -> Mismagius (use a Dusk Stone; I need to add that)
-Misdreavus -> Mismagius (use a Dusk Stone; I need to add that)
 Sneasel -> Weavile (use a Dusk Stone; I need to add that)
-Primeape -> Annihlape (use a Dusk Stone; I need to add that)
+Primeape -> Annihlape (reach level 36)
+Murkrow -> Honchkrow (use a Dusk Stone; I need to add that)
 
 Scyther -> Kleavor (use a King's Rock)
 Ursaring -> Ursaluna (use a Moon Stone)

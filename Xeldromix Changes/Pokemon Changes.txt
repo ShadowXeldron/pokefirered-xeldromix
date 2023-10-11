@@ -15,7 +15,9 @@ PIDGEOTTO
 
 PIDGEOT
  ~ Is now pure Flying
- # The Kanto birds have always felt pure-Flying to me.
+ + Special Attack increased to 90
+ + Special Defence increased to 75
+ # The Kanto birds have always felt pure-Flying to me. To differentiate them from Fearow's line, the pidgeons are now special attackers.
 
 SUNFLORA
  ~ Is now Fire/Grass

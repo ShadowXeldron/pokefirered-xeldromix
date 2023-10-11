@@ -496,8 +496,9 @@
 #define MOVE_SACRED_SWORD 474
 #define MOVE_ZEN_HEADBUTT 475
 #define MOVE_PSYSHIELD_BASH 476
+#define MOVE_MEGIDOLAON 477
 
-#define MOVES_COUNT 477
+#define MOVES_COUNT 478
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

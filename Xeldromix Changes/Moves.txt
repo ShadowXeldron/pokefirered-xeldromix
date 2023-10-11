@@ -130,6 +130,7 @@ Landslide (Golem's new signature move, it's a 120 base power Rock-type move with
 Extinction (Move exclusive to all fossilmons. It's Rock-type Self-Destruct)
 Tyrant Breath (Move exclusive to Tyranitar. It's Dark-type Giga Impact)
 Psycho Force (Mew and Mewtwo's new signature move, it's effectively two Calm Minds or Gen 1 Amnesia)
+Megidolaon (An attack from the SMT franchise. Ignores Protect and destroys screens.)
 
 Chill Crush (Regirock's new signature move, it's Ice-type Hyper Beam)
 Stone Crush (Regirock's new signature move, it's Rock-type Hyper Beam)
@@ -145,7 +146,7 @@ Crystal Dash (Suicune's new signature move, it's boosted priority Water-type Dou
 
 Paradox (Celebi's new signature move, it's Psychic-type Fly with 100 base power)
 
-Miracle Power (Secondary signature move for Mew, fully restores HP and all status effects as well as provide Focus Energy
+Miracle Power (Secondary signature move for Mew, fully restores HP and all status effects as well as provide Focus Energy)
 
 
 

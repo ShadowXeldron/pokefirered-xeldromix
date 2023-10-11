@@ -397,8 +397,8 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_DRAGON_ASCENT] = _("DragonAscent"),
 
     [MOVE_AIR_SLASH]     = _("Air Slash"),
-    [MOVE_AQUA_TAIL]     = _("Close Combat"),
-    [MOVE_AURA_SPHERE]   = _("DragonAscent"),
+    [MOVE_AQUA_TAIL]     = _("Aqua Tail"),
+    [MOVE_AURA_SPHERE]   = _("Aura Sphere"),
     [MOVE_DISCHARGE]     = _("Discharge"),
     [MOVE_DOUBLE_HIT]    = _("Double Hit"),
     [MOVE_DRAIN_PUNCH]   = _("Drain Punch"),
@@ -470,6 +470,32 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_MOONBLAST]     = _("Moonblast"),
     [MOVE_PLAY_ROUGH]    = _("Play Rough"),
 
+    [MOVE_PSYCHO_FORCE]  = _("Psycho Force"),
+    [MOVE_AFTER_BURNER]  = _("After Burner"),
+    [MOVE_LANDSLIDE]     = _("Landslide"),
+    [MOVE_WAVE_CRASH]    = _("Wave Crash"),
+    [MOVE_BRAINSTORM]    = _("Brainstorm"),
+    [MOVE_HURRICANE]     = _("Hurricane"),
+    [MOVE_ROCK_WRECKER]  = _("Rock Wrecker"),
+    [MOVE_AFTER_BURNER]  = _("After Burner"),
 
+    // Eeveelution moves, which have dumb names
+    [MOVE_BOUNCY_BUBBLE] = _("Bouncy Bubble"),
+    [MOVE_BUZZY_BUZZ]    = _("Buzzy Buzz"),
+    [MOVE_SIZZLY_SLIDE]  = _("Sizzly Slide"),
+    [MOVE_GLITZY_GLOW]   = _("Glitzy Glow"),
+    [MOVE_SAPPY_SEED]    = _("Sappy Seed"),
+    [MOVE_FREEZY_FROST]  = _("Freey Frost"),
+    [MOVE_SPARKLY_SWIRL] = _("Sparkly Swirl"),
+
+    [MOVE_RAGE_FIST]     = _("Rage Fist"),
+    [MOVE_SUCKER_PUNCH]  = _("Sucker Punch"),
+    [MOVE_QUIVER_DANCE]  = _("Buzzy Buzz"),
+    [MOVE_TWIN_BEAM]     = _("Twin Beam"),
+    [MOVE_HYPER_DRILL]   = _("Hyper Drill"),
+    [MOVE_SACRED_SWORD]  = _("Sacred Sword"),
+    [MOVE_ZEN_HEADBUTT]  = _("Zen Headbutt"),
+    [MOVE_PSYSHIELD_BASH]= _("Psyshield Bash"),
+    [MOVE_MEGIDOLAON]    = _("Megidolaon"),
     
 };

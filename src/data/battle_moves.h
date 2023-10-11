@@ -185,8 +185,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_RAZOR_WIND] =
     {
         .effect = EFFECT_RAZOR_WIND,
-        .power = 80,
-        .type = TYPE_NORMAL,
+        .power = 100,
+        .type = TYPE_FLYING,
         .accuracy = 100,
         .pp = 10,
         .secondaryEffectChance = 0,
@@ -6143,10 +6143,10 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_RAGING_FURY] =
     {
         .effect = EFFECT_RAMPAGE,
-        .power = 90,
+        .power = 120,
         .type = TYPE_FIRE,
         .accuracy = 100,
-        .pp = 15,
+        .pp = 10,
         .secondaryEffectChance = 100,
         .target = MOVE_TARGET_RANDOM,
         .priority = 0,
@@ -6684,5 +6684,21 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         .category= MOVE_CATEGORY_PHYSICAL,
+    },
+
+    [MOVE_MEGIDOLAON] =
+    {
+        .effect = EFFECT_BRICK_BREAK,
+        .power = 120,
+        .type = TYPE_NORMAL,
+        .accuracy = 95,
+        .pp = 5,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .category= MOVE_CATEGORY_PHYSICAL,
+        // You did not just add an SMT skill to Pokemon as a joke
+        // OH YES I DID and now I'm ready to CONQUER EVERY INCH OF MOBIUS
     },
 };
