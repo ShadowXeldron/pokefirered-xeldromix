@@ -427,8 +427,15 @@ u16 GetUnionRoomTrainerClass(void);
 void CreateEnemyEventMon(void);
 void HandleSetPokedexFlag(u16 nationalNum, u8 caseId, u32 personality);
 bool8 CheckBattleTypeGhost(struct Pokemon *mon, u8 bank);
+//<<<<<<< HEAD
 struct MonSpritesGfxManager *CreateMonSpritesGfxManager(u8 battlePosition, u8 mode);
 void DestroyMonSpritesGfxManager(void);
 u8 *MonSpritesGfxManager_GetSpritePtr(u8 bufferId);
+//=======
+struct OakSpeechNidoranFStruct *OakSpeechNidoranFSetup(u8 battlePosition, bool8 enable);
+void OakSpeechNidoranFFreeResources(void);
+void *OakSpeechNidoranFGetBuffer(u8 bufferId);
+u16 MonTryLearningNewMoveEvolution(struct Pokemon *mon, bool8 firstMove);
+//>>>>>>> c5c27fe5838e10af7bdd9d85cf5f3cd4dc08aba7
 
 #endif // GUARD_POKEMON_H
