@@ -74,8 +74,7 @@ static const u16 sPunchingMovesTable[] =
     MOVE_SKY_UPPERCUT,
     MOVE_HEADLONG_RUSH,
     MOVE_METEOR_MASH,
-    MOVE_QUADRA_SLAM,   
-    ABILITY_MOVES_END
+    MOVE_QUADRA_SLAM
 };
 
 static const u16 sSlashMovesTable[] = 
@@ -93,8 +92,7 @@ static const u16 sSlashMovesTable[] =
     MOVE_X_SCISSOR,
     MOVE_CROSS_POISON,
     MOVE_CUT,
-    MOVE_RAZOR_LEAF,
-    ABILITY_MOVES_END
+    MOVE_RAZOR_LEAF
 };
 
 int isInPunchTable(u16 x)

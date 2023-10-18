@@ -688,11 +688,11 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SONIC_BOOM] =
     {
-        .effect = EFFECT_SONICBOOM,
-        .power = 1,
+        .effect = EFFECT_MULTI_HIT, // Changed from a dumb useless slot filler into something inspired by Sonic Frontiers
+        .power = 20,
         .type = TYPE_NORMAL,
-        .accuracy = 90,
-        .pp = 20,
+        .accuracy = 80,
+        .pp = 15,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,

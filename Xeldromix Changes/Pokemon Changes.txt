@@ -305,7 +305,9 @@ DEWGONG
  + Base Special Attack increased to 115
  # Even by Gen 1 standards Dewgong has rather stupid stats
 
-
+FURRET
+ ~ Now only has Huge Power as an ability
+ # There is no god.
 
 
 

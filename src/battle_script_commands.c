@@ -1200,7 +1200,12 @@ static void Cmd_critcalc(void)
      && !(Random() % sCriticalHitChance[critChance])
      && (!(gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE) || BtlCtrl_OakOldMan_TestState2Flag(1))
      && !(gBattleTypeFlags & BATTLE_TYPE_POKEDUDE))
-        gCritMultiplier = 2;
+     {
+        if (gBattleMons[gBattlerTarget].ability == ABILITY_SNIPER)
+            gCritMultiplier = 3;
+        else
+            gCritMultiplier = 2;
+     }
     else
         gCritMultiplier = 1;
 
@@ -1288,8 +1293,8 @@ static void Cmd_typecalc(void)
     // check stab
     if (IS_BATTLER_OF_TYPE(gBattlerAttacker, moveType))
     {
-        gBattleMoveDamage = gBattleMoveDamage * 125;
-        gBattleMoveDamage = gBattleMoveDamage / 100;
+        gBattleMoveDamage = gBattleMoveDamage * 15;
+        gBattleMoveDamage = gBattleMoveDamage / 10;
     }
 
     if (gBattleMons[gBattlerTarget].ability == ABILITY_LEVITATE && moveType == TYPE_GROUND)
