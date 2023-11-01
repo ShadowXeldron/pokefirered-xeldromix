@@ -1443,6 +1443,7 @@ static const struct SpindaSpot sSpindaSpotGraphics[] =
 
 #include "data/pokemon/item_effects.h"
 
+//<<<<<<< HEAD
 static const s8 sNatureStatTable[NUM_NATURES][NUM_NATURE_STATS] =
 {                      // Attack  Defense  Speed  Sp.Atk  Sp.Def
     [NATURE_HARDY]   = {    0,      0,      0,      0,      0   },
@@ -1470,6 +1471,36 @@ static const s8 sNatureStatTable[NUM_NATURES][NUM_NATURE_STATS] =
     [NATURE_SASSY]   = {    0,      0,     -1,      0,     +1   },
     [NATURE_CAREFUL] = {    0,      0,      0,     -1,     +1   },
     [NATURE_QUIRKY]  = {    0,      0,      0,      0,      0   },
+//=======
+/*const s8 sNatureStatTable[][5] =
+{
+    // Atk Def Spd Sp.Atk Sp.Def
+    {    0,  0,  0,     0,     0}, // Hardy
+    {   +1, -1,  0,     0,     0}, // Lonely
+    {   +1,  0, -1,     0,     0}, // Brave
+    {   +1,  0,  0,    -1,     0}, // Adamant
+    {   +1,  0,  0,     0,    -1}, // Naughty
+    {   -1, +1,  0,     0,     0}, // Bold
+    {    0,  0,  0,     0,     0}, // Docile
+    {    0, +1, -1,     0,     0}, // Relaxed
+    {    0, +1,  0,    -1,     0}, // Impish
+    {    0, +1,  0,     0,    -1}, // Lax
+    {   -1,  0, +1,     0,     0}, // Timid
+    {    0, -1, +1,     0,     0}, // Hasty
+    {    0,  0,  0,     0,     0}, // Serious
+    {    0,  0, +1,    -1,     0}, // Jolly
+    {    0,  0, +1,     0,    -1}, // Naive
+    {   -1,  0,  0,    +1,     0}, // Modest
+    {    0, -1,  0,    +1,     0}, // Mild
+    {    0,  0, -1,    +1,     0}, // Quiet
+    {    0,  0,  0,     0,     0}, // Bashful
+    {    0,  0,  0,    +1,    -1}, // Rash
+    {   -1,  0,  0,     0,    +1}, // Calm
+    {    0, -1,  0,     0,    +1}, // Gentle
+    {    0,  0, -1,     0,    +1}, // Sassy
+    {    0,  0,  0,    -1,    +1}, // Careful
+    {    0,  0,  0,     0,     0}, // Quirky
+>>>>>>> d24e7f40794f1196c4f4a1689e08926a86e68af0*/
 };
 
 #include "data/pokemon/tmhm_learnsets.h"

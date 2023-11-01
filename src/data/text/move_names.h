@@ -497,5 +497,6 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_ZEN_HEADBUTT]  = _("Zen Headbutt"),
     [MOVE_PSYSHIELD_BASH]= _("Psyshield Bash"),
     [MOVE_MEGIDOLAON]    = _("Megidolaon"),
+    [MOVE_BELCH]         = _("Belch"),
     
 };

@@ -477,7 +477,7 @@ const u8 gMoveDescription_SacredSword[] = _("Desc Here");
 const u8 gMoveDescription_ZenHeadbutt[] = _("Desc Here");
 const u8 gMoveDescription_PsyshieldBash[] = _("Desc Here");
 const u8 gMoveDescription_Megidolaon[] = _("An almighty attack\nthat ignores Protect\nand Detect. It also\ndestroys barriers.");
-
+const u8 gMoveDescription_Belch[] = _("Desc Here");
 //
 
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {

@@ -168,7 +168,13 @@ LEDIAN
  ~ Is now Bug/Electric
  ~ Now has Levitate as an ability instead of Early Bird
  # This is because he looks like Pulseman (who, for reference, is destroyed by water). I also gave it Levitate since it flies.
- 
+
+SPINARAK
+ ~ Is now Bug/Dark
+
+ARIADOS
+ ~ Is now Bug/Dark
+
 BEEDRILL
  + Base Attack is now 100
 
@@ -308,6 +314,41 @@ DEWGONG
 FURRET
  ~ Now only has Huge Power as an ability
  # There is no god.
+
+GRIMER
+ + Base Special Attack increased to 80
+ - Base Attack lowered to 40
+
+MUK
+ + Base Special Attack increased to 105
+ - Base Attack lowered to 65
+ # Muk mainly learns special moves
+
+DRATINI
+ + Base Special Attack increased to 64
+ - Base Attack lowered to 50
+
+DRAGONAIR
+ + Base Special Attack increased to 84
+ - Base Attack lowered to 70
+
+DRAGONITE
+ + Base Special Attack increased to 134
+ - Base Attack lowered to 100
+ # This is to differentiate it from Salamence
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

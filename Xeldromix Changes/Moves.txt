@@ -46,9 +46,8 @@ KNOCK OFF
 Normal Moves
 
 SPIKE CANNON
-- Lowered power to 18
-~ Is now Rock-type
-# This is meant to make it equivalent to a lesser version of Rock Blast. Also, no Normal-types can actually learn Spike Cannon so why is it a Normal-type move? Needless to say, it's no wonder that they forgot all about this move until Gen 7 and eventually axed it altogether in Gen 8.
+~ Is now Steel-type
+# No Normal-types can actually learn Spike Cannon so why is it a Normal-type move? Needless to say, it's no wonder that they forgot all about this move until Gen 7 and eventually axed it altogether in Gen 8.
 
 SPLASH
 ~ Is now Water-type
@@ -58,7 +57,7 @@ KINESIS
 ~ Is now Special
 + Power increased to 65
 + Accuracy increased to 100
-+ Now removes held items, doing double damage if an item is removed
++ Now removes held items
 - No longer lowers accuracy
 # Yes I really did turn Kinesis into Knock Off. I like it when my signature moves don't suck.
 
@@ -76,12 +75,26 @@ ROLLING KICK
 + Accuracy increased to 95
 
 TWINEEDLE
-+ Power increased to 24
 + Now has a 25% chance to poison per hit
 
 ROCK THROW
 + Accuracy increased to 100
 # This is to give it something over the progression-mandatory Rock Tomb.
+
+DRAGON RAGE
++ No longer does static damage. This is now a move with 40 base power.
++ Now has a 20% flinch chance
++ PP increased to 20
+# It's meant as a low-power move for physical dragons. It's now pretty much Twister but it can't hit targets in the semi-invulnerale turn of Fly.
+
+SCALD
+- Burn chance lowered to 20%
+- Accuracy lowered to 90%
+
+BELCH
+- PP lowered to 5
++ Now has a 30% chance to confuse the target
+# This is a complete rework of the move Belch since I don't want to add the berry thing, but I also don't want it to just be special Gunk Shot.
 
 MOVE NAME CHANGES
 
