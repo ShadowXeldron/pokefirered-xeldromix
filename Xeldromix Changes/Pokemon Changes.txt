@@ -21,8 +21,7 @@ PIDGEOT
 
 SUNFLORA
  ~ Is now Fire/Grass
- + Base Special Attack increased to 125
- # It's now a Fire-type so that it can be even more about sunlight. The Special Attack buff was stolen from this video: https://www.youtube.com/watch?v=Cm9m_Z2dDzc
+ # It's now a Fire-type so that it can be even more about sunlight. I initially had a special atatck buff here, but then Ogerpon-Hearthflame happened.
 
 VENONAT
  ~ Is now Psychic/Poison
@@ -337,10 +336,12 @@ DRAGONITE
  - Base Attack lowered to 100
  # This is to differentiate it from Salamence
 
+FERALIGATR
+ ~ Is now Water/Fighting
 
-
-
-
+NOCTOWL
+ ~ Is now Flying/Ghost
+ # Don't worry, it's still alive and well.
 
 
 

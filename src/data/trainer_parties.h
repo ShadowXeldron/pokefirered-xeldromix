@@ -10929,6 +10929,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_SwimmerFemaleMelissa2[] 
     },
 };
 
+// Elite 4 rematches get one legendary each
 static const struct TrainerMonItemCustomMoves sParty_EliteFourLorelei2[] = {
     {
         .iv = 255,
@@ -10962,6 +10963,14 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourLorelei2[] = {
         .iv = 255,
         .lvl = 66,
         .species = SPECIES_LAPRAS,
+        .heldItem = ITEM_CHERI_BERRY,
+        .moves = {MOVE_ICE_BEAM, MOVE_SURF, MOVE_PSYCHIC, MOVE_THUNDER},
+    },
+
+    {
+        .iv = 255,
+        .lvl = 66,
+        .species = SPECIES_ARTICUNO,
         .heldItem = ITEM_CHERI_BERRY,
         .moves = {MOVE_ICE_BEAM, MOVE_SURF, MOVE_PSYCHIC, MOVE_THUNDER},
     },
@@ -11003,6 +11012,13 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourBruno2[] = {
         .heldItem = ITEM_PERSIM_BERRY,
         .moves = {MOVE_CROSS_CHOP, MOVE_EARTHQUAKE, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE},
     },
+    {
+        .iv = 255,
+        .lvl = 68,
+        .species = SPECIES_REGIROCK,
+        .heldItem = ITEM_PERSIM_BERRY,
+        .moves = {MOVE_CROSS_CHOP, MOVE_EARTHQUAKE, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE},
+    },
 };
 
 static const struct TrainerMonItemCustomMoves sParty_EliteFourAgatha2[] = {
@@ -11038,6 +11054,13 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourAgatha2[] = {
         .iv = 255,
         .lvl = 70,
         .species = SPECIES_GENGAR,
+        .heldItem = ITEM_CHESTO_BERRY,
+        .moves = {MOVE_SHADOW_BALL, MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_SLUDGE_BOMB},
+    },
+    {
+        .iv = 255,
+        .lvl = 70,
+        .species = SPECIES_DEOXYS, // I should probably backport someone
         .heldItem = ITEM_CHESTO_BERRY,
         .moves = {MOVE_SHADOW_BALL, MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_SLUDGE_BOMB},
     },
@@ -11079,8 +11102,15 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourLance2[] = {
         .heldItem = ITEM_PERSIM_BERRY,
         .moves = {MOVE_HYPER_BEAM, MOVE_OUTRAGE, MOVE_THUNDERBOLT, MOVE_ICE_BEAM},
     },
+    {
+        .iv = 255,
+        .lvl = 72,
+        .species = SPECIES_RAYQUAZA,
+        .heldItem = ITEM_PERSIM_BERRY,
+        .moves = {MOVE_HYPER_BEAM, MOVE_OUTRAGE, MOVE_THUNDERBOLT, MOVE_ICE_BEAM},
+    },
 };
-
+// I have yet to figure out a suitable legendary for Blue; maybe I'll give him a legendary beast?
 static const struct TrainerMonItemCustomMoves sParty_ChampionRematchSquirtle[] = {
     {
         .iv = 255,

@@ -1123,7 +1123,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_PETAL_DANCE] =
     {
         .effect = EFFECT_RAMPAGE,
-        .power = 70,
+        .power = 120,
         .type = TYPE_GRASS,
         .accuracy = 100,
         .pp = 20,
@@ -2803,7 +2803,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_OUTRAGE] =
     {
         .effect = EFFECT_RAMPAGE,
-        .power = 90,
+        .power = 120,
         .type = TYPE_DRAGON,
         .accuracy = 100,
         .pp = 15,
@@ -4637,7 +4637,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_BULLET_SEED] =
     {
         .effect = EFFECT_MULTI_HIT,
-        .power = 10,
+        .power = 15,
         .type = TYPE_GRASS,
         .accuracy = 100,
         .pp = 30,
@@ -5774,7 +5774,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_SPEED_DOWN_HIT,
         .power = 60,
-        .type = TYPE_WATER,
+        .type = TYPE_GROUND,
         .accuracy = 100,
         .pp = 20,
         .secondaryEffectChance = 100,
@@ -6604,7 +6604,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_QUIVER_DANCE] =
     {
-        .effect = EFFECT_DRAGON_DANCE,
+        .effect = EFFECT_DRAGON_DANCE, // Placeholder functionality
         .power = 0,
         .type = TYPE_BUG,
         .accuracy = 0,

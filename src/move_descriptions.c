@@ -478,7 +478,8 @@ const u8 gMoveDescription_ZenHeadbutt[] = _("Desc Here");
 const u8 gMoveDescription_PsyshieldBash[] = _("Desc Here");
 const u8 gMoveDescription_Megidolaon[] = _("An almighty attack\nthat ignores Protect\nand Detect. It also\ndestroys barriers.");
 const u8 gMoveDescription_Belch[] = _("Desc Here");
-//
+const u8 gMoveDescription_HeadSmash[] = _("Desc Here");
+const u8 gMoveDescription_SteelBeam[] = _("Desc Here");
 
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_POUND         - 1] = gMoveDescription_Pound,
@@ -953,5 +954,8 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_ZEN_HEADBUTT  - 1] = gMoveDescription_ZenHeadbutt,
     [MOVE_PSYSHIELD_BASH - 1] = gMoveDescription_PsyshieldBash,
     [MOVE_MEGIDOLAON    - 1] = gMoveDescription_Megidolaon,
+    [MOVE_BELCH         - 1] = gMoveDescription_ZenHeadbutt,
+    [MOVE_HEAD_SMASH    - 1] = gMoveDescription_HeadSmash,
+    [MOVE_STEEL_BEAM    - 1] = gMoveDescription_SteelBeam,
 
 };
