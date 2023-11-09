@@ -23,6 +23,7 @@ I personally treat this hack more like a remix of FireRed rather than an improve
 It uses the following patches:
 
 * [Evolution Moves](https://www.pokecommunity.com/showpost.php?p=10364471) by Lunos
+* [Nature Coloured Stats](https://www.pokecommunity.com/showpost.php?p=10529826) by Greenphx 
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
