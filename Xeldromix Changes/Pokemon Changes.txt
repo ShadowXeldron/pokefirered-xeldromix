@@ -343,11 +343,16 @@ NOCTOWL
  ~ Is now Flying/Ghost
  # Don't worry, it's still alive and well.
 
+SEVIPER
+ + Base HP increased to 100
+ + Base Speed increased to 73
+ - Base Attack lowered to 60
+ ~ Now yields 1 HP EV and 1 Special Attack EV
+ # As unique as the split 100 mixed attacking stats is, Zangoose is just better. Arbok is also now "the physical snake", which doesn't do Seviper any favours. This rather one-sided rivalry should at least be a bit better balanced now that Seviper has a slightly more unique bulky special attacking set.
 
-
-
-
-
+ZANGOOSE
+ ~ Is now Normal/Fighting
+ # Not that Zangoose is going to let Seviper get away without any resistance...
 
 
 
