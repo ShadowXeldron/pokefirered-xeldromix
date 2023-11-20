@@ -96,6 +96,18 @@ BELCH
 + Now has a 30% chance to confuse the target
 # This is a complete rework of the move Belch since I don't want to add the berry thing, but I also don't want it to just be special Gunk Shot.
 
+DRILL PECK
++ Now has a boosted critical hit ratio
+
+STRENGTH
++ Now has a 20% chance to boost the user's attack stat
+
+TAKE DOWN
++ Accuracy increased to 100%
+
+POISON STING
++ Base power increased to 35
+
 MOVE NAME CHANGES
 
 Some move names from later generations have been on the recieving end of the character limit and, as a result, have had to be renamed.
