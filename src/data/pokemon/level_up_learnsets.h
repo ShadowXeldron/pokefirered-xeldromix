@@ -5,7 +5,8 @@
 
 static const u16 sBulbasaurLevelUpLearnset[] = { // Bulbasaur was used as the move test dummy
     LEVEL_UP_MOVE(1, MOVE_TACKLE),
-    LEVEL_UP_MOVE(1, MOVE_SLASH),
+    LEVEL_UP_MOVE(1, MOVE_PSYCHO_FORCE),
+    LEVEL_UP_MOVE(1, MOVE_QUIVER_DANCE),
     LEVEL_UP_MOVE(1, MOVE_GROWL),
     LEVEL_UP_MOVE(3, MOVE_VINE_WHIP), // Only here because it's Bulba's most iconic move despite now using its weaker physical stats
     LEVEL_UP_MOVE(6, MOVE_GROWTH), // Might reorganise this since it doesn't get a special move for another 6 levels
@@ -1286,7 +1287,7 @@ static const u16 sPonytaLevelUpLearnset[] = {
     LEVEL_UP_MOVE(20, MOVE_FLAME_WHEEL),
     LEVEL_UP_MOVE(25, MOVE_AGILITY),
     LEVEL_UP_MOVE(30, MOVE_STOMP),
-    LEVEL_UP_MOVE(35, MOVE_TAKE_DOWN),
+    LEVEL_UP_MOVE(35, MOVE_BLAZE_KICK),
     LEVEL_UP_MOVE(41, MOVE_BOUNCE),
     LEVEL_UP_MOVE(45, MOVE_HIGH_HORSEPOWER),
     LEVEL_UP_MOVE(50, MOVE_HYPNOSIS), // Yes Ponyta really does get Hypnosis in Legends Arceus
@@ -1296,20 +1297,20 @@ static const u16 sPonytaLevelUpLearnset[] = {
 
 static const u16 sRapidashLevelUpLearnset[] = {
     LEVEL_UP_MOVE(0, MOVE_SMART_STRIKE),
-    LEVEL_UP_MOVE(0, MOVE_POISON_JAB),
-    LEVEL_UP_MOVE(0, MOVE_MEGAHORN),
+    LEVEL_UP_MOVE(1, MOVE_POISON_JAB),
+    LEVEL_UP_MOVE(1, MOVE_MEGAHORN),
     LEVEL_UP_MOVE(1, MOVE_QUICK_ATTACK),
-    LEVEL_UP_MOVE(1, MOVE_TAIL_WHIP),
-    LEVEL_UP_MOVE(1, MOVE_EMBER),
-    LEVEL_UP_MOVE(5, MOVE_GROWL),
-    LEVEL_UP_MOVE(9, MOVE_TAIL_WHIP),
-    LEVEL_UP_MOVE(14, MOVE_EMBER),
-    LEVEL_UP_MOVE(19, MOVE_STOMP),
-    LEVEL_UP_MOVE(25, MOVE_FIRE_SPIN),
-    LEVEL_UP_MOVE(31, MOVE_TAKE_DOWN),
-    LEVEL_UP_MOVE(38, MOVE_AGILITY),
-    LEVEL_UP_MOVE(40, MOVE_FURY_ATTACK),
-    LEVEL_UP_MOVE(50, MOVE_BOUNCE),
+    LEVEL_UP_MOVE(1, MOVE_GROWL),
+    LEVEL_UP_MOVE(5, MOVE_TAIL_WHIP),
+    LEVEL_UP_MOVE(10, MOVE_EMBER),
+    LEVEL_UP_MOVE(15, MOVE_DOUBLE_KICK), // No Flame Charge so have some Brockbane
+    LEVEL_UP_MOVE(20, MOVE_FLAME_WHEEL),
+    LEVEL_UP_MOVE(25, MOVE_AGILITY),
+    LEVEL_UP_MOVE(30, MOVE_STOMP),
+    LEVEL_UP_MOVE(35, MOVE_BLAZE_KICK),
+    LEVEL_UP_MOVE(43, MOVE_BOUNCE),
+    LEVEL_UP_MOVE(49, MOVE_HIGH_HORSEPOWER),
+    LEVEL_UP_MOVE(56, MOVE_HYPNOSIS), // Yes Ponyta really does get Hypnosis in Legends Arceus
     LEVEL_UP_MOVE(63, MOVE_FLARE_BLITZ),
     LEVEL_UP_END
 };

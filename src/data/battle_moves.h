@@ -6604,7 +6604,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_QUIVER_DANCE] =
     {
-        .effect = EFFECT_DRAGON_DANCE, // Placeholder functionality
+        .effect = EFFECT_QUIVER_DANCE,
         .power = 0,
         .type = TYPE_BUG,
         .accuracy = 0,
