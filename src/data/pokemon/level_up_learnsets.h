@@ -150,7 +150,7 @@ static const u16 sWartortleLevelUpLearnset[] = {
 };
 
 static const u16 sBlastoiseLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(0, MOVE_TACKLE),
+    LEVEL_UP_MOVE(0, MOVE_AURA_SPHERE),
     LEVEL_UP_MOVE(1, MOVE_TACKLE),
     LEVEL_UP_MOVE(1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE(1, MOVE_AQUA_JET),
@@ -266,6 +266,27 @@ static const u16 sPidgeyLevelUpLearnset[] = { // Yeah so BDSP Pidgey is literall
 };
 
 static const u16 sPidgeottoLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(0, MOVE_TWISTER),
+    LEVEL_UP_MOVE(1, MOVE_TACKLE),
+    LEVEL_UP_MOVE(5, MOVE_SAND_ATTACK),
+    LEVEL_UP_MOVE(9, MOVE_GUST),
+    LEVEL_UP_MOVE(13, MOVE_QUICK_ATTACK),
+    LEVEL_UP_MOVE(17, MOVE_WHIRLWIND),
+    LEVEL_UP_MOVE(22, MOVE_AIR_CUTTER), // Twister isn't really that useful
+    LEVEL_UP_MOVE(27, MOVE_FEATHER_DANCE),
+    LEVEL_UP_MOVE(32, MOVE_AGILITY),
+    LEVEL_UP_MOVE(38, MOVE_AIR_SLASH), // Wing Attack isn't really an upgrade
+    LEVEL_UP_MOVE(44, MOVE_RECOVER), // Standing in for Roost
+    LEVEL_UP_MOVE(50, MOVE_MIRROR_MOVE), // No Tailwind so it gets Miror Move earlier
+    LEVEL_UP_MOVE(56, MOVE_RAZOR_WIND),
+    LEVEL_UP_MOVE(62, MOVE_HEAT_WAVE),
+    LEVEL_UP_MOVE(68, MOVE_HURRICANE),
+    LEVEL_UP_END
+};
+
+static const u16 sPidgeotLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(1, MOVE_TWISTER),
+    LEVEL_UP_MOVE(1, MOVE_TACKLE),
     LEVEL_UP_MOVE(1, MOVE_TACKLE),
     LEVEL_UP_MOVE(5, MOVE_SAND_ATTACK),
     LEVEL_UP_MOVE(9, MOVE_GUST),
@@ -280,22 +301,6 @@ static const u16 sPidgeottoLevelUpLearnset[] = {
     LEVEL_UP_MOVE(45, MOVE_RAZOR_WIND),
     LEVEL_UP_MOVE(49, MOVE_HEAT_WAVE),
     LEVEL_UP_MOVE(53, MOVE_HURRICANE),
-    LEVEL_UP_END
-};
-
-static const u16 sPidgeotLevelUpLearnset[] = {
-    LEVEL_UP_MOVE(1, MOVE_TACKLE),
-    LEVEL_UP_MOVE(1, MOVE_SAND_ATTACK),
-    LEVEL_UP_MOVE(1, MOVE_GUST),
-    LEVEL_UP_MOVE(1, MOVE_QUICK_ATTACK),
-    LEVEL_UP_MOVE(5, MOVE_SAND_ATTACK),
-    LEVEL_UP_MOVE(9, MOVE_GUST),
-    LEVEL_UP_MOVE(13, MOVE_QUICK_ATTACK),
-    LEVEL_UP_MOVE(20, MOVE_WHIRLWIND),
-    LEVEL_UP_MOVE(27, MOVE_WING_ATTACK),
-    LEVEL_UP_MOVE(34, MOVE_FEATHER_DANCE),
-    LEVEL_UP_MOVE(48, MOVE_AGILITY),
-    LEVEL_UP_MOVE(62, MOVE_MIRROR_MOVE),
     LEVEL_UP_END
 };
 
@@ -1976,6 +1981,7 @@ static const u16 sRhydonLevelUpLearnset[] = {
 };
 
 static const u16 sChanseyLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(1, MOVE_HELPING_HAND),
     LEVEL_UP_MOVE(1, MOVE_SWEET_KISS),
     LEVEL_UP_MOVE(1, MOVE_DISARMING_VOICE),
     LEVEL_UP_MOVE(1, MOVE_COVET),
@@ -1990,7 +1996,7 @@ static const u16 sChanseyLevelUpLearnset[] = {
     LEVEL_UP_MOVE(20, MOVE_TAKE_DOWN),
     LEVEL_UP_MOVE(24, MOVE_KNOCK_OFF),
     LEVEL_UP_MOVE(28, MOVE_HEAL_BELL),
-    LEVEL_UP_MOVE(32, MOVE_HELPING_HAND),
+    LEVEL_UP_MOVE(32, MOVE_BARRIER),
     LEVEL_UP_MOVE(36, MOVE_LIGHT_SCREEN),
     LEVEL_UP_MOVE(40, MOVE_EGG_BOMB),
     LEVEL_UP_MOVE(44, MOVE_SOFT_BOILED),
@@ -2296,7 +2302,7 @@ static const u16 sGyaradosLevelUpLearnset[] = {
     LEVEL_UP_MOVE(25, MOVE_DRAGON_RAGE),
     LEVEL_UP_MOVE(30, MOVE_ICE_FANG),
     LEVEL_UP_MOVE(35, MOVE_AQUA_TAIL),
-    LEVEL_UP_MOVE(40, MOVE_DRAGON_CLAW), // Yes I know this doesn't make that much sense since it doesn't have claws but Gyarados is a physical attacker
+    LEVEL_UP_MOVE(40, MOVE_DRAGON_RUSH),
     LEVEL_UP_MOVE(45, MOVE_RAIN_DANCE),
     LEVEL_UP_MOVE(50, MOVE_CRUNCH),
     LEVEL_UP_MOVE(55, MOVE_DRAGON_DANCE),
@@ -2345,7 +2351,7 @@ static const u16 sEeveeLevelUpLearnset[] = { // Based on Gen 9.
     LEVEL_UP_MOVE(40, MOVE_TAKE_DOWN),
     LEVEL_UP_MOVE(45, MOVE_CHARM),
     LEVEL_UP_MOVE(50, MOVE_DOUBLE_EDGE),
-    LEVEL_UP_MOVE(55, MOVE_GIGA_IMPACT), // Standing in for Last Restort because I find it hilarious to imagine a tiny fluffy thing using Giga Impact
+    LEVEL_UP_MOVE(55, MOVE_GIGA_IMPACT), // Standing in for Last Resort because I find it hilarious to imagine a tiny fluffy thing using Giga Impact
     LEVEL_UP_END
 };
 
@@ -2509,7 +2515,7 @@ static const u16 sKabutoLevelUpLearnset[] = {
     LEVEL_UP_MOVE(35, MOVE_RAZOR_SHELL),
     LEVEL_UP_MOVE(41, MOVE_ENDURE),
     LEVEL_UP_MOVE(45, MOVE_X_SCISSOR),
-    LEVEL_UP_MOVE(50, MOVE_AQUA_CUTTER), // Boosted by Sharpness
+    LEVEL_UP_MOVE(50, MOVE_LIQUIDATION), // Boosted by Sharpness
     LEVEL_UP_MOVE(55, MOVE_SWORDS_DANCE),
     LEVEL_UP_MOVE(60, MOVE_STONE_EDGE),
     LEVEL_UP_MOVE(70, MOVE_EXTINCTION),
@@ -2530,7 +2536,7 @@ static const u16 sKabutopsLevelUpLearnset[] = {
     LEVEL_UP_MOVE(35, MOVE_RAZOR_SHELL),
     LEVEL_UP_MOVE(43, MOVE_ENDURE),
     LEVEL_UP_MOVE(49, MOVE_X_SCISSOR),
-    LEVEL_UP_MOVE(56, MOVE_AQUA_CUTTER), // Boosted by Sharpness
+    LEVEL_UP_MOVE(56, MOVE_LIQUIDATION),
     LEVEL_UP_MOVE(63, MOVE_SWORDS_DANCE),
     LEVEL_UP_MOVE(70, MOVE_STONE_EDGE),
     LEVEL_UP_MOVE(81, MOVE_EXTINCTION),
@@ -2806,7 +2812,7 @@ static const u16 sCyndaquilLevelUpLearnset[] = {
     LEVEL_UP_MOVE(37, MOVE_LAVA_PLUME),
     LEVEL_UP_MOVE(40, MOVE_DOUBLE_EDGE),
     LEVEL_UP_MOVE(46, MOVE_FLAMETHROWER),
-    LEVEL_UP_MOVE(49, MOVE_INFERNO),
+    LEVEL_UP_MOVE(49, MOVE_EXTRASENSORY),
     LEVEL_UP_MOVE(55, MOVE_SHADOW_BALL),
     LEVEL_UP_MOVE(58, MOVE_OVERHEAT),
     LEVEL_UP_MOVE(64, MOVE_ERUPTION),
@@ -2826,7 +2832,7 @@ static const u16 sQuilavaLevelUpLearnset[] = {
     LEVEL_UP_MOVE(42, MOVE_LAVA_PLUME),
     LEVEL_UP_MOVE(46, MOVE_DOUBLE_EDGE),
     LEVEL_UP_MOVE(53, MOVE_FLAMETHROWER),
-    LEVEL_UP_MOVE(57, MOVE_INFERNO),
+    LEVEL_UP_MOVE(57, MOVE_EXTRASENSORY),
     LEVEL_UP_MOVE(64, MOVE_SHADOW_BALL),
     LEVEL_UP_MOVE(68, MOVE_OVERHEAT),
     LEVEL_UP_MOVE(75, MOVE_ERUPTION),
@@ -2848,7 +2854,7 @@ static const u16 sTyphlosionLevelUpLearnset[] = {
     LEVEL_UP_MOVE(42, MOVE_LAVA_PLUME),
     LEVEL_UP_MOVE(46, MOVE_DOUBLE_EDGE),
     LEVEL_UP_MOVE(53, MOVE_FLAMETHROWER),
-    LEVEL_UP_MOVE(57, MOVE_INFERNO),
+    LEVEL_UP_MOVE(57, MOVE_EXTRASENSORY),
     LEVEL_UP_MOVE(64, MOVE_SHADOW_BALL),
     LEVEL_UP_MOVE(68, MOVE_OVERHEAT),
     LEVEL_UP_MOVE(75, MOVE_ERUPTION),
@@ -4472,6 +4478,7 @@ static const u16 sMiltankLevelUpLearnset[] = {
 };
 
 static const u16 sBlisseyLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(1, MOVE_HELPING_HAND),
     LEVEL_UP_MOVE(1, MOVE_SWEET_KISS),
     LEVEL_UP_MOVE(1, MOVE_DISARMING_VOICE),
     LEVEL_UP_MOVE(1, MOVE_COVET),
@@ -4486,7 +4493,7 @@ static const u16 sBlisseyLevelUpLearnset[] = {
     LEVEL_UP_MOVE(20, MOVE_TAKE_DOWN),
     LEVEL_UP_MOVE(24, MOVE_KNOCK_OFF),
     LEVEL_UP_MOVE(28, MOVE_HEAL_BELL),
-    LEVEL_UP_MOVE(32, MOVE_HELPING_HAND),
+    LEVEL_UP_MOVE(32, MOVE_BARRIER),
     LEVEL_UP_MOVE(36, MOVE_LIGHT_SCREEN),
     LEVEL_UP_MOVE(40, MOVE_EGG_BOMB),
     LEVEL_UP_MOVE(44, MOVE_SOFT_BOILED),
@@ -6801,7 +6808,7 @@ static const u16 sSeviperLevelUpLearnset[] = { // I absolutely need to come up w
     LEVEL_UP_MOVE(19, MOVE_GLARE),
     LEVEL_UP_MOVE(21, MOVE_SLUDGE),
     LEVEL_UP_MOVE(24, MOVE_SNARL),
-    LEVEL_UP_MOVE(29, MOVE_HAZE),
+    LEVEL_UP_MOVE(29, MOVE_SCARY_FACE),
     LEVEL_UP_MOVE(31, MOVE_SLUDGE_BOMB),
     LEVEL_UP_MOVE(34, MOVE_HAZE),
     LEVEL_UP_MOVE(39, MOVE_DARK_PULSE),
@@ -7577,7 +7584,7 @@ static const u16 sMagmortarLevelUpLearnset[] = { // Same as with Magmar
 };
 
 static const u16 sGlaceonLevelUpLearnset[] = { // Oh, boy! Eeveelutions!
-    LEVEL_UP_MOVE(1, MOVE_ICY_WIND), // Maybe I should merge the evolution moves patch
+    LEVEL_UP_MOVE(0, MOVE_ICY_WIND), // Maybe I should merge the evolution moves patch
     LEVEL_UP_MOVE(1, MOVE_MIRROR_COAT),
     LEVEL_UP_MOVE(1, MOVE_COVET),
     LEVEL_UP_MOVE(1, MOVE_SWIFT),
@@ -7979,7 +7986,7 @@ static const u16 sFroslassLevelUpLearnset[] = {
     LEVEL_UP_MOVE(35, MOVE_HAIL),
     LEVEL_UP_MOVE(40, MOVE_ICE_BEAM),
     LEVEL_UP_MOVE(47, MOVE_WILL_O_WISP),
-    LEVEL_UP_MOVE(54, MOVE_REFLECT), // Change for Aurora Veil if possible
+    LEVEL_UP_MOVE(54, MOVE_REFLECT), // Change to Aurora Veil if possible
     LEVEL_UP_MOVE(61, MOVE_SHADOW_BALL),
     LEVEL_UP_MOVE(68, MOVE_BLIZZARD),
     LEVEL_UP_END
@@ -8091,7 +8098,7 @@ static const u16 sFarigirafLevelUpLearnset[] = {
     LEVEL_UP_MOVE(19, MOVE_PSYBEAM),
     LEVEL_UP_MOVE(23, MOVE_AGILITY),
     LEVEL_UP_MOVE(28, MOVE_SWIFT),
-    LEVEL_UP_MOVE(32, MOVE_DUAL_WINGBEAT), // Replace with Twin Beam
+    LEVEL_UP_MOVE(32, MOVE_TWIN_BEAM), // Replace with Twin Beam
     LEVEL_UP_MOVE(37, MOVE_DARK_PULSE),
     LEVEL_UP_MOVE(41, MOVE_BATON_PASS),
     LEVEL_UP_MOVE(46, MOVE_NASTY_PLOT),
