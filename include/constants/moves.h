@@ -527,5 +527,6 @@
 #define MOVETUTOR_FRENZY_PLANT 15
 #define MOVETUTOR_BLAST_BURN   16
 #define MOVETUTOR_HYDRO_CANNON 17
+// Did you seriously think it ends at the vanilla tutors? You poor, innocent soul.
 
 #endif  // GUARD_CONSTANTS_MOVES_H

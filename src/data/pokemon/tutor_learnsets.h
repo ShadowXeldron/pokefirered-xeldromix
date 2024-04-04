@@ -16,7 +16,7 @@ static const u16 sTutorMoves[TUTOR_MOVE_COUNT] =
     [TUTOR_MOVE_EXPLOSION] = MOVE_EXPLOSION,
     [TUTOR_MOVE_ROCK_SLIDE] = MOVE_ROCK_SLIDE,
     [TUTOR_MOVE_SUBSTITUTE] = MOVE_SUBSTITUTE,
-    /*
+    
     // Emerald
     [TUTOR_MOVE_ROLLOUT] = MOVE_ROLLOUT,
     [TUTOR_MOVE_FURY_CUTTER] = MOVE_FURY_CUTTER,
@@ -30,8 +30,8 @@ static const u16 sTutorMoves[TUTOR_MOVE_COUNT] =
     [TUTOR_MOVE_MUD_SLAP] = MOVE_MUD_SLAP,
     [TUTOR_MOVE_SWIFT] = MOVE_SWIFT,
     [TUTOR_MOVE_DEFENCE_CURL] = MOVE_DEFENCE_CURL,
-    [TUTOR_MOVE_PSYCH_UP] = MOVE_DEFENCE_CURL,
-    [TUTOR_MOVE_ENDURE] = MOVE_DEFENCE_CURL,
+    [TUTOR_MOVE_PSYCH_UP] = MOVE_PSYCH_UP,
+    [TUTOR_MOVE_ENDURE] = MOVE_ENDURE,
     [TUTOR_MOVE_SNORE] = MOVE_SNORE,
 
     // Cut Masters
@@ -45,7 +45,7 @@ static const u16 sTutorMoves[TUTOR_MOVE_COUNT] =
     [TUTOR_MOVE_TRIPLE_AXEL] = MOVE_TRIPLE_AXEL,
     [TUTOR_MOVE_DRACO_METEOR] = MOVE_DRACO_METEOR,
 
-    */
+    
 };
 
 #define TUTOR(move) (1 << (TUTOR_##move))
@@ -835,6 +835,7 @@ static const u16 sTutorLearnsets[] =
                         | TUTOR(MOVE_MIMIC)
                         | TUTOR(MOVE_DREAM_EATER)
                         | TUTOR(MOVE_ROCK_SLIDE)
+                        | TUTOR(MOVE_SOFT_BOILED)
                         | TUTOR(MOVE_SUBSTITUTE),
 
     [SPECIES_KOFFING] = TUTOR(MOVE_MIMIC)

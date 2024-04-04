@@ -58,6 +58,7 @@ PewterCity_Museum_1F_EventScript_EntranceTriggerRight::
 	goto PewterCity_Museum_1F_EventScript_EntranceTrigger
 	end
 
+@ I have removed the entry fee triggers for the museum so this stuff is now free.
 PewterCity_Museum_1F_EventScript_EntranceTrigger::
 	textcolor NPC_TEXT_COLOR_MALE
 	showmoneybox 0, 0

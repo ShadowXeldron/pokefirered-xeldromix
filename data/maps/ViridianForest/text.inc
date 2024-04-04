@@ -19,7 +19,7 @@ ViridianForest_Text_RickPostBattle::
 ViridianForest_Text_DougIntro::
     .string "Yo!\n"
     .string "You can't jam out if you're a\l"
-    .string "POKéMON TRAINER!$"
+    .string "Pokémon Trainer!$"
 
 ViridianForest_Text_DougDefeat::
     .string "Huh?\n"
@@ -55,20 +55,21 @@ ViridianForest_Text_AnthonyPostBattle::
     .string "I lost some of my allowance…$"
 
 ViridianForest_Text_CharlieIntro::
-    .string "Did you know that POKéMON evolve?$"
+    .string "My Pokémon knows a strong move!\n"
+    .string "You can't win!$"
 
 ViridianForest_Text_CharlieDefeat::
-    .string "Oh!\n"
+    .string "What!?\n"
     .string "I lost!$"
 
 ViridianForest_Text_CharliePostBattle::
-    .string "BUG POKéMON evolve quickly.\n"
-    .string "They're a lot of fun!$"
+    .string "I should now offer to teach you\n"
+    .string "Fury Cutter, but I don't yet$"
 
 ViridianForest_Text_RanOutOfPokeBalls::
     .string "I was throwing POKé BALLS to\n"
     .string "catch POKéMON, and I ran out.\p"
-    .string "That's why you can never have too\n"
+    .string "I should have tried one a\n"
     .string "many POKé BALLS.$"
 
 ViridianForest_Text_AvoidGrassyAreasWhenWeak::
@@ -83,8 +84,8 @@ ViridianForest_Text_UseAntidoteForPoison::
 
 ViridianForest_Text_ContactOakViaPCToRatePokedex::
     .string "TRAINER TIPS\p"
-    .string "Contact PROF. OAK via a PC to\n"
-    .string "get your POKéDEX evaluated!$"
+    .string "Contact Prof. Oakvia a PC to\n"
+    .string "get your Pokédex evaluated!$"
 
 ViridianForest_Text_CantCatchOwnedMons::
     .string "TRAINER TIPS\p"

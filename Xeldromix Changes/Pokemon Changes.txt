@@ -273,10 +273,6 @@ URSALUNA
  - Base Attack lowered to 120
  # Power creep.
 
-MAGCARGO
- ~ Now has the custom ability Corona - this has the effects of Flame Body in addition to providing a Water immunity.
- # Arickus have mercy on thee. The ability was stolen from this video: https://www.youtube.com/watch?v=CLkaGFNWo0g
-
 CLOYSTER
  - Base Defence lowered to 140
  + Base Attack increased to 105
@@ -341,7 +337,7 @@ FERALIGATR
 
 NOCTOWL
  ~ Is now Flying/Ghost
- # Don't worry, it's still alive and well.
+ # Don't worry, it's still alive and well. The reason why it's a Ghost-type is so it can be as cool as Decidueye.
 
 SEVIPER
  + Base HP increased to 100
@@ -354,10 +350,15 @@ ZANGOOSE
  ~ Is now Normal/Fighting
  # Not that Zangoose is going to let Seviper get away without any resistance...
 
+LICKITUNG
+ + Base speed increased to 50
+ ~ Ability is now Cloud Nine
+ # Own up, you forgot it existed
 
-
-
-
-
+LICKILICKY
+ + Base Speed increased to 60
+ + Base HP increased to 125
+ ~ Ability is now Cloud Nine
+ # Own up, you also forgot it evolves
 
 

@@ -1,3 +1,27 @@
+@ The Dream Eater tutor text used to be here but I moved it to Viridian City where it belongs. In its place there is a Mud-Slap tutor in Pewter City.
+Text_DreamEaterTeach::
+    .string "Yawn!\n"
+    .string "I must have dozed off in the sun.\p"
+    .string "I had this weird dream about\n"
+    .string "a DROWZEE eating my dream.\p"
+    .string "And…\n"
+    .string "I learned how to eat dreams…\p"
+    .string "Oogh, this is too spooky!\p"
+    .string "Let me teach it to a POKéMON so\n"
+    .string "I can forget about it!$"
+
+Text_DreamEaterDeclined::
+    .string "…Snore…$"
+
+Text_DreamEaterWhichMon::
+    .string "Which POKéMON wants to learn\n"
+    .string "DREAM EATER?$"
+
+Text_DreamEaterTaught::
+    .string "…ZZZ…\n"
+    .string "I…can't eat…anymore…$"
+
+
 ViridianCity_Text_CanCarryMonsAnywhere::
     .string "Those POKé BALLS at your waist!\n"
     .string "You have POKéMON, don't you?\p"
