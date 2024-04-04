@@ -2,7 +2,7 @@
   "id": "MAP_MT_EMBER_EXTERIOR",
   "name": "MtEmber_Exterior",
   "layout": "LAYOUT_MT_EMBER_EXTERIOR",
-  "music": "MUS_BRAILE",
+  "music": "MUS_SEVII_CAVE",
   "region_map_section": "MAPSEC_MT_EMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,7 +13,7 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
       "type": "object",

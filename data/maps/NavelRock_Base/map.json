@@ -2,7 +2,7 @@
   "id": "MAP_NAVEL_ROCK_BASE",
   "name": "NavelRock_Base",
   "layout": "LAYOUT_NAVEL_ROCK_BASE",
-  "music": "MUS_POKE_TOWER",
+  "music": "MUS_SEVII_CAVE",
   "region_map_section": "MAPSEC_NAVEL_ROCK",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,7 +13,7 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
       "type": "object",
@@ -39,10 +39,6 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": []
 }

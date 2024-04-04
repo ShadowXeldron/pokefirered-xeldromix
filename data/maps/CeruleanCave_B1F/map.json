@@ -2,7 +2,7 @@
   "id": "MAP_CERULEAN_CAVE_B1F",
   "name": "CeruleanCave_B1F",
   "layout": "LAYOUT_CERULEAN_CAVE_B1F",
-  "music": "MUS_CERULEAN_CAVE",
+  "music": "MUS_ROCKET_HIDEOUT",
   "region_map_section": "MAPSEC_CERULEAN_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,7 +13,7 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
       "type": "object",
@@ -193,10 +193,6 @@
       "dest_warp_id": "2"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": []
 }

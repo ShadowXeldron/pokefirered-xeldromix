@@ -1,5 +1,4 @@
 {
-  "layouts_table_label": "gMapLayouts",
   "group_order": [
     "gMapGroup_Link",
     "gMapGroup_Dungeons",
@@ -175,8 +174,7 @@
     "SixIsland_DottedHole_B4F",
     "SixIsland_DottedHole_SapphireRoom",
     "SixIsland_PatternBush",
-    "SixIsland_AlteringCave",
-    "NewMap1"
+    "SixIsland_AlteringCave"
   ],
   "gMapGroup_SpecialArea": [
     "NavelRock_Exterior",

@@ -21,7 +21,7 @@ PIDGEOT
 
 SUNFLORA
  ~ Is now Fire/Grass
- # It's now a Fire-type so that it can be even more about sunlight. I initially had a special atatck buff here, but then Ogerpon-Hearthflame happened.
+ # It's now a Fire-type so that it can be even more about sunlight. I initially had a special attack buff here, but then Ogerpon-Hearthflame happened. I also buffed its speed but I forgot how much I buffed it.
 
 VENONAT
  ~ Is now Psychic/Poison

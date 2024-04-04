@@ -1006,6 +1006,9 @@ Text_FoundTMHMContainsMove::
 Text_Gyaoo::
 	.string "Gyaoo!$"
 
+Text_WoofWoof::
+	.string "Woof woof I'm not a dog'$"
+
 Text_MoveCanOnlyBeLearnedOnce::
 	.string "This move can be learned only\n"
 	.string "once. Is that okay?$"
@@ -1361,5 +1364,40 @@ Text_TestMsg::
 	.include "data/text/new_game_intro.inc"
 	.include "data/text/pokedude.inc"
 
+	/*
 	.include "data/maps/NewMap1/scripts.inc"
 	.include "data/maps/NewMap1/text.inc"
+
+	.include "data/maps/ColourDungeon_1F/scripts.inc"
+	.include "data/maps/ColourDungeon_1F/text.inc"
+
+	.include "data/maps/ColourDungeon_OrangeTrial/scripts.inc"
+	.include "data/maps/ColourDungeon_OrangeTrial/text.inc"
+
+	.include "data/maps/ColourDungeon_PurpleTrial/scripts.inc"
+	.include "data/maps/ColourDungeon_PurpleTrial/text.inc"
+
+	.include "data/maps/ColourDungeon_GreenTrial/scripts.inc"
+	.include "data/maps/ColourDungeon_GreenTrial/text.inc"
+
+	.include "data/maps/ColourDungeon_PinkTrial/scripts.inc"
+	.include "data/maps/ColourDungeon_PinkTrial/text.inc"
+
+	.include "data/maps/ColourDungeon_2F/scripts.inc"
+	.include "data/maps/ColourDungeon_2F/text.inc"
+
+	.include "data/maps/ColourDungeon_RedTrial/scripts.inc"
+	.include "data/maps/ColourDungeon_RedTrial/text.inc"
+
+	.include "data/maps/ColourDungeon_BlueTrial/scripts.inc"
+	.include "data/maps/ColourDungeon_BlueTrial/text.inc"
+
+	.include "data/maps/ColourDungeon_3F/scripts.inc"
+	.include "data/maps/ColourDungeon_3F/text.inc"
+
+	.include "data/maps/ColourDungeon_YellowTrial/scripts.inc"
+	.include "data/maps/ColourDungeon_YellowTrial/text.inc"
+
+	.include "data/maps/ColourDungeon_Summit/scripts.inc"
+	.include "data/maps/ColourDungeon_Summit/text.inc"
+	*/

@@ -65,15 +65,10 @@ ViridianCity_Mart_EventScript_Clerk::
 
 	.align 2
 ViridianCity_Mart_Items::
-	.2byte ITEM_MASTER_BALL @ ITEM_POKE_BALL
-	.2byte ITEM_RARE_CANDY @ ITEM_POTION
+	.2byte ITEM_POKE_BALL
+	.2byte ITEM_POTION
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_POMEG_BERRY @ I'll need to find out how to inplement these without the Pomeg Glitch being an issue
-	.2byte ITEM_KELPSY_BERRY
-	.2byte ITEM_HONDEW_BERRY
-	.2byte ITEM_GREPA_BERRY
-	.2byte ITEM_TAMATO_BERRY
 	.2byte ITEM_NONE
 	release
 	end
