@@ -500,8 +500,10 @@
 #define MOVE_BELCH 478
 #define MOVE_HEAD_SMASH 477
 #define MOVE_STEEL_BEAM 478
+#define MOVE_UNMAKER 479
+#define MOVE_WIDE_SLASH 480
 
-#define MOVES_COUNT 479
+#define MOVES_COUNT 481
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

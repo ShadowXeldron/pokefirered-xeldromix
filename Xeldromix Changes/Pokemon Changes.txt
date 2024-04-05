@@ -118,7 +118,7 @@ MAROWAK
  ~ Is now Ground/Ghost
 
 KANGASKAHN
- ~ Is now Normal/Ground
+ ~ Is now Fighting/Ground
 
 PSYDUCK
  ~ Is now Water/Psychic
@@ -142,7 +142,7 @@ ALTARIA
 
 HARIYAMA
  ~ Is now Fighting/Ground
- # This is to justify adding Headlong Rush (itself a sumo wrestling move; considering that Hariyama is a sumo wrestler) as well as to give it something unique over other Fighting-types
+ # This was to justify adding Headlong Rush (itself a sumo wrestling move; considering that Hariyama is a sumo wrestler) as well as to give it something unique over other Fighting-types. Now that Kangaskahn is a Fighting type in the hack though I'm more interested in giving it something else
 
 DUNSPARCE
  ~ Is now Dragon/Normal

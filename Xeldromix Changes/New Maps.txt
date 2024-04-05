@@ -1,8 +1,24 @@
 NEW AREAS
 
 Cinnabar Volcano
-A new optional dungeon containing Entei at the end. This is meant to be the volcano that erupted and destroyed Cinnabar Island. New TMs, some misclaneous Hoenn Pokemon and maybe some method of getting a Pokemon to learn Egg Moves are the intended rewards.
+A new optional dungeon containing Entei at the end. This is meant to be the volcano that erupted and destroyed Cinnabar Island. New TMs, Groudon, some misclaneous Hoenn Pokemon and maybe some method of getting a Pokemon to learn Egg Moves are the intended rewards.
+A superboss trainer (implied to be non-human) can be encountered in the deepest chamber and after being defeated will offer to teach a new move called Unmaker.
 PROGRESS - Basically 1%. At least this idea has one map.
+
+Colour Cavern (Placeholder Name)
+This is an idea I had for a theoretical Gen 1 hack. It's losely inspired by the Colour Dungeon from Link's Awakening DX. Bill found the entrance to it in his back garden. If you have registered at least 70 Pokemon in the Pokedex, you will be able to enter it. It'll have a couple of puzzles and the Latis at the end. You may choose either Latios or Latias - the other one will escape and go to Deep Victory Road.
+
+The area is split into three "parts".
+
+Part one features four trials.
+
+Part two features three trials, but before you can enter part four you will need to fight Bill (who has realised that there's some ultra rare Pokemon hiding at the end) and challenges you to a battle where he uses a whole team of Eeveelutions.
+
+Part three is the shortest, featuring a maze and a climb up to the Latis. Choosing either Latias or Latios will allow you to catch them here at level 35. The other one will escape.
+
+Each area is themed around a specific colour. Kecleon and a set of Pokemon with a certain Pokedex colour will appear in each room.
+
+PROGRESS - Argurably 5%. This one has a half completed map to its name and, for now at least, can be accessed in its incomplete state from the Trainer's School in Viridian City. Each area also has a planned encounter table implemented.
 
 PLANNED
 
@@ -12,20 +28,24 @@ Another area at the Sevii Islands. It's accessible by entering a cave at One Isl
 This was inspired by an old Roblox Pokemon fan game which had an area of the same name that served a similar purpose.
 
 The Valley is split into one area for every stat. 
-	HP AREA - The field accessed by surfing in. A Channeler in the center of the map will offer to reset your lead Pokemon's effort values in exchange for a Heart Scale. There's also a rest house where you
-	can heal.
+	HP AREA - The field accessed by surfing in. A Channeler in the center of the map will offer to reset your lead Pokemon's effort values in exchange for a Heart Scale. There's also a rest house where you can heal. Finally, Chansey is a semi-common encounter in this area.
 	ATTACK AREA - A craggy area. Outside of the Attack EVs, you'll want to come here for the free Choice Band
 	DEFENCE AREA - A cave full of rocky things. With Rock Smash in hand, you can break open the Secret Chamber.
 	SPECIAL ATTACK AREA - A waterfront. The Psychic TM has been moved here and is hidden behind a Strength puzzle.
 	SPECIAL DEFENCE AREA - A flower field. The Cut Master for Leaf Blade is located here. 
-	SPEED AREA - Open fields located at the back of the area. There's a heart-shaped pond that only contains Luvdisc on top of a waterfall - return once you get the HM for Waterfall in order to farm infinite
-	Heart Scales.
+	SPEED AREA - Open fields located at the back of the area. There's a heart-shaped pond that only contains Luvdisc on top of a waterfall - return once you get the HM for Waterfall in order to farm infinite Heart Scales.
 	SECRET CHAMBER - This is a chamber hidden behind Rock Smash. It contains a braile puzzle involving an Awakening and leads to Jirachi.
 
-Despite being a good spot to train, the Pokemon here have an Elite Four power level. While this means you'll be getting more experience, you will still need to put in sufficient training.
+Despite being a good spot to train, the Pokemon here have an Elite Four power level. While this means you'll be getting more experience, you will still need to put in sufficient training to be able to take them on.
 
 WOULD BE NICE TO HAVE BUT I WOULDN'T COUNT ON IT
 
 Restore unused Sevii Islands maps or recycle them into Elegant Valley
+
+Deep Victory Road
+A secret area in Victory Road accessible during the postgame. It is filled with powerful Pokemon including psuedo legendaries and features the other Lati from the Colour Cavern. A superboss trainer could be here. The Lati that you didn't catch (or, if you knocked your Lati out, both of them) will appear here if you have finished the Colour Cavern.
+
+Mt. Moon Square
+An extra area at the summit of Mt. Moon that can be reached once you get Strength. Due to the lack of an RTC in FRLG, there probably won't be a Clefairy event. The area will contain a move tutor and a superboss encounter.
 
 Maybe Johto?

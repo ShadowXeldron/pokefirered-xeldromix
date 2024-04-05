@@ -156,6 +156,7 @@ Extinction (Move exclusive to all fossilmons. It's Rock-type Self-Destruct)
 Tyrant Breath (Move exclusive to Tyranitar. It's Dark-type Giga Impact)
 Psycho Force (Mew and Mewtwo's new signature move, it's effectively two Calm Minds or Gen 1 Amnesia)
 Megidolaon (An attack from the SMT franchise. Ignores Protect and destroys screens.)
+Unmaker (A high base power special version of Double-Edge obtainable via a move tutor)
 
 Chill Crush (Regirock's new signature move, it's Ice-type Hyper Beam)
 Stone Crush (Regirock's new signature move, it's Rock-type Hyper Beam)

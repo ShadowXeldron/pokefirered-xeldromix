@@ -1,5 +1,4 @@
 {
-  "layouts_table_label": "gMapLayouts",
   "group_order": [
     "gMapGroup_Link",
     "gMapGroup_Dungeons",
@@ -176,7 +175,18 @@
     "SixIsland_DottedHole_SapphireRoom",
     "SixIsland_PatternBush",
     "SixIsland_AlteringCave",
-    "NewMap1"
+    "NewMap1",
+    "ColourDungeon_1F",
+    "ColourDungeon_OrangeTrial",
+    "ColourDungeon_PurpleTrial",
+    "ColourDungeon_GreenTrial",
+    "ColourDungeon_PinkTrial",
+    "ColourDungeon_2F",
+    "ColourDungeon_RedTrial",
+    "ColourDungeon_BlueTrial",
+    "ColourDungeon_3F",
+    "ColourDungeon_YellowTrial",
+    "ColourDungeon_Summit"
   ],
   "gMapGroup_SpecialArea": [
     "NavelRock_Exterior",

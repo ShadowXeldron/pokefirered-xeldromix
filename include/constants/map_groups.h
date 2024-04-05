@@ -137,6 +137,17 @@
 #define MAP_SIX_ISLAND_PATTERN_BUSH              (121 | (1 << 8))
 #define MAP_SIX_ISLAND_ALTERING_CAVE             (122 | (1 << 8))
 #define MAP_NEW_MAP1                             (123 | (1 << 8))
+#define MAP_COLOUR_DUNGEON_1F                    (124 | (1 << 8))
+#define MAP_COLOUR_DUNGEON_ORANGE_TRIAL          (125 | (1 << 8))
+#define MAP_COLOUR_DUNGEON_PURPLE_TRIAL          (126 | (1 << 8))
+#define MAP_COLOUR_DUNGEON_GREEN_TRIAL           (127 | (1 << 8))
+#define MAP_COLOUR_DUNGEON_PINK_TRIAL            (128 | (1 << 8))
+#define MAP_COLOUR_DUNGEON_2F                    (129 | (1 << 8))
+#define MAP_COLOUR_DUNGEON_RED_TRIAL             (130 | (1 << 8))
+#define MAP_COLOUR_DUNGEON_BLUE_TRIAL            (131 | (1 << 8))
+#define MAP_COLOUR_DUNGEON_3F                    (132 | (1 << 8))
+#define MAP_COLOUR_DUNGEON_YELLOW_TRIAL          (133 | (1 << 8))
+#define MAP_COLOUR_DUNGEON_SUMMIT                (134 | (1 << 8))
 
 // gMapGroup_SpecialArea
 #define MAP_NAVEL_ROCK_EXTERIOR                       (0 | (2 << 8))

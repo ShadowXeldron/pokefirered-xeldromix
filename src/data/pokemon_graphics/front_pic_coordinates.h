@@ -2351,7 +2351,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(24, 40),
         .y_offset = 13,
     },
-    [SPECIES_DUDUNSPARSE] =
+    [SPECIES_DUDUNSPARCE] =
     {
         .size = MON_COORDS_SIZE(24, 40),
         .y_offset = 13,

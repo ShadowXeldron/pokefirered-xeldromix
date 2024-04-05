@@ -4392,6 +4392,138 @@
       "secondary_tileset": "gTileset_MtEmber",
       "border_filepath": "data/layouts/NewMap1/border.bin",
       "blockdata_filepath": "data/layouts/NewMap1/map.bin"
+    },
+    {
+      "id": "LAYOUT_COLOUR_DUNGEON_1F",
+      "name": "ColourDungeon_1F_Layout",
+      "width": 20,
+      "height": 23,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_CeruleanCave",
+      "border_filepath": "data/layouts/ColourDungeon_1F/border.bin",
+      "blockdata_filepath": "data/layouts/ColourDungeon_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_COLOUR_DUNGEON_ORANGE_TRIAL",
+      "name": "ColourDungeon_OrangeTrial_Layout",
+      "width": 40,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_CeruleanCave",
+      "border_filepath": "data/layouts/ColourDungeon_OrangeTrial/border.bin",
+      "blockdata_filepath": "data/layouts/ColourDungeon_OrangeTrial/map.bin"
+    },
+    {
+      "id": "LAYOUT_COLOUR_DUNGEON_PURPLE_TRIAL",
+      "name": "ColourDungeon_PurpleTrial_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_CeruleanCave",
+      "border_filepath": "data/layouts/ColourDungeon_PurpleTrial/border.bin",
+      "blockdata_filepath": "data/layouts/ColourDungeon_PurpleTrial/map.bin"
+    },
+    {
+      "id": "LAYOUT_COLOUR_DUNGEON_GREEN_TRIAL",
+      "name": "ColourDungeon_GreenTrial_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_CeruleanCave",
+      "border_filepath": "data/layouts/ColourDungeon_GreenTrial/border.bin",
+      "blockdata_filepath": "data/layouts/ColourDungeon_GreenTrial/map.bin"
+    },
+    {
+      "id": "LAYOUT_COLOUR_DUNGEON_PINK_TRIAL",
+      "name": "ColourDungeon_PinkTrial_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_CeruleanCave",
+      "border_filepath": "data/layouts/ColourDungeon_PinkTrial/border.bin",
+      "blockdata_filepath": "data/layouts/ColourDungeon_PinkTrial/map.bin"
+    },
+    {
+      "id": "LAYOUT_COLOUR_DUNGEON_2F",
+      "name": "ColourDungeon_2F_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_CeruleanCave",
+      "border_filepath": "data/layouts/ColourDungeon_2F/border.bin",
+      "blockdata_filepath": "data/layouts/ColourDungeon_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_COLOUR_DUNGEON_RED_TRIAL",
+      "name": "ColourDungeon_RedTrial_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_CeruleanCave",
+      "border_filepath": "data/layouts/ColourDungeon_RedTrial/border.bin",
+      "blockdata_filepath": "data/layouts/ColourDungeon_RedTrial/map.bin"
+    },
+    {
+      "id": "LAYOUT_COLOUR_DUNGEON_BLUE_TRIAL",
+      "name": "ColourDungeon_BlueTrial_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_CeruleanCave",
+      "border_filepath": "data/layouts/ColourDungeon_BlueTrial/border.bin",
+      "blockdata_filepath": "data/layouts/ColourDungeon_BlueTrial/map.bin"
+    },
+    {
+      "id": "LAYOUT_COLOUR_DUNGEON_3F",
+      "name": "ColourDungeon_3F_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_CeruleanCave",
+      "border_filepath": "data/layouts/ColourDungeon_3F/border.bin",
+      "blockdata_filepath": "data/layouts/ColourDungeon_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_COLOUR_DUNGEON_YELLOW_TRIAL",
+      "name": "ColourDungeon_YellowTrial_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_CeruleanCave",
+      "border_filepath": "data/layouts/ColourDungeon_YellowTrial/border.bin",
+      "blockdata_filepath": "data/layouts/ColourDungeon_YellowTrial/map.bin"
+    },
+    {
+      "id": "LAYOUT_COLOUR_DUNGEON_SUMMIT",
+      "name": "ColourDungeon_Summit_Layout",
+      "width": 20,
+      "height": 64,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_CeruleanCave",
+      "border_filepath": "data/layouts/ColourDungeon_Summit/border.bin",
+      "blockdata_filepath": "data/layouts/ColourDungeon_Summit/map.bin"
     }
   ]
 }

@@ -5071,7 +5071,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_ARON"
               },
               {
                 "min_level": 16,
@@ -12741,19 +12741,19 @@
             "encounter_rate": 21,
             "mons": [
               {
-                "min_level": 32,
+                "min_level": 31,
                 "max_level": 32,
                 "species": "SPECIES_SPEAROW"
               },
               {
                 "min_level": 33,
-                "max_level": 33,
+                "max_level": 35,
                 "species": "SPECIES_TANGELA"
               },
               {
-                "min_level": 31,
-                "max_level": 31,
-                "species": "SPECIES_SPEAROW"
+                "min_level": 36,
+                "max_level": 40,
+                "species": "SPECIES_FEAROW"
               },
               {
                 "min_level": 35,
@@ -12761,9 +12761,9 @@
                 "species": "SPECIES_TANGELA"
               },
               {
-                "min_level": 36,
+                "min_level": 30,
                 "max_level": 36,
-                "species": "SPECIES_FEAROW"
+                "species": "SPECIES_PELIPPER"
               },
               {
                 "min_level": 31,
@@ -12771,9 +12771,9 @@
                 "species": "SPECIES_MEOWTH"
               },
               {
-                "min_level": 38,
-                "max_level": 38,
-                "species": "SPECIES_FEAROW"
+                "min_level": 31,
+                "max_level": 31,
+                "species": "SPECIES_SLOWPOKE"
               },
               {
                 "min_level": 31,
@@ -12807,28 +12807,28 @@
             "mons": [
               {
                 "min_level": 5,
-                "max_level": 20,
-                "species": "SPECIES_TENTACOOL"
-              },
-              {
-                "min_level": 20,
-                "max_level": 35,
-                "species": "SPECIES_TENTACOOL"
-              },
-              {
-                "min_level": 35,
                 "max_level": 40,
                 "species": "SPECIES_TENTACOOL"
               },
               {
                 "min_level": 35,
-                "max_level": 40,
+                "max_level": 49,
                 "species": "SPECIES_TENTACRUEL"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_TENTACRUEL"
+                "species": "SPECIES_CRAWDAUNT"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_MANTINE"
+              },
+              {
+                "min_level": 35,
+                "max_level": 40,
+                "species": "SPECIES_LAPRAS"
               }
             ]
           },
@@ -13722,7 +13722,7 @@
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_DUNSPARCE"
+                "species": "SPECIES_DUDUNSPARCE"
               }
             ]
           }
@@ -16955,7 +16955,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MAGIKARP"
+                "species": "SPECIES_POLIWAG"
               },
               {
                 "min_level": 5,
@@ -18087,23 +18087,23 @@
             "mons": [
               {
                 "min_level": 5,
-                "max_level": 10,
+                "max_level": 35,
                 "species": "SPECIES_TENTACOOL"
               },
               {
                 "min_level": 10,
-                "max_level": 20,
-                "species": "SPECIES_TENTACOOL"
+                "max_level": 35,
+                "species": "SPECIES_CHINCHOU"
               },
               {
                 "min_level": 20,
                 "max_level": 30,
-                "species": "SPECIES_TENTACOOL"
+                "species": "SPECIES_CARVANHA"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_TENTACOOL"
+                "species": "SPECIES_GYARADOS"
               },
               {
                 "min_level": 35,
@@ -20607,64 +20607,64 @@
             "encounter_rate": 14,
             "mons": [
               {
-                "min_level": 22,
-                "max_level": 22,
+                "min_level": 17,
+                "max_level": 28,
                 "species": "SPECIES_TANGELA"
               },
               {
                 "min_level": 23,
                 "max_level": 23,
-                "species": "SPECIES_TANGELA"
+                "species": "SPECIES_RATICATE"
               },
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_TANGELA"
+                "species": "SPECIES_TAILLOW"
               },
               {
                 "min_level": 21,
                 "max_level": 21,
-                "species": "SPECIES_TANGELA"
-              },
-              {
-                "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_TANGELA"
+                "species": "SPECIES_WINGULL"
               },
               {
                 "min_level": 20,
-                "max_level": 20,
-                "species": "SPECIES_TANGELA"
+                "max_level": 25,
+                "species": "SPECIES_SLOWPOKE"
+              },
+              {
+                "min_level": 20,
+                "max_level": 25,
+                "species": "SPECIES_PSYDUCK"
               },
               {
                 "min_level": 19,
                 "max_level": 19,
-                "species": "SPECIES_TANGELA"
+                "species": "SPECIES_MR_MIME"
               },
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_TANGELA"
-              },
-              {
-                "min_level": 18,
-                "max_level": 18,
-                "species": "SPECIES_TANGELA"
+                "species": "SPECIES_LINOONE"
               },
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_TANGELA"
+                "species": "SPECIES_WEEPINBELL"
+              },
+              {
+                "min_level": 27,
+                "max_level": 27,
+                "species": "SPECIES_GLOOM"
               },
               {
                 "min_level": 17,
                 "max_level": 17,
-                "species": "SPECIES_TANGELA"
+                "species": "SPECIES_TOTODILE"
               },
               {
-                "min_level": 28,
-                "max_level": 28,
-                "species": "SPECIES_TANGELA"
+                "min_level": 17,
+                "max_level": 17,
+                "species": "SPECIES_MUDKIP"
               }
             ]
           },
@@ -25227,6 +25227,726 @@
                 "min_level": 5,
                 "max_level": 5,
                 "species": "SPECIES_TYPHLOSION"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_COLOUR_DUNGEON_1F",
+          "base_label": "gColourDungeon_1F0",
+          "land_mons": {
+            "encounter_rate": 7,
+            "mons": [
+              {
+                "min_level": 34,
+                "max_level": 45,
+                "species": "SPECIES_KECLEON"
+              },
+              {
+                "min_level": 34,
+                "max_level": 41,
+                "species": "SPECIES_BUTTERFREE"
+              },
+              {
+                "min_level": 34,
+                "max_level": 41,
+                "species": "SPECIES_LINOONE"
+              },
+              {
+                "min_level": 31,
+                "max_level": 40,
+                "species": "SPECIES_ABSOL"
+              },
+              {
+                "min_level": 40,
+                "max_level": 45,
+                "species": "SPECIES_ZANGOOSE"
+              },
+              {
+                "min_level": 32,
+                "max_level": 46,
+                "species": "SPECIES_DEWGONG"
+              },
+              {
+                "min_level": 32,
+                "max_level": 43,
+                "species": "SPECIES_TOGETIC"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SMEARGLE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 50,
+                "species": "SPECIES_GARDEVOIR"
+              },
+              {
+                "min_level": 35,
+                "max_level": 46,
+                "species": "SPECIES_SHELGON"
+              },
+              {
+                "min_level": 34,
+                "max_level": 45,
+                "species": "SPECIES_GALLADE"
+              },
+              {
+                "min_level": 34,
+                "max_level": 45,
+                "species": "SPECIES_TOGEKISS"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_COLOUR_DUNGEON_ORANGE_TRIAL",
+          "base_label": "gColourDungeon_OrangeTrial0",
+          "land_mons": {
+            "encounter_rate": 7,
+            "mons": [
+              {
+                "min_level": 34,
+                "max_level": 45,
+                "species": "SPECIES_KECLEON"
+              },
+              {
+                "min_level": 30,
+                "max_level": 45,
+                "species": "SPECIES_RATICATE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_PRIMEAPE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_PILOSWINE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MAROWAK"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUGTRIO"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SUDOWOODO"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_KANGASKHAN"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_HITMONLEE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_HITMONCHAN"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_GOLEM"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_HITMONTOP"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_COLOUR_DUNGEON_PURPLE_TRIAL",
+          "base_label": "gColourDungeon_PurpleTrial0",
+          "land_mons": {
+            "encounter_rate": 7,
+            "mons": [
+              {
+                "min_level": 34,
+                "max_level": 45,
+                "species": "SPECIES_KECLEON"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_GOLBAT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_WEEZING"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MUK"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_HAUNTER"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ARBOK"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SABLEYE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_GRANBULL"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_GRUMPIG"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_AMBIPOM"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CROBAT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_GENGAR"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_COLOUR_DUNGEON_GREEN_TRIAL",
+          "base_label": "gColourDungeon_GreenTrial0",
+          "land_mons": {
+            "encounter_rate": 7,
+            "mons": [
+              {
+                "min_level": 34,
+                "max_level": 45,
+                "species": "SPECIES_KECLEON"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_WEEPINBELL"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SCYTHER"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_XATU"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_LOMBRE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ROSELIA"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_IVYSAUR"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_TROPIUS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_FLYGON"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_YANMEGA"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_VICTREEBEL"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_LUDICOLO"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_COLOUR_DUNGEON_PINK_TRIAL",
+          "base_label": "gColourDungeon_PinkTrial0",
+          "land_mons": {
+            "encounter_rate": 7,
+            "mons": [
+              {
+                "min_level": 34,
+                "max_level": 45,
+                "species": "SPECIES_KECLEON"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CLEFAIRY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CHANSEY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MR_MIME"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_LICKITUNG"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SLOWBRO"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_PORYGON"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CORSOLA"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_LICKILICKY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SLOWKING"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_BLISSEY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CLEFABLE"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_COLOUR_DUNGEON_2F",
+          "base_label": "gColourDungeon_2F0",
+          "land_mons": {
+            "encounter_rate": 7,
+            "mons": [
+              {
+                "min_level": 34,
+                "max_level": 45,
+                "species": "SPECIES_KECLEON"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MIGHTYENA"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MAGNETON"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ONIX"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MACHOKE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_RHYHORN"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_LAIRON"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DONPHAN"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_RHYDON"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SKARMORY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_STEELIX"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CASTFORM"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_COLOUR_DUNGEON_RED_TRIAL",
+          "base_label": "gColourDungeon_RedTrial0",
+          "land_mons": {
+            "encounter_rate": 7,
+            "mons": [
+              {
+                "min_level": 34,
+                "max_level": 45,
+                "species": "SPECIES_KECLEON"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ARIADOS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ELECTRODE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_KINGLER"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MAGMAR"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_PARASECT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CHARMELEON"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_JYNX"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CRAWDAUNT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CAMERUPT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MAGMORTAR"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DELIBIRD"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_COLOUR_DUNGEON_BLUE_TRIAL",
+          "base_label": "gColourDungeon_BlueTrial0",
+          "land_mons": {
+            "encounter_rate": 7,
+            "mons": [
+              {
+                "min_level": 34,
+                "max_level": 45,
+                "species": "SPECIES_KECLEON"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_GLOOM"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_GOLDUCK"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_POLIWHIRL"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_JUMPLUFF"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_QUAGSIRE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_WARTORTLE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_WOBBUFFET"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_HERACROSS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_METANG"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_POLIWRATH"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_VILEPLUME"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 2,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_TENTACRUEL"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SEADRA"
+              },
+              {
+                "min_level": 40,
+                "max_level": 44,
+                "species": "SPECIES_WAILORD"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_LAPRAS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_KINGDRA"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_COLOUR_DUNGEON_3F",
+          "base_label": "gColourDungeon_3F0",
+          "land_mons": {
+            "encounter_rate": 7,
+            "mons": [
+              {
+                "min_level": 34,
+                "max_level": 45,
+                "species": "SPECIES_KECLEON"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CLAYDOL"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUSCLOPS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_BANETTE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MURKROW"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SEVIPER"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SNEASEL"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SNORLAX"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MAWILE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_HOUNDOOM"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_WEAVILE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ELECTIVIRE"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_COLOUR_DUNGEON_YELLOW_TRIAL",
+          "base_label": "gColourDungeon_YellowTrial0",
+          "land_mons": {
+            "encounter_rate": 7,
+            "mons": [
+              {
+                "min_level": 34,
+                "max_level": 45,
+                "species": "SPECIES_KECLEON"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_PIKACHU"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_RAPIDASH"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ELECTABUZZ"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_HYPNO"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SANDSLASH"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_AMPHAROS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUDUNSPARCE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_FARIGIRAF"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SHUCKLE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_RAICHU"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ELECTIVIRE"
               }
             ]
           }

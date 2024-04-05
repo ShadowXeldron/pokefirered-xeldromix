@@ -500,5 +500,6 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_BELCH]         = _("Belch"),
     [MOVE_HEAD_SMASH]    = _("Head Smash"),
     [MOVE_STEEL_BEAM]    = _("Steel Beam"),
+    [MOVE_UNMAKER]       = _("Unmaker"),
     
 };
