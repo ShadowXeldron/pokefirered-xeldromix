@@ -3,45 +3,52 @@ ViridianCity_School_Text_TryingToMemorizeNotes::
     .string "notes.$"
 
 ViridianCity_School_Text_ReadBlackboardCarefully::
-    .string "Okay!\p"
-    .string "Be sure to read what's on the\n"
-    .string "blackboard carefully!$"
+    .string "Welcome to the Trainers' School!\p"
+    .string "Here we teach budding trainers to be\n"
+    .string "the very best like no one ever was.\p"
+    .string "We also teach a couple of moves to\n"
+    .string "certain Pokemon.\p"
+    @ Remove these lines when fixed
+    .string "WARNING: This menu is glitchy!\n"
+    .string "do not open the help menu afterward!$"
 
 ViridianCity_School_Text_NotebookFirstPage::
     .string "Let's check out the notebook.\p"
     .string "First page…\p"
-    .string "POKé BALLS are used to catch\n"
-    .string "POKéMON.\p"
-    .string "Up to six POKéMON can be carried\n"
-    .string "in your party.\p"
-    .string "People who raise and battle\n"
-    .string "with POKéMON are called TRAINERS.$"
+    .string "Defence Curl increases the user's\n"
+    .string "Defence by one stage.\p"
+    .string "Each stage of a stat increase improves\n"
+    .string "that particular stat by around 50%.\p"
+    .string "The move Rollout also becomes stronger\n"
+    .string "if Defence Curl was used on the last turn.$"
 
 ViridianCity_School_Text_NotebookSecondPage::
     .string "Second page…\p"
-    .string "A healthy POKéMON may be hard to\n"
-    .string "catch, so weaken it first.\p"
-    .string "Poison, burn, or cause another\n"
-    .string "status problem to weaken it.$"
+    .string "Psych Up copies the target's stat changes.\n"
+    .string "It has a variety of interesting applications.\p"
+    .string "For example, the move Swagger confuses the\n"
+    .string "target and boosts their Attack by two stages.\p"
+    .string "You can confuse an opponent with Swagger\n"
+    .string "and then use Psych Up to boost your Attack.\p"
 
 ViridianCity_School_Text_NotebookThirdPage::
     .string "Third page…\p"
-    .string "POKéMON TRAINERS seek others to\n"
-    .string "engage in POKéMON battles.\p"
-    .string "To TRAINERS, the taste of victory\n"
-    .string "is sweet, indeed.\p"
-    .string "Battles are constantly waged at\n"
-    .string "POKéMON GYMS everywhere.$"
+    .string "Snore has a 30% chance to make the target\n" @ Part of me wanted to say "a useful move", but then I remembered that it's Snore
+    .string "flinch, but it can only be used while asleep.\p"
+    .string "It compliments the move Rest, which fully\n"
+    .string "restores the user's HP but makes them fall\p"
+    .string "asleep. You can use Rest to heal your Pokémon,\n"
+    .string "then continue fighting with Snore.$"
 
 ViridianCity_School_Text_NotebookFourthPage::
     .string "Fourth page…\p"
-    .string "The ultimate goal for all POKéMON\n"
-    .string "TRAINERS is simple.\p"
-    .string "It is to defeat the top eight\n"
-    .string "POKéMON GYM LEADERS.\p"
-    .string "Do so to earn the right to face…\p"
-    .string "The ELITE FOUR of the POKéMON\n"
-    .string "LEAGUE!$"
+    .string "Finally, Endure is a tough move that\n"
+    .string "will allow the user to survive a\p"
+    .string "knockout blow on 1 HP.\n"
+    .string "It pairs well with another move\n"
+    .string "called Reversal, which gets much\p"
+    .string "stronger when the user is low on\n"
+    .string "HP.$"
 
 ViridianCity_School_Text_TurnThePage::
     .string "Turn the page?$"
@@ -91,3 +98,39 @@ ViridianCity_School_Text_ExplainParalysis::
     .string "Paralysis remains after battles.\n"
     .string "Use PARLYZ HEAL for treatment.$"
 
+@ Move Tutor Stuff
+ViridianCity_School_Text_MoveTaught::
+    .string "Come again if there is anything\n"
+    .string "you want to learn!$"
+    
+ViridianCity_School_Text_MoveDeclined::
+    .string "That's okay. Come back if there\n"
+    .string "is anything you want to learn.$"
+
+Text_DefenceCurlTeach::
+    .string "Teach Defence Curl?$"
+
+Text_PsychUpTeach::
+    .string "Teach Psych Up?$"
+
+Text_SnoreTeach::
+    .string "Teach Snore?$"
+
+Text_EndureTeach::
+    .string "Teach Endure?$"
+
+Text_DefenceCurlWhichMon::
+    .string "Which Pokémon wants to learn\n"
+    .string "Defence Curl?$"
+
+Text_PsychUpWhichMon::
+    .string "Which Pokémon wants to learn\n"
+    .string "Psych Up?$"
+
+Text_SnoreWhichMon::
+    .string "Which Pokémon wants to learn\n"
+    .string "Snore?$"
+
+Text_EndureWhichMon::
+    .string "Which Pokémon wants to learn\n"
+    .string "Endure?$"

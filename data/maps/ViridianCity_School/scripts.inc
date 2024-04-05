@@ -18,10 +18,17 @@ ViridianCity_School_EventScript_Woman::
 	lock
 	faceplayer
 	msgbox ViridianCity_School_Text_ReadBlackboardCarefully
-	closemessage
+	waitmessage
+	multichoice 0, 0, MULTICHOICE_62, FALSE
+	switch VAR_RESULT
+	case 0, ViridianCity_School_EventScript_DefenceCurlTutor
+	case 1, ViridianCity_School_EventScript_PsychUpTutor
+	case 2, ViridianCity_School_EventScript_SnoreTutor
+	case 3, ViridianCity_School_EventScript_EndureTutor
+	case 127, EventScript_SchoolDeclined
 	applymovement LOCALID_WOMAN, Common_Movement_FaceOriginalDirection
 	waitmovement 0
-	release
+	@warp MAP_VIRIDIAN_CITY_SCHOOL, 4, 1 @ This is to prevent some weird glitches
 	end
 
 ViridianCity_School_EventScript_Notebook::

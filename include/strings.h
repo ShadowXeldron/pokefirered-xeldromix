@@ -1545,4 +1545,12 @@ extern const u8 gText_PokeSum_EggOrigin_NicePlace[];
 extern const u8 gText_PokeSum_EggOrigin_Spa[];
 extern const u8 gText_PokeSum_EggOrigin_Trade[];
 
+// Custom
+
+// School Move Tutor
+extern const u8 gText_SchoolDefenceCurl[];
+extern const u8 gText_SchoolPsychUp[];
+extern const u8 gText_SchoolSnore[];
+extern const u8 gText_SchoolEndure[];
+
 #endif //GUARD_STRINGS_H

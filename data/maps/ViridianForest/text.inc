@@ -1,8 +1,8 @@
 ViridianForest_Text_FriendsItchingToBattle::
     .string "I came here with some friends to\n"
-    .string "catch us some BUG POKéMON!\p"
+    .string "catch us some Bug-type Pokémon!\p"
     .string "They're all itching to get into\n"
-    .string "some POKéMON battles!$"
+    .string "some Pokémon battles!$"
 
 ViridianForest_Text_RickIntro::
     .string "Hey! You have POKéMON!\n"
@@ -10,7 +10,7 @@ ViridianForest_Text_RickIntro::
     .string "Let's battle 'em!$"
 
 ViridianForest_Text_RickDefeat::
-    .string "No!\nCATERPIE can't hack it!$"
+    .string "No!\nCaterpie can't hack it!$"
 
 ViridianForest_Text_RickPostBattle::
     .string "Ssh! You'll scare the bugs away.\n"
@@ -104,3 +104,20 @@ ViridianForest_Text_LeavingViridianForest::
     .string "LEAVING VIRIDIAN FOREST\n"
     .string "PEWTER CITY AHEAD$"
 
+Text_FuryCutterTeach::
+    .string "I am a move tutor!\n"
+    .string "I teach Fury Cutter.\p"
+    .string "Someone should tell ShadowXeldron\n"
+    .string "to give me real dialogue.\p"
+    .string "Learn Fury Cutter?$"
+
+Text_FuryCutterDeclined::
+    .string "Awww... :($"
+
+Text_FuryCutterWhichMon::
+    .string "Which Pokémon wants to learn\n"
+    .string "Fury Cutter?$"
+
+Text_FuryCutterTaught::
+    .string "It's on the house, but in future\n"
+    .string "builds I should gush about Cut Masters.$"

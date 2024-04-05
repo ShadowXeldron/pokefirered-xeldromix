@@ -7741,7 +7741,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_BugCatcherCharlie[] = {
         .species = SPECIES_BEEDRILL,
         .moves = {MOVE_FURY_CUTTER, MOVE_POISON_STING, MOVE_NONE, MOVE_NONE},
     },
-}
+};
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TwinsEliAnne2[] = {
     {

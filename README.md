@@ -5,6 +5,9 @@
 [travis]: https://travis-ci.org/pret/pokefirered
 [travis-badge]: https://travis-ci.org/pret/pokefirered.svg?branch=master
 
+### KNOWN ISSUES
+* The menu-based move tutor in the trainers' school works but is very glitchy.
+
 This is a modified version of the Pokémon FireRed and LeafGreen. It includes the following changes:
 
 * Physical/Special Split

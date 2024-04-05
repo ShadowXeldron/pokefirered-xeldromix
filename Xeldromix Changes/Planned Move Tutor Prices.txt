@@ -16,16 +16,15 @@ Body Slam - 3000
 Swords Dance - 5000
 
 Emerald
-Rollout - Mt. Moon
-Fury Cutter - Viridian Forest (this is the Bug Catcher who looks at the wall - he's a big fan of the Cut Masters and has the same requirements as them; albiet without the gym badge requirement)
+Rollout - Mt. Moon (needs to reference Escape from the City because it has to)
+Fury Cutter - Viridian Forest [IMPLEMENTED!] (this is the Bug Catcher who looks at the wall - he's a big fan of the Cut Masters and has the same requirements as them; albiet without the gym badge requirement)
 Swagger - Viridian City Pokemon Fan Club
 Elemental Punches, Dynamic Punch - Saffron Fighting Dojo
 Sleep Talk - Fuschia City (the old Move Deleter)
 Icy Wind
-Mud Slap - Pewter City Museum
-Swift
-Defence Curl, Psych Up, Endure - Viridian City Pokemon Trainers School 
-Snore
+Mud Slap - Pewter City [IMPLEMENTED!]
+Swift - Vermillion City
+Defence Curl, Psych Up, Snore, Endure - Viridian City Pokemon Trainers School 
 
 
 Cut Masters (all are free, but they require you to beat them in a battle before teaching and will only teach the move if you have the right gym badge)

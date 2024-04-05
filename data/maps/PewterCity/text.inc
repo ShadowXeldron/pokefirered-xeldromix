@@ -1,21 +1,21 @@
 @ The Dream Eater tutor text used to be here but I moved it to Viridian City where it belongs. In its place there is a Mud-Slap tutor in Pewter City.
 Text_MudSlapTeach::
     .string "I am a move tutor!\n"
-    .string "I teach Mud Slap.\p"
+    .string "I teach Mud-Slap.\p"
     .string "Someone should tell ShadowXeldron\n"
     .string "to give me real dialogue.\p"
-    .string "Learn Mud Slap?$"
+    .string "Learn Mud-Slap?$"
 
-Text_DreamEaterDeclined::
+Text_MudSlapDeclined::
     .string "Awww... :($"
 
-Text_DreamEaterWhichMon::
+Text_MudSlapWhichMon::
     .string "Which Pokémon wants to learn\n"
-    .string "DREAM EATER?$"
+    .string "Mud-Slap?$"
 
-Text_DreamEaterTaught::
+Text_MudSlapTaught::
     .string "In a later version of the hack,\n"
-    .string " I will charge you ¥50 for this.$"
+    .string "I will charge you ¥50 for this.$"
 
 PewterCity_Text_ClefairyCameFromMoon::
     .string "Clefairy came from the moon.\n"

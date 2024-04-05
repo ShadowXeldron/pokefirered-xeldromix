@@ -1333,3 +1333,9 @@ const u8 gText_Receive[] = _("RECEIVE");
 const u8 gText_Send[] = _("SEND");
 const u8 gText_Toss[] = _("TOSS");
 const u8 gText_DelAllCancelOk[] = _("DEL. ALL{CLEAR_TO 0x57}CANCEL{CLEAR_TO 0xA4}OK");
+
+// New Stuff
+const u8 gText_SchoolDefenceCurl[] = _("Defence Curl");
+const u8 gText_SchoolPsychUp[] = _("Psych Up");
+const u8 gText_SchoolSnore[] = _("Snore");
+const u8 gText_SchoolEndure[] = _("Endure");

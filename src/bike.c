@@ -250,7 +250,7 @@ bool8 RS_IsRunningDisallowed(u8 r0)
         return TRUE;
 }
 
-bool32 IsRunningDisallowed(u8 metatileBehavior)
+bool32 IsRunningDisallowed(u8 metatileBehavior) // I run all the time in real life so running s
 {
     if (!gMapHeader.allowRunning)
         return TRUE;
