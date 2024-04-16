@@ -1,7 +1,6 @@
 # Pokémon FireRed and LeafGreen
-
-[![Build Status][travis-badge]][travis]
-
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) 
+ 
 [travis]: https://travis-ci.org/pret/pokefirered
 [travis-badge]: https://travis-ci.org/pret/pokefirered.svg?branch=master
 
