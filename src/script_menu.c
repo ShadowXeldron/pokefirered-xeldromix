@@ -472,9 +472,11 @@ static const struct MenuAction sMultichoiceList_SeagallopVermilion[] = {
     { gOtherText_Exit }
 };
 
-static const struct MenuAction sMultichoiceList_62[] = {
-    { gText_Multichoice_Empty1 },
-    { gText_Multichoice_Empty2 },
+static const struct MenuAction sMultichoiceList_62[] = { // Repurposed into the Trainers' School move tutor
+    { gText_SchoolDefenceCurl },
+    { gText_SchoolPsychUp },
+    { gText_SchoolSnore },
+    { gText_SchoolEndure },
     { gOtherText_Exit }
 };
 

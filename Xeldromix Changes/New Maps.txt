@@ -38,6 +38,9 @@ The Valley is split into one area for every stat.
 
 Despite being a good spot to train, the Pokemon here have an Elite Four power level. While this means you'll be getting more experience, you will still need to put in sufficient training to be able to take them on.
 
+Viridian Forest Depths & Grotto
+A new area accessible as soon as you get Cut, although you may consider wanting to hold off until you beat Erika.
+
 WOULD BE NICE TO HAVE BUT I WOULDN'T COUNT ON IT
 
 Restore unused Sevii Islands maps or recycle them into Elegant Valley
@@ -47,5 +50,7 @@ A secret area in Victory Road accessible during the postgame. It is filled with 
 
 Mt. Moon Square
 An extra area at the summit of Mt. Moon that can be reached once you get Strength. Due to the lack of an RTC in FRLG, there probably won't be a Clefairy event. The area will contain a move tutor and a superboss encounter.
+
+
 
 Maybe Johto?

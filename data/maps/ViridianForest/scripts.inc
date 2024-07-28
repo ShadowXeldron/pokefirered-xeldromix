@@ -60,5 +60,5 @@ ViridianForest_EventScript_Anthony::
 
 ViridianForest_EventScript_Charlie::
 	trainerbattle_single TRAINER_BUG_CATCHER_CHARLIE, ViridianForest_Text_CharlieIntro, ViridianForest_Text_CharlieDefeat
-	msgbox ViridianForest_Text_CharliePostBattle, MSGBOX_AUTOCLOSE
+	call ViridianForest_EventScript_FuryCutterTutor
 	end

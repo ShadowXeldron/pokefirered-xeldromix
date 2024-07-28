@@ -4382,18 +4382,6 @@
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/map.bin"
     },
     {
-      "id": "LAYOUT_NEW_MAP1",
-      "name": "NewMap1_Layout",
-      "width": 20,
-      "height": 21,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_MtEmber",
-      "border_filepath": "data/layouts/NewMap1/border.bin",
-      "blockdata_filepath": "data/layouts/NewMap1/map.bin"
-    },
-    {
       "id": "LAYOUT_COLOUR_DUNGEON_1F",
       "name": "ColourDungeon_1F_Layout",
       "width": 20,
@@ -4524,6 +4512,30 @@
       "secondary_tileset": "gTileset_CeruleanCave",
       "border_filepath": "data/layouts/ColourDungeon_Summit/border.bin",
       "blockdata_filepath": "data/layouts/ColourDungeon_Summit/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_FOREST_DEPTHS",
+      "name": "ViridianForest_Depths_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_ViridianForest",
+      "border_filepath": "data/layouts/ViridianForest_Depths/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianForest_Depths/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_FOREST_GROTTO",
+      "name": "ViridianForest_Grotto_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_RockTunnel",
+      "border_filepath": "data/layouts/ViridianForest_Grotto/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianForest_Grotto/map.bin"
     }
   ]
 }

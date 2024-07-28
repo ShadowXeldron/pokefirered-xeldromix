@@ -515,6 +515,7 @@ gStdScriptsEnd::
 
 	.include "data/maps/ViridianForest/text.inc"
 	.include "data/maps/MtMoon_1F/text.inc"
+	.include "data/maps/MtMoon_B1F/text.inc"
 	.include "data/maps/MtMoon_B2F/text.inc"
 	.include "data/maps/SSAnne_Exterior/text.inc"
 	.include "data/maps/SSAnne_1F_Corridor/text.inc"
@@ -1365,9 +1366,6 @@ Text_TestMsg::
 	.include "data/text/new_game_intro.inc"
 	.include "data/text/pokedude.inc"
 
-	.include "data/maps/NewMap1/scripts.inc"
-	.include "data/maps/NewMap1/text.inc"
-
 	.include "data/maps/ColourDungeon_1F/scripts.inc"
 	.include "data/maps/ColourDungeon_1F/text.inc"
 
@@ -1400,3 +1398,9 @@ Text_TestMsg::
 
 	.include "data/maps/ColourDungeon_Summit/scripts.inc"
 	.include "data/maps/ColourDungeon_Summit/text.inc"
+
+	.include "data/maps/ViridianForest_Depths/scripts.inc"
+	.include "data/maps/ViridianForest_Depths/text.inc"
+
+	.include "data/maps/ViridianForest_Grotto/scripts.inc"
+	.include "data/maps/ViridianForest_Grotto/text.inc"

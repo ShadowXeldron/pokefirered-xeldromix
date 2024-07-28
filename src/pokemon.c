@@ -2497,9 +2497,9 @@ static void DeleteFirstMoveAndGiveMoveToBoxMon(struct BoxPokemon *boxMon, u16 mo
     (var) /= (gStatStageRatios)[(mon)->statStages[(statIndex)]][1];                 \
 }
 
-// Own function in pokeemerald
-#define ShouldGetStatBadgeBoost(flag, battler)\
-    (!(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_EREADER_TRAINER)) && FlagGet(flag) && GetBattlerSide(battler) == B_SIDE_PLAYER)
+// Own function in pokeemerald, but commented out here because I don't like badge boosts
+//[HASH HERE]define ShouldGetStatBadgeBoost(flag, battler) [BACKSLASH HERE]
+//    (!(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_EREADER_TRAINER)) && FlagGet(flag) && GetBattlerSide(battler) == B_SIDE_PLAYER)
 
 
 s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *defender, u32 move, u16 sideStatus, u16 powerOverride, u8 typeOverride, u8 battlerIdAtk, u8 battlerIdDef)
@@ -2557,14 +2557,15 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
     if (attacker->ability == ABILITY_HUGE_POWER || attacker->ability == ABILITY_PURE_POWER)
         attack *= 2;
 
-    if (ShouldGetStatBadgeBoost(FLAG_BADGE01_GET, battlerIdAtk))
+    // Disabled badge boosts because I think they give the player an unfair advantage
+    /*if (ShouldGetStatBadgeBoost(FLAG_BADGE01_GET, battlerIdAtk))
         attack = (110 * attack) / 100;
     if (ShouldGetStatBadgeBoost(FLAG_BADGE05_GET, battlerIdDef))
         defense = (110 * defense) / 100;
     if (ShouldGetStatBadgeBoost(FLAG_BADGE07_GET, battlerIdAtk))
         spAttack = (110 * spAttack) / 100;
     if (ShouldGetStatBadgeBoost(FLAG_BADGE07_GET, battlerIdDef))
-        spDefense = (110 * spDefense) / 100;
+        spDefense = (110 * spDefense) / 100;*/
 
     // Apply type-bonus hold item
     for (i = 0; i < ARRAY_COUNT(sHoldEffectToType); i++)
@@ -2582,6 +2583,8 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
     // Apply boosts from hold items
     if (attackerHoldEffect == HOLD_EFFECT_CHOICE_BAND)
         attack = (150 * attack) / 100;
+    //if (attackerHoldEffect == HOLD_EFFECT_CHOICE_SPECS) Uncomment when Choice Specs have been implemented
+    //    spAttack = (150 * spAttack) / 100;
     if (attackerHoldEffect == HOLD_EFFECT_SOUL_DEW && !(gBattleTypeFlags & (BATTLE_TYPE_BATTLE_TOWER)) && (attacker->species == SPECIES_LATIAS || attacker->species == SPECIES_LATIOS))
         spAttack = (150 * spAttack) / 100;
     if (defenderHoldEffect == HOLD_EFFECT_SOUL_DEW && !(gBattleTypeFlags & (BATTLE_TYPE_BATTLE_TOWER)) && (defender->species == SPECIES_LATIAS || defender->species == SPECIES_LATIOS))
@@ -2590,10 +2593,10 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         spAttack *= 2;
     if (defenderHoldEffect == HOLD_EFFECT_DEEP_SEA_SCALE && defender->species == SPECIES_CLAMPERL)
         spDefense *= 2;
-    if (attackerHoldEffect == HOLD_EFFECT_LIGHT_BALL && attacker->species == SPECIES_PIKACHU)
-        spAttack *= 2;
+    if (attackerHoldEffect == HOLD_EFFECT_LIGHT_BALL && (attacker->species == SPECIES_PICHU || attacker->species == SPECIES_PIKACHU || attacker->species == SPECIES_RAICHU || attacker->species == SPECIES_PLUSLE || attacker->species == SPECIES_MINUN))
+        spAttack = (150 * spAttack) / 100; // This nerf is because Raichu with a special attack stat of 180 is too much, even for me. 135 is more reasonable.
     if (defenderHoldEffect == HOLD_EFFECT_METAL_POWDER && defender->species == SPECIES_DITTO)
-        defense *= 2;
+        defense *= 8;
     if (attackerHoldEffect == HOLD_EFFECT_THICK_CLUB && (attacker->species == SPECIES_CUBONE || attacker->species == SPECIES_MAROWAK))
         attack *= 2;
     if (defender->ability == ABILITY_THICK_FAT && (type == TYPE_FIRE || type == TYPE_ICE))
@@ -2626,28 +2629,18 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
     // Unlike Iron Fist, there's a few special slashing moves. Therefore, I'm putting it over here.
     if (attacker->ability == ABILITY_SHARPNESS) // Note to self: Find a more efficient method
     {
-        int isElementPresent = 0;
-        for (int i = 0; i < 14; i++)
         {
-            if (sPunchingMovesTable[i] == gCurrentMove) {
-                isElementPresent = 1;
-                break;
+            if (isInSlashTable(gCurrentMove))
+            {
+                BattleStringExpandPlaceholdersToDisplayedString(gBattleText_GetPumped);
+                gBattleMovePower = (120 * gBattleMovePower) / 100;
             }
         }
-
-        if (isElementPresent) {
-                gBattleMovePower = (150 * gBattleMovePower) / 100;
-            }
-        
-        // I was using a ton of loops here and I swear it wasn't working
-        //BattleStringExpandPlaceholdersToDisplayedString(gBattleText_GetPumped);
-
-        //gBattleMovePower = (150 * gBattleMovePower) / 100;
     }
 
-    // Self-destruct / Explosion cut defense in half? More like cut from the game!
-    //if (gBattleMoves[gCurrentMove].effect == EFFECT_EXPLOSION)
-    //    defense /= 2;
+    // Self-destruct / Explosion cut defense in half
+    if (gBattleMoves[gCurrentMove].effect == EFFECT_EXPLOSION)
+        defense /= 2; // I originally removed this mechanic but then I watched the FSG video on Explosion. It was then I decided I wanted one of the bosses to have a Boom team
 
     if (IS_MOVE_PHYSICAL(gCurrentMove))
     {
@@ -6002,23 +5995,21 @@ static u16 GetBattleBGM(void)
     {
         switch (gTrainers[gTrainerBattleOpponent_A].trainerClass)
         {
-        case TRAINER_CLASS_CHAMPION:
-            return MUS_VS_CHAMPION;
-        case TRAINER_CLASS_LEADER:
-            return MUS_VS_GYM_LEADER;
-        case TRAINER_CLASS_ELITE_FOUR:
-            return MUS_VS_ELITE_FOUR;
-        case TRAINER_CLASS_BOSS:
-            return MUS_VS_GIOVANNI;
-        case TRAINER_CLASS_TEAM_ROCKET:
-            return MUS_VS_ROCKET;
-        case TRAINER_CLASS_COOLTRAINER:
-        case TRAINER_CLASS_GENTLEMAN:
-        case TRAINER_CLASS_RIVAL_EARLY:
-        case TRAINER_CLASS_RIVAL_LATE:
-            return MUS_VS_RIVAL;
-        default:
-            return MUS_VS_TRAINER;
+            case TRAINER_CLASS_CHAMPION:
+                return MUS_VS_CHAMPION;
+            case TRAINER_CLASS_LEADER:
+                return MUS_VS_GYM_LEADER;
+            case TRAINER_CLASS_ELITE_FOUR:
+                return MUS_VS_ELITE_FOUR;
+            case TRAINER_CLASS_BOSS:
+                return MUS_VS_GIOVANNI;
+            case TRAINER_CLASS_TEAM_ROCKET:
+                return MUS_VS_ROCKET;
+            case TRAINER_CLASS_RIVAL_EARLY:
+            case TRAINER_CLASS_RIVAL_LATE:
+                return MUS_VS_RIVAL;
+            default:
+                return MUS_VS_TRAINER;
         }
     }
     return MUS_VS_WILD;

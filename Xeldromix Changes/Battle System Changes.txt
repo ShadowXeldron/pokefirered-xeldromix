@@ -1,6 +1,8 @@
 BATTLE SYSTEM CHANGES
 
  - STAB is now only a 1.25x boost
+ - Critical hits only occur if they have been boosted by at least one stage
+ - One stage of critical hit bonuses now provides a 5:1 critical hit ratio
  - Ice now resists Water and Dragon and is no longer weak to Steel and Rock.
  - Water now beats Steel and is now weak to Ice
  - Electric is now weak to Water (because WATER CAN DESTROY PULSEMAN) and now beats Steel 

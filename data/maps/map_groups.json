@@ -175,7 +175,6 @@
     "SixIsland_DottedHole_SapphireRoom",
     "SixIsland_PatternBush",
     "SixIsland_AlteringCave",
-    "NewMap1",
     "ColourDungeon_1F",
     "ColourDungeon_OrangeTrial",
     "ColourDungeon_PurpleTrial",
@@ -186,7 +185,9 @@
     "ColourDungeon_BlueTrial",
     "ColourDungeon_3F",
     "ColourDungeon_YellowTrial",
-    "ColourDungeon_Summit"
+    "ColourDungeon_Summit",
+    "ViridianForest_Depths",
+    "ViridianForest_Grotto"
   ],
   "gMapGroup_SpecialArea": [
     "NavelRock_Exterior",

@@ -8,13 +8,11 @@ ViridianCity_PokemonCenter_1F_Text_PokeCenterInEveryTown::
     .string "There's a POKéMON CENTER in every\n"
     .string "town ahead.\p"
     .string "They charge no money, so don't\n"
-    .string "be shy about healing POKéMON.\p"
-    .string "You can also find some useful\n"
-    .string  "services upstairs!$"
+    .string "be shy about healing POKéMON.$"
 
 ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons::
-    .string "Pokémon Centers heal your tired,\n"
-    .string "hurt, or fainted Pokémon.\p"
-    .string "They make all Pokémon completely\n"
+    .string "POKéMON CENTERS heal your tired,\n"
+    .string "hurt, or fainted POKéMON.\p"
+    .string "They make all POKéMON completely\n"
     .string "healthy.$"
 

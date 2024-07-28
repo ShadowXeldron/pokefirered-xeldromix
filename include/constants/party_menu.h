@@ -10,6 +10,7 @@
 #define AILMENT_PKRS  6
 #define AILMENT_FNT   7
 
+// FRLG
 #define TUTOR_MOVE_MEGA_PUNCH      0
 #define TUTOR_MOVE_SWORDS_DANCE    1
 #define TUTOR_MOVE_MEGA_KICK       2
@@ -25,12 +26,42 @@
 #define TUTOR_MOVE_EXPLOSION       12
 #define TUTOR_MOVE_ROCK_SLIDE      13
 #define TUTOR_MOVE_SUBSTITUTE      14
-#define TUTOR_MOVE_COUNT           15 // regular tutor move count
 
-#define TUTOR_MOVE_FRENZY_PLANT    15
-#define TUTOR_MOVE_BLAST_BURN      16
-#define TUTOR_MOVE_HYDRO_CANNON    17
+// Emerald
+#define TUTOR_MOVE_ROLLOUT         15
+#define TUTOR_MOVE_FURY_CUTTER     16
+#define TUTOR_MOVE_SWAGGER         17
+#define TUTOR_MOVE_FIRE_PUNCH      18
+#define TUTOR_MOVE_ICE_PUNCH       19
+#define TUTOR_MOVE_THUNDER_PUNCH   20
+#define TUTOR_MOVE_DYNAMIC_PUNCH   21
+#define TUTOR_MOVE_SLEEP_TALK      22
+#define TUTOR_MOVE_ICY_WIND        23
+#define TUTOR_MOVE_MUD_SLAP        24
+#define TUTOR_MOVE_SWIFT           25
+#define TUTOR_MOVE_DEFENSE_CURL    26
+#define TUTOR_MOVE_PSYCH_UP        27
+#define TUTOR_MOVE_ENDURE          28
+#define TUTOR_MOVE_SNORE           29
 
+// Cut Masters
+#define TUTOR_MOVE_AQUA_CUTTER     30
+#define TUTOR_MOVE_CROSS_POISON    31
+#define TUTOR_MOVE_NIGHT_SLASH     32
+#define TUTOR_MOVE_LEAF_BLADE      33
+#define TUTOR_MOVE_SACRED_SWORD    34
+
+// Other
+#define TUTOR_MOVE_TRIPLE_AXEL     35
+#define TUTOR_MOVE_DRACO_METEOR    36
+
+#define TUTOR_MOVE_COUNT           37 // regular tutor move count
+
+#define TUTOR_MOVE_FRENZY_PLANT    37
+#define TUTOR_MOVE_BLAST_BURN      38
+#define TUTOR_MOVE_HYDRO_CANNON    39
+
+// Rework this to allow for lots of moves to work as HMs as long as you have the correct Gym Badge. This may also entain making the Safari Zone optional.
 #define FIELD_MOVE_FLASH        0
 #define FIELD_MOVE_CUT          1
 #define FIELD_MOVE_FLY          2

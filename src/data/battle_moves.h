@@ -1262,16 +1262,16 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_FISSURE] =
     {
-        .effect = EFFECT_EARTHQUAKE,
-        .power = 120,
+        .effect = EFFECT_OVERHEAT,
+        .power = 130,
         .type = TYPE_GROUND,
         .accuracy = 90,
         .pp = 5,
-        .secondaryEffectChance = 0,
+        .secondaryEffectChance = 100,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
-        .category= MOVE_CATEGORY_PHYSICAL,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .category= MOVE_CATEGORY_SPECIAL,
     },
 
     [MOVE_DIG] =
@@ -2425,10 +2425,10 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_SNORE] =
     {
         .effect = EFFECT_SNORE,
-        .power = 40,
+        .power = 65,
         .type = TYPE_NORMAL,
         .accuracy = 100,
-        .pp = 15,
+        .pp = 20,
         .secondaryEffectChance = 30,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -6602,9 +6602,9 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .category= MOVE_CATEGORY_PHYSICAL,
     },
 
-    [MOVE_QUIVER_DANCE] =
+    [MOVE_QUIVER_DANCE] = // TODO: Add the actual effect
     {
-        .effect = EFFECT_QUIVER_DANCE,
+        .effect = EFFECT_DRAGON_DANCE, //EFFECT_QUIVER_DANCE,
         .power = 0,
         .type = TYPE_BUG,
         .accuracy = 0,
@@ -6770,5 +6770,33 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         .category= MOVE_CATEGORY_PHYSICAL,
+    },
+    
+    [MOVE_METEOR_BEAM] =
+    {
+        .effect = EFFECT_SKULL_BASH,
+        .power = 120,
+        .type = TYPE_ROCK,
+        .accuracy = 90,
+        .pp = 10,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .category= MOVE_CATEGORY_PHYSICAL,
+    },
+
+    [MOVE_RUTHLESS_RAID] =
+    {
+        .effect = EFFECT_RUTHLESS_RAID,
+        .power = 130,
+        .type = TYPE_DARK,
+        .accuracy = 90,
+        .pp = 5,
+        .secondaryEffectChance = 100,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .category= MOVE_CATEGORY_SPECIAL,
     },
 };

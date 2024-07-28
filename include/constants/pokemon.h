@@ -206,7 +206,7 @@
 #define LEVEL_UP_MOVE_LV   0xFE00
 #define LEVEL_UP_END       0xFFFF
 
-#define MAX_LEVEL_UP_MOVES       20
+#define MAX_LEVEL_UP_MOVES       20 // this was a curveball, I hope it doesn't run anything later
 
 #define MON_MALE       0x00
 #define MON_FEMALE     0xFE
@@ -230,7 +230,7 @@
 #define MAX_PER_STAT_IVS 31
 #define MAX_IV_MASK 31
 #define USE_RANDOM_IVS (MAX_PER_STAT_IVS + 1)
-#define MAX_PER_STAT_EVS 255
+#define MAX_PER_STAT_EVS 252 // Change for consistency with Gen 6. Makes no real difference in practice, but it's there
 #define MAX_TOTAL_EVS 510
 #define EV_ITEM_RAISE_LIMIT 100
 

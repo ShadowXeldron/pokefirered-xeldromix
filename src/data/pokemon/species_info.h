@@ -3143,7 +3143,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseHP = 90,
         .baseAttack = 55,
         .baseDefense = 75,
-        .baseSpeed = 30,
+        .baseSpeed = 50,
         .baseSpAttack = 60,
         .baseSpDefense = 75,
         .types = {TYPE_NORMAL, TYPE_NORMAL},
@@ -11289,10 +11289,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_LICKILICKY] =
     {
-        .baseHP = 110,
+        .baseHP = 125,
         .baseAttack = 85,
         .baseDefense = 95,
-        .baseSpeed = 50,
+        .baseSpeed = 60,
         .baseSpAttack = 80,
         .baseSpDefense = 95,
         .types = {TYPE_NORMAL, TYPE_NORMAL},

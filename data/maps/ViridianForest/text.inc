@@ -1,6 +1,6 @@
 ViridianForest_Text_FriendsItchingToBattle::
     .string "I came here with some friends to\n"
-    .string "catch us some Bug Pokémon!\p"
+    .string "catch us some Bug-type Pokémon!\p"
     .string "They're all itching to get into\n"
     .string "some Pokémon battles!$"
 
@@ -55,21 +55,22 @@ ViridianForest_Text_AnthonyPostBattle::
     .string "I lost some of my allowance…$"
 
 ViridianForest_Text_CharlieIntro::
-    .string "Did you know that Pokémon evolve?$"
+    .string "My Pokémon knows a strong move!\n"
+    .string "You can't win!$"
 
 ViridianForest_Text_CharlieDefeat::
-    .string "Oh!\n"
+    .string "What!?\n"
     .string "I lost!$"
 
 ViridianForest_Text_CharliePostBattle::
-    .string "Bug Pokémon evolve quickly.\n"
-    .string "They're a lot of fun!$"
+    .string "I should now offer to teach you\n"
+    .string "Fury Cutter, but I don't yet$"
 
-ViridianForest_Text_RanOutOfPokeBalls::
-    .string "I was Pokémon Poké Ball to\n"
-    .string "catch Pokémon, and I ran out.\p"
-    .string "That's why you can never have too\n"
-    .string "many Poké Balls.$"
+ViridianForest_Text_RanOutOfPokeBalls:: @ Now unused
+    .string "I was throwing POKé BALLS to\n"
+    .string "catch POKéMON, and I ran out.\p"
+    .string "I should have tried one a\n"
+    .string "many POKé BALLS.$"
 
 ViridianForest_Text_AvoidGrassyAreasWhenWeak::
     .string "TRAINER TIPS\p"
@@ -103,3 +104,20 @@ ViridianForest_Text_LeavingViridianForest::
     .string "LEAVING VIRIDIAN FOREST\n"
     .string "PEWTER CITY AHEAD$"
 
+Text_FuryCutterTeach::
+    .string "I am a move tutor!\n"
+    .string "I teach Fury Cutter.\p"
+    .string "Someone should tell ShadowXeldron\n"
+    .string "to give me real dialogue.\p"
+    .string "Learn Fury Cutter?$"
+
+Text_FuryCutterDeclined::
+    .string "Awww... :($"
+
+Text_FuryCutterWhichMon::
+    .string "Which Pokémon wants to learn\n"
+    .string "Fury Cutter?$"
+
+Text_FuryCutterTaught::
+    .string "It's on the house, but in future\n"
+    .string "builds I should gush about Cut Masters.$"

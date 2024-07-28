@@ -498,12 +498,14 @@
 #define MOVE_PSYSHIELD_BASH 476
 #define MOVE_MEGIDOLAON 477
 #define MOVE_BELCH 478
-#define MOVE_HEAD_SMASH 477
-#define MOVE_STEEL_BEAM 478
-#define MOVE_UNMAKER 479
-#define MOVE_WIDE_SLASH 480
+#define MOVE_HEAD_SMASH 479
+#define MOVE_STEEL_BEAM 480
+#define MOVE_UNMAKER 481
+#define MOVE_WIDE_SLASH 482
+#define MOVE_METEOR_BEAM 483
+#define MOVE_RUTHLESS_RAID 484
 
-#define MOVES_COUNT 481
+#define MOVES_COUNT 485
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF
@@ -523,8 +525,37 @@
 #define MOVETUTOR_EXPLOSION    12
 #define MOVETUTOR_ROCK_SLIDE   13
 #define MOVETUTOR_SUBSTITUTE   14
-#define MOVETUTOR_FRENZY_PLANT 15
-#define MOVETUTOR_BLAST_BURN   16
-#define MOVETUTOR_HYDRO_CANNON 17
+
+// Did you seriously think it ends at the vanilla tutors? You poor, innocent soul.
+#define MOVETUTOR_ROLLOUT      15
+#define MOVETUTOR_FURY_CUTTER  16
+#define MOVETUTOR_SWAGGER      17
+#define MOVETUTOR_FIRE_PUNCH   18
+#define MOVETUTOR_ICE_PUNCH    19
+#define MOVETUTOR_THUNDER_PUNCH 20
+#define MOVETUTOR_DYNAMIC_PUNCH 21
+#define MOVETUTOR_SLEEP_TALK    22
+#define MOVETUTOR_ICY_WIND  23
+#define MOVETUTOR_MUD_SLAP  24
+#define MOVETUTOR_SWIFT     25
+#define MOVETUTOR_DEFENSE_CURL 26
+#define MOVETUTOR_PSYCH_UP  27
+#define MOVETUTOR_ENDURE    28
+#define MOVETUTOR_SNORE     29
+
+#define MOVETUTOR_AQUA_CUTTER     30
+#define MOVETUTOR_CROSS_POISON    31
+#define MOVETUTOR_NIGHT_SLASH     32
+#define MOVETUTOR_LEAF_BLADE      33
+#define MOVETUTOR_SACRED_SWORD    34
+
+// Other
+#define MOVETUTOR_TRIPLE_AXEL     35
+#define MOVETUTOR_DRACO_METEOR    36
+
+// These twerps insist on being at the back of the list.
+#define MOVETUTOR_FRENZY_PLANT 37
+#define MOVETUTOR_BLAST_BURN   38
+#define MOVETUTOR_HYDRO_CANNON 39
 
 #endif  // GUARD_CONSTANTS_MOVES_H

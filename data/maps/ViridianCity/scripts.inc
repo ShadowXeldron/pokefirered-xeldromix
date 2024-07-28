@@ -230,7 +230,7 @@ ViridianCity_EventScript_DoTutorialBattle::
 	closemessage
 	goto_if_questlog EventScript_ReleaseEnd
 	special QuestLog_CutRecording
-	special StartOldManTutorialBattle
+	special StartOldManTutorialBattle @This had better w
 	waitstate
 	lock
 	faceplayer

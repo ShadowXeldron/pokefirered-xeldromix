@@ -4,10 +4,11 @@
 // TODO: Add tradeback moves to the back end of everyone's level up moveset
 
 static const u16 sBulbasaurLevelUpLearnset[] = { // Bulbasaur was used as the move test dummy
-    LEVEL_UP_MOVE(1, MOVE_TACKLE),
-    LEVEL_UP_MOVE(1, MOVE_SHEER_COLD),
-    LEVEL_UP_MOVE(1, MOVE_QUIVER_DANCE),
-    LEVEL_UP_MOVE(1, MOVE_GROWL),
+    LEVEL_UP_MOVE(1, MOVE_MEGIDOLAON),
+    LEVEL_UP_MOVE(1, MOVE_RUTHLESS_RAID),
+    LEVEL_UP_MOVE(1, MOVE_FIRE_FANG),
+    //LEVEL_UP_MOVE(1, MOVE_GROWL),
+    LEVEL_UP_MOVE(1, MOVE_FOCUS_BLAST),
     LEVEL_UP_MOVE(3, MOVE_VINE_WHIP), // Only here because it's Bulba's most iconic move despite now using its weaker physical stats
     LEVEL_UP_MOVE(6, MOVE_GROWTH), // Might reorganise this since it doesn't get a special move for another 6 levels
     LEVEL_UP_MOVE(9, MOVE_LEECH_SEED),
@@ -965,7 +966,7 @@ static const u16 sMankeyLevelUpLearnset[] = {
     LEVEL_UP_MOVE(29, MOVE_THRASH),
     LEVEL_UP_MOVE(33, MOVE_CROSS_CHOP),
     LEVEL_UP_MOVE(40, MOVE_HIGH_HORSEPOWER),
-    LEVEL_UP_MOVE(44, MOVE_OUTRAGE),
+    LEVEL_UP_MOVE(44, MOVE_RUTHLESS_RAID),
     LEVEL_UP_MOVE(48, MOVE_CLOSE_COMBAT),
     LEVEL_UP_END
 };
@@ -987,7 +988,7 @@ static const u16 sPrimeapeLevelUpLearnset[] = {
     LEVEL_UP_MOVE(35, MOVE_RAGE_FIST), // Replace with Rage Fist
     LEVEL_UP_MOVE(39, MOVE_HIGH_HORSEPOWER),
     LEVEL_UP_MOVE(44, MOVE_SCREECH),
-    LEVEL_UP_MOVE(48, MOVE_OUTRAGE),
+    LEVEL_UP_MOVE(48, MOVE_RUTHLESS_RAID),
     LEVEL_UP_MOVE(53, MOVE_CLOSE_COMBAT),
     LEVEL_UP_END
 };
@@ -1139,6 +1140,7 @@ static const u16 sMachokeLevelUpLearnset[] = {
 };
 
 static const u16 sMachampLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(1, MOVE_RUTHLESS_RAID),
     LEVEL_UP_MOVE(1, MOVE_LOW_KICK),
     LEVEL_UP_MOVE(1, MOVE_LEER),
     LEVEL_UP_MOVE(1, MOVE_BULLET_PUNCH),
@@ -2299,6 +2301,7 @@ static const u16 sMagikarpLevelUpLearnset[] = {
 
 static const u16 sGyaradosLevelUpLearnset[] = {
     LEVEL_UP_MOVE(0, MOVE_BITE),
+    LEVEL_UP_MOVE(1, MOVE_RUTHLESS_RAID),
     LEVEL_UP_MOVE(1, MOVE_THRASH),
     LEVEL_UP_MOVE(1, MOVE_TACKLE),
     LEVEL_UP_MOVE(25, MOVE_DRAGON_RAGE),
@@ -3893,7 +3896,7 @@ static const u16 sGranbullLevelUpLearnset[] = {
     LEVEL_UP_MOVE(43, MOVE_PLAY_ROUGH),
     LEVEL_UP_MOVE(51, MOVE_DOUBLE_EDGE),
     LEVEL_UP_MOVE(59, MOVE_CRUNCH),
-    LEVEL_UP_MOVE(67, MOVE_OUTRAGE),
+    LEVEL_UP_MOVE(67, MOVE_RUTHLESS_RAID),
     LEVEL_UP_END
 };
 
@@ -4066,6 +4069,7 @@ static const u16 sSlugmaLevelUpLearnset[] = {
 
 static const u16 sMagcargoLevelUpLearnset[] = {
     //LEVEL_UP_MOVE(0, MOVE_SHELL_SMASH), // Uncomment when added
+    LEVEL_UP_MOVE(1, MOVE_HIGH_HORSEPOWER), // Because I don't see why Magcargo can't be a member of the horse council
     LEVEL_UP_MOVE(1, MOVE_YAWN),
     LEVEL_UP_MOVE(1, MOVE_SMOG),
     LEVEL_UP_MOVE(6, MOVE_EMBER),
@@ -4644,7 +4648,7 @@ static const u16 sTyranitarLevelUpLearnset[] = {
     LEVEL_UP_MOVE(42, MOVE_OUTRAGE),
     LEVEL_UP_MOVE(47, MOVE_HIGH_HORSEPOWER),
     LEVEL_UP_MOVE(52, MOVE_GIGA_IMPACT),
-    //LEVEL_UP_MOVE(59, MOVE_TYRANT_BREATH),
+    LEVEL_UP_MOVE(59, MOVE_RUTHLESS_RAID),
     LEVEL_UP_END
 };
 
@@ -5059,6 +5063,7 @@ static const u16 sMightyenaLevelUpLearnset[] = {
     LEVEL_UP_MOVE(48, MOVE_CRUNCH),
     LEVEL_UP_MOVE(52, MOVE_SUCKER_PUNCH),
     LEVEL_UP_MOVE(56, MOVE_PLAY_ROUGH),
+    LEVEL_UP_MOVE(60, MOVE_RUTHLESS_RAID),
     LEVEL_UP_END
 };
 
@@ -5747,10 +5752,10 @@ static const u16 sLuvdiscLevelUpLearnset[] = { // Still smelly and useless; I'll
     LEVEL_UP_MOVE(22, MOVE_DRAINING_KISS),
     LEVEL_UP_MOVE(26, MOVE_FLAIL),
     LEVEL_UP_MOVE(31, MOVE_SWEET_KISS),
-    LEVEL_UP_MOVE(34, MOVE_TAKE_DOWN),
+    LEVEL_UP_MOVE(34, MOVE_DAZZLING_GLEAM),
     LEVEL_UP_MOVE(37, MOVE_CHARM),
     LEVEL_UP_MOVE(40, MOVE_RECOVER),
-    LEVEL_UP_MOVE(42, MOVE_DAZZLING_GLEAM),
+    LEVEL_UP_MOVE(42, MOVE_MOONBLAST),
     LEVEL_UP_MOVE(46, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(49, MOVE_SAFEGUARD),
     LEVEL_UP_END
@@ -5793,7 +5798,7 @@ static const u16 sCrawdauntLevelUpLearnset[] = {
     LEVEL_UP_MOVE(46, MOVE_CRUNCH),
     LEVEL_UP_MOVE(52, MOVE_CRABHAMMER),
     LEVEL_UP_MOVE(58, MOVE_ENDEAVOR),
-    LEVEL_UP_MOVE(64, MOVE_GUILLOTINE),
+    LEVEL_UP_MOVE(64, MOVE_RUTHLESS_RAID),
     LEVEL_UP_END
 };
 
@@ -6765,7 +6770,8 @@ static const u16 sAbsolLevelUpLearnset[] = {
     LEVEL_UP_MOVE(40, MOVE_SUCKER_PUNCH),
     LEVEL_UP_MOVE(45, MOVE_SWORDS_DANCE),
     LEVEL_UP_MOVE(50, MOVE_PSYCHO_CUT),
-    LEVEL_UP_MOVE(55, MOVE_PERISH_SONG),
+    LEVEL_UP_MOVE(55, MOVE_RUTHLESS_RAID),
+    LEVEL_UP_MOVE(60, MOVE_PERISH_SONG),
     LEVEL_UP_END
 };
 
@@ -8048,7 +8054,7 @@ static const u16 sHonchkrowLevelUpLearnset[] = {
     LEVEL_UP_MOVE(35, MOVE_SWORDS_DANCE), // Honchkrow is Physical
     LEVEL_UP_MOVE(45, MOVE_NIGHT_SLASH),
     LEVEL_UP_MOVE(55, MOVE_HYPNOSIS),
-    LEVEL_UP_MOVE(65, MOVE_GIGA_IMPACT),
+    LEVEL_UP_MOVE(65, MOVE_RUTHLESS_RAID),
     LEVEL_UP_END
 };
 
@@ -8070,7 +8076,7 @@ static const u16 sAnnihlapeLevelUpLearnset[] = {
     LEVEL_UP_MOVE(35, MOVE_RAGE_FIST), // Replace with Rage Fist
     LEVEL_UP_MOVE(39, MOVE_HIGH_HORSEPOWER),
     LEVEL_UP_MOVE(44, MOVE_SCREECH),
-    LEVEL_UP_MOVE(48, MOVE_OUTRAGE),
+    LEVEL_UP_MOVE(48, MOVE_RUTHLESS_RAID),
     LEVEL_UP_MOVE(53, MOVE_CLOSE_COMBAT),
     LEVEL_UP_END
 };
