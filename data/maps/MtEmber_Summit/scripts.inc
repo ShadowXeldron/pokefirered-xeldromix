@@ -26,10 +26,10 @@ MtEmber_Summit_EventScript_Moltres::
 	special QuestLog_CutRecording
 	lock
 	faceplayer
-	setwildbattle SPECIES_MOLTRES, 50
+	setwildbattle SPECIES_ENTEI, 50
 	waitse
-	playmoncry SPECIES_MOLTRES, CRY_MODE_ENCOUNTER
-	message Text_Gyaoo
+	playmoncry SPECIES_ENTEI, CRY_MODE_ENCOUNTER
+	message Text_WoofWoof
 	waitmessage
 	waitmoncry
 	delay 10

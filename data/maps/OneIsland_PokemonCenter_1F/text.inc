@@ -296,10 +296,10 @@ OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra::
 
 OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod::
     .string "By the way, {PLAYER}, you're from\n"
-    .string "PALLET TOWN, aren't you?\p"
+    .string "Pallet Town, aren't you?\p"
     .string "I've heard that it's a quiet and\n"
     .string "pleasant place.\p"
-    .string "BILL's hometown is GOLDENROD CITY,\n"
+    .string "Bill's hometown is Goldenrod City,\n"
     .string "where his folks still live.\p"
     .string "I've heard that it's quite the\n"
     .string "festive, bustling city.\p"

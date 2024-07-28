@@ -480,6 +480,7 @@ const u8 gMoveDescription_Megidolaon[] = _("An almighty attack\nthat ignores Pro
 const u8 gMoveDescription_Belch[] = _("Desc Here");
 const u8 gMoveDescription_HeadSmash[] = _("Desc Here");
 const u8 gMoveDescription_SteelBeam[] = _("Desc Here");
+const u8 gMoveDescription_Unmaker[] = _("The user channels the\nunderworld to use this\ndeadly attack. It hurts\n the user as well.");
 
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_POUND         - 1] = gMoveDescription_Pound,

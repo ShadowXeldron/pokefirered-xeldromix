@@ -65,6 +65,13 @@
       "elevation": 3,
       "dest_map": "MAP_VIRIDIAN_CITY",
       "dest_warp_id": "3"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_COLOUR_DUNGEON_1F",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

@@ -472,7 +472,7 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     SPECIES_SHINY_PAL(ANNIHLAPE, gMonShinyPalette_Metapod),
     SPECIES_SHINY_PAL(KLEAVOR, gMonShinyPalette_Metapod),
     SPECIES_SHINY_PAL(FARIGIRAF, gMonShinyPalette_Metapod),
-    SPECIES_SHINY_PAL(DUDUNSPARSE, gMonShinyPalette_Metapod),
+    SPECIES_SHINY_PAL(DUDUNSPARCE, gMonShinyPalette_Metapod),
     SPECIES_SHINY_PAL(URSALUNA, gMonShinyPalette_Metapod),
     SPECIES_SHINY_PAL(WYRDEER, gMonShinyPalette_Metapod),
     SPECIES_SHINY_PAL(ROSERADE, gMonShinyPalette_Metapod),

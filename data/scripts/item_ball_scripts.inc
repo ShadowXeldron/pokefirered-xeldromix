@@ -7,7 +7,7 @@ Route2_EventScript_ItemParalyzeHeal::
 	end
 
 ViridianForest_EventScript_ItemPokeBall::
-	finditem ITEM_POKE_BALL
+	finditem ITEM_TM09
 	end
 
 ViridianForest_EventScript_ItemAntidote::
@@ -22,8 +22,8 @@ MtMoon_1F_EventScript_ItemParalyzeHeal::
 	finditem ITEM_PARALYZE_HEAL
 	end
 
-MtMoon_1F_EventScript_ItemTM09::
-	finditem ITEM_TM09
+MtMoon_1F_EventScript_ItemTM09:: @ change me to the Bulldoze TM
+	finditem ITEM_POKE_BALL
 	end
 
 MtMoon_1F_EventScript_ItemPotion::

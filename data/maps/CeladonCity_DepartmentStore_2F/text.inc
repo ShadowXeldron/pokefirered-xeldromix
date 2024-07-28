@@ -1,11 +1,11 @@
 CeladonCity_DepartmentStore_2F_Text_SuperRepelMorePowerfulRepel::
-    .string "SUPER REPEL keeps weak POKéMON at\n"
+    .string "Super Repel keeps weak Pokémon at\n"
     .string "bay…\p"
     .string "Hmm, it's a more powerful REPEL.$"
 
 CeladonCity_DepartmentStore_2F_Text_BuyReviveForLongOutings::
     .string "For long outings, you should buy\n"
-    .string "REVIVE.$"
+    .string "Revive.$"
 
 CeladonCity_DepartmentStore_2F_Text_FloorSign::
     .string "Top-Grade Items for TRAINERS!\p"

@@ -42,9 +42,9 @@ static const u16 sTutorMoves[TUTOR_MOVE_COUNT] =
     [TUTOR_MOVE_SACRED_SWORD] = MOVE_SACRED_SWORD,
 
     // Other
+
     [TUTOR_MOVE_TRIPLE_AXEL] = MOVE_TRIPLE_AXEL,
     [TUTOR_MOVE_DRACO_METEOR] = MOVE_DRACO_METEOR,
-    
     
 };
 

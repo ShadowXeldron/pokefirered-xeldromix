@@ -4625,7 +4625,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TM01 Focus Punch",
+      "english": "TM01",
       "itemId": "ITEM_TM01",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4642,7 +4642,7 @@
       "moveId": "FocusPunch"
     },
     {
-      "english": "TM02 Dragon Claw",
+      "english": "TM02",
       "itemId": "ITEM_TM02",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4659,7 +4659,7 @@
       "moveId": "DragonClaw"
     },
     {
-      "english": "TM03 Water Pulse",
+      "english": "TM03",
       "itemId": "ITEM_TM03",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4676,7 +4676,7 @@
       "moveId": "WaterPulse"
     },
     {
-      "english": "TM04 Calm Mind",
+      "english": "TM04",
       "itemId": "ITEM_TM04",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4693,7 +4693,7 @@
       "moveId": "CalmMind"
     },
     {
-      "english": "TR05 Roar",
+      "english": "TM05",
       "itemId": "ITEM_TM05",
       "price": 1000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4710,7 +4710,7 @@
       "moveId": "Roar"
     },
     {
-      "english": "TM06 Toxic",
+      "english": "TM06",
       "itemId": "ITEM_TM06",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4727,7 +4727,7 @@
       "moveId": "Toxic"
     },
     {
-      "english": "TM07 Hail",
+      "english": "TM07",
       "itemId": "ITEM_TM07",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4744,7 +4744,7 @@
       "moveId": "Hail"
     },
     {
-      "english": "TM08 Bulk Up",
+      "english": "TM08",
       "itemId": "ITEM_TM08",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4761,7 +4761,7 @@
       "moveId": "BulkUp"
     },
     {
-      "english": "TM09 Bullet Seed",
+      "english": "TM09",
       "itemId": "ITEM_TM09",
       "price": 30000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4778,7 +4778,7 @@
       "moveId": "BulletSeed"
     },
     {
-      "english": "TR10",
+      "english": "TM10",
       "itemId": "ITEM_TM10",
       "price": 30000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4829,7 +4829,7 @@
       "moveId": "Taunt"
     },
     {
-      "english": "TR13",
+      "english": "TM13",
       "itemId": "ITEM_TM13",
       "price": 30000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4999,7 +4999,7 @@
       "moveId": "SolarBeam"
     },
     {
-      "english": "TR23",
+      "english": "TM23",
       "itemId": "ITEM_TM23",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5016,7 +5016,7 @@
       "moveId": "IronTail"
     },
     {
-      "english": "TR24",
+      "english": "TM24",
       "itemId": "ITEM_TM24",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5084,7 +5084,7 @@
       "moveId": "Return"
     },
     {
-      "english": "TR28",
+      "english": "TM28",
       "itemId": "ITEM_TM28",
       "price": 2000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5118,7 +5118,7 @@
       "moveId": "Psychic"
     },
     {
-      "english": "TR30",
+      "english": "TM30",
       "itemId": "ITEM_TM30",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5135,7 +5135,7 @@
       "moveId": "ShadowBall"
     },
     {
-      "english": "TR31",
+      "english": "TM31",
       "itemId": "ITEM_TM31",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5169,7 +5169,7 @@
       "moveId": "DoubleTeam"
     },
     {
-      "english": "TR33",
+      "english": "TM33",
       "itemId": "ITEM_TM33",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5203,7 +5203,7 @@
       "moveId": "ShockWave"
     },
     {
-      "english": "TR35",
+      "english": "TM35",
       "itemId": "ITEM_TM35",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5339,7 +5339,7 @@
       "moveId": "Facade"
     },
     {
-      "english": "TR43",
+      "english": "TM43",
       "itemId": "ITEM_TM43",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5373,7 +5373,7 @@
       "moveId": "Rest"
     },
     {
-      "english": "TR45",
+      "english": "TM45",
       "itemId": "ITEM_TM45",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",

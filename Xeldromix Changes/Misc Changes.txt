@@ -4,7 +4,7 @@ Miscalaneous/QoL Changes
 - TMs now have unlimited uses like in Gen 5
 - Flash is now considered a TM rather than a HM since it technically isn't required (I suffered through Rock Tunnel in my mono-Poison and mono-Water playthroughs without it)
 - Pokemon who had their stats buffed in later generations have had those buffs carried over
-- Fossil Pokemon are now revived at level 25
+- Fossil Pokemon are now revived at level 35
 
 TODO
 

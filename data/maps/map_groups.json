@@ -174,7 +174,20 @@
     "SixIsland_DottedHole_B4F",
     "SixIsland_DottedHole_SapphireRoom",
     "SixIsland_PatternBush",
-    "SixIsland_AlteringCave"
+    "SixIsland_AlteringCave",
+    "ColourDungeon_1F",
+    "ColourDungeon_OrangeTrial",
+    "ColourDungeon_PurpleTrial",
+    "ColourDungeon_GreenTrial",
+    "ColourDungeon_PinkTrial",
+    "ColourDungeon_2F",
+    "ColourDungeon_RedTrial",
+    "ColourDungeon_BlueTrial",
+    "ColourDungeon_3F",
+    "ColourDungeon_YellowTrial",
+    "ColourDungeon_Summit",
+    "ViridianForest_Depths",
+    "ViridianForest_Grotto"
   ],
   "gMapGroup_SpecialArea": [
     "NavelRock_Exterior",

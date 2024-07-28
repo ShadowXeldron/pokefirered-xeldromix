@@ -498,13 +498,14 @@
 #define MOVE_PSYSHIELD_BASH 476
 #define MOVE_MEGIDOLAON 477
 #define MOVE_BELCH 478
-#define MOVE_HEAD_SMASH 477
-#define MOVE_STEEL_BEAM 478
-#define MOVE_UNMAKER 479
-#define MOVE_WIDE_SLASH 480
-#define MOVE_METEOR_BEAM 481
+#define MOVE_HEAD_SMASH 479
+#define MOVE_STEEL_BEAM 480
+#define MOVE_UNMAKER 481
+#define MOVE_WIDE_SLASH 482
+#define MOVE_METEOR_BEAM 483
+#define MOVE_RUTHLESS_RAID 484
 
-#define MOVES_COUNT 482
+#define MOVES_COUNT 485
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

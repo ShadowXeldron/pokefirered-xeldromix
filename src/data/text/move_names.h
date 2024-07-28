@@ -330,7 +330,7 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_SAND_TOMB]     = _("Sand Tomb"),
     [MOVE_SHEER_COLD]    = _("Sheer Cold"),
     [MOVE_MUDDY_WATER]   = _("Muddy Water"),
-    [MOVE_BULLET_SEED]   = _("Bulley Seed"),
+    [MOVE_BULLET_SEED]   = _("Bullet Seed"),
     [MOVE_AERIAL_ACE]    = _("Aerial Ace"),
     [MOVE_ICICLE_SPEAR]  = _("Icicle Spear"),
     [MOVE_IRON_DEFENSE]  = _("Iron Defence"),
@@ -500,5 +500,7 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_BELCH]         = _("Belch"),
     [MOVE_HEAD_SMASH]    = _("Head Smash"),
     [MOVE_STEEL_BEAM]    = _("Steel Beam"),
+    [MOVE_UNMAKER]       = _("Unmaker"),
+    [MOVE_RUTHLESS_RAID] = _("RuthlessRaid"),
     
 };

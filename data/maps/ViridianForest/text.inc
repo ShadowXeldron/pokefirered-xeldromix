@@ -5,7 +5,7 @@ ViridianForest_Text_FriendsItchingToBattle::
     .string "some Pokémon battles!$"
 
 ViridianForest_Text_RickIntro::
-    .string "Hey! You have POKéMON!\n"
+    .string "Hey! You have Pokémon!\n"
     .string "Come on!\l"
     .string "Let's battle 'em!$"
 
@@ -23,7 +23,7 @@ ViridianForest_Text_DougIntro::
 
 ViridianForest_Text_DougDefeat::
     .string "Huh?\n"
-    .string "I ran out of POKéMON!$"
+    .string "I ran out of Pokémon!$"
 
 ViridianForest_Text_DougPostBattle::
     .string "That totally stinks! I'm going to\n"
@@ -66,7 +66,7 @@ ViridianForest_Text_CharliePostBattle::
     .string "I should now offer to teach you\n"
     .string "Fury Cutter, but I don't yet$"
 
-ViridianForest_Text_RanOutOfPokeBalls::
+ViridianForest_Text_RanOutOfPokeBalls:: @ Now unused
     .string "I was throwing POKé BALLS to\n"
     .string "catch POKéMON, and I ran out.\p"
     .string "I should have tried one a\n"
@@ -74,29 +74,29 @@ ViridianForest_Text_RanOutOfPokeBalls::
 
 ViridianForest_Text_AvoidGrassyAreasWhenWeak::
     .string "TRAINER TIPS\p"
-    .string "If your POKéMON are weak and you\n"
+    .string "If your Pokémon are weak and you\n"
     .string "want to avoid battles, stay away\l"
     .string "from grassy areas!$"
 
 ViridianForest_Text_UseAntidoteForPoison::
-    .string "For poison, use ANTIDOTE!\n"
-    .string "Get it at POKéMON MARTS!$"
+    .string "For poison, use an Antidote!\n"
+    .string "Get it at Pokémon Marts!$"
 
 ViridianForest_Text_ContactOakViaPCToRatePokedex::
     .string "TRAINER TIPS\p"
-    .string "Contact Prof. Oakvia a PC to\n"
+    .string "Contact Prof. Oak via a PC to\n"
     .string "get your Pokédex evaluated!$"
 
 ViridianForest_Text_CantCatchOwnedMons::
     .string "TRAINER TIPS\p"
-    .string "You can't catch a POKéMON that\n"
+    .string "You can't catch a Pokémon that\n"
     .string "belongs to someone else.\p"
-    .string "Throw POKé BALLS only at wild\n"
-    .string "POKéMON to catch them!$"
+    .string "Throw Poké Balls only at wild\n"
+    .string "Pokémon to catch them!$"
 
 ViridianForest_Text_WeakenMonsBeforeCapture::
     .string "TRAINER TIPS\p"
-    .string "Weaken POKéMON before attempting\n"
+    .string "Weaken Pokémon before attempting\n"
     .string "capture!\p"
     .string "When healthy, they may escape!$"
 

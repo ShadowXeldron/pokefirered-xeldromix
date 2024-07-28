@@ -45,9 +45,9 @@ EventScript_DontCutTree::
 	end
 
 Text_CutTreeDown::
-	.string "This tree looks like it can be CUT\n"
+	.string "This tree looks like it can be cut\n"
 	.string "down!\p"
-	.string "Would you like to CUT it?$"
+	.string "Would you like to use Chop Down?$"
 
 Text_MonUsedMove::
 	.string "{STR_VAR_1} used {STR_VAR_2}!$"
@@ -110,10 +110,10 @@ EventScript_DontSmashRock::
 
 Text_UseRockSmash::
 	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use ROCK SMASH?$"
+	.string "Would you like to use Rubble Crush?$"
 
 Text_MonMaySmashRock::
-	.string "It's a rugged rock, but a POKéMON\n"
+	.string "It's a rugged rock, but a Pokémon\n"
 	.string "may be able to smash it.$"
 
 EventScript_StrengthBoulder::
@@ -158,17 +158,17 @@ EventScript_DontUseStrength::
 	end
 
 Text_UseStrength::
-	.string "It's a big boulder, but a POKéMON\n"
+	.string "It's a big boulder, but a Pokémon\n"
 	.string "may be able to push it aside.\p"
-	.string "Would you like to use STRENGTH?$"
+	.string "Would you like to use Strong Push?$"
 
 Text_MonUsedStrengthCanMoveBoulders::
-	.string "{STR_VAR_1} used STRENGTH!\p"
-	.string "{STR_VAR_1}'s STRENGTH made it\n"
+	.string "{STR_VAR_1} used Strong Push!\p"
+	.string "{STR_VAR_1}'s Strong Push made it\n"
 	.string "possible to move boulders around!$"
 
 Text_MonMayPushBoulder::
-	.string "It's a big boulder, but a POKéMON\n"
+	.string "It's a big boulder, but a PokéMON\n"
 	.string "may be able to push it aside.$"
 
 Text_StrengthMadeMovingBouldersPossible::
@@ -202,10 +202,10 @@ Text_WallOfWaterCrashingDown::
 
 Text_UseWaterfall::
 	.string "It's a large waterfall.\n"
-	.string "Would you like to use WATERFALL?$"
+	.string "Would you like to use Waterfall?$"
 
 Text_MonUsedWaterfall::
-	.string "{STR_VAR_1} used WATERFALL.$"
+	.string "{STR_VAR_1} used Waterfall.$"
 
 @ Unused leftover from R/S
 EventScript_DeepWater::

@@ -1,0 +1,225 @@
+{
+  "id": "MAP_COLOUR_DUNGEON_1F",
+  "name": "ColourDungeon_1F",
+  "layout": "LAYOUT_COLOUR_DUNGEON_1F",
+  "music": "MUS_COLOUR_DUNGEON",
+  "region_map_section": "MAPSEC_ROUTE_25",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 8,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "ColourDungeon_1F_PlotBoulders",
+      "flag": "0"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 9,
+      "y": 9,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 10,
+      "y": 9,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 11,
+      "y": 9,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 12,
+      "y": 9,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 8,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "ColourDungeon_1F_PlotBoulders",
+      "flag": "0"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 9,
+      "y": 7,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 10,
+      "y": 7,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 11,
+      "y": 7,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 12,
+      "y": 7,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 8,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "ColourDungeon_1F_PlotBoulders",
+      "flag": "0"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 9,
+      "y": 5,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 10,
+      "y": 5,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 11,
+      "y": 5,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 12,
+      "y": 5,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 8,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "ColourDungeon_1F_PlotBoulders",
+      "flag": "0"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 9,
+      "y": 3,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 10,
+      "y": 3,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 11,
+      "y": 3,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
+      "x": 12,
+      "y": 3,
+      "target_local_id": 1,
+      "target_map": "MAP_COLOUR_DUNGEON_1F"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 10,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_VIRIDIAN_CITY_SCHOOL",
+      "dest_warp_id": "3"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "ColourDungeon_1F_TrialSign"
+    }
+  ]
+}

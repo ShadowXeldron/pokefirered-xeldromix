@@ -5,6 +5,10 @@ SSAnne_Exterior_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, SSAnne_Exterior_OnFrame
 	.byte 0
 
+SSAnne_Exterior_MaybeYouWillFindAMuk::
+	msgbox SSAnne_Exterior_Text_MewUnderTruck, MSGBOX_NPC
+	end
+
 SSAnne_Exterior_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_SSANNE_EXTERIOR
 	end

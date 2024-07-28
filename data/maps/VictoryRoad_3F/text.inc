@@ -22,14 +22,15 @@ Text_DoubleEdgeTaught::
     .string "out!$"
 
 VictoryRoad_3F_Text_GeorgeIntro::
-    .string "I heard rumors of a child prodigy.$"
+    .string "I heard rumors of a rare Pokemon\n"
+    .string "who lives in Victory Road.$"
 
 VictoryRoad_3F_Text_GeorgeDefeat::
-    .string "The rumors were true!$"
+    .string "Wait - what's that sound?$"
 
 VictoryRoad_3F_Text_GeorgePostBattle::
-    .string "So, it was you who beat GIOVANNI\n"
-    .string "of TEAM ROCKET?$"
+    .string "Yep! Just now! I think I heard\n"
+    .string "it! I think it said 'gyaooo!'$"
 
 VictoryRoad_3F_Text_AlexaIntro::
     .string "TRAINERS live to seek stronger\n"

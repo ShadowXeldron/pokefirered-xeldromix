@@ -585,7 +585,7 @@ static const struct StatFractions sAccuracyStageRatios[] =
 };
 
 // The chance is 1/N for each stage.
-static const u16 sCriticalHitChance[] = {16, 8, 4, 3, 2};
+static const u16 sCriticalHitChance[] = {255, 5, 4, 3, 2}; // Replaced 16 with 255 because I hate crits
 
 static const u32 sStatusFlagsForMoveEffects[NUM_MOVE_EFFECTS] =
 {
@@ -2775,6 +2775,10 @@ void SetMoveEffect(bool8 primary, u8 certain)
             case MOVE_EFFECT_SP_ATK_TWO_DOWN: // Overheat
                 BattleScriptPush(gBattlescriptCurrInstr + 1);
                 gBattlescriptCurrInstr = BattleScript_SAtkDown2;
+                break;
+            case MOVE_EFFECT_ATK_TWO_DOWN: // Ruthless Raid
+                BattleScriptPush(gBattlescriptCurrInstr + 1);
+                gBattlescriptCurrInstr = BattleScript_AtkDown2;
                 break;
             }
         }

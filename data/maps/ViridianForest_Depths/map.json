@@ -1,0 +1,35 @@
+{
+  "id": "MAP_VIRIDIAN_FOREST_DEPTHS",
+  "name": "ViridianForest_Depths",
+  "layout": "LAYOUT_VIRIDIAN_FOREST_DEPTHS",
+  "music": "MUS_VIRIDIAN_FOREST",
+  "region_map_section": "MAPSEC_VIRIDIAN_FOREST",
+  "requires_flash": true,
+  "weather": "WEATHER_SHADE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_VIRIDIAN_FOREST",
+      "offset": 0,
+      "direction": "left"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

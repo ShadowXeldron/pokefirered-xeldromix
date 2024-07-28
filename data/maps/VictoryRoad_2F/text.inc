@@ -1,35 +1,37 @@
 VictoryRoad_2F_Text_DawsonIntro::
-    .string "If you can get through here,\n"
-    .string "you can go meet the ELITE FOUR.$"
+    .string "There is a super rare Pokémon\n"
+    .string "up ahead. It's mine!$"
 
 VictoryRoad_2F_Text_DawsonDefeat::
     .string "No!\n"
     .string "Unbelievable!$"
 
 VictoryRoad_2F_Text_DawsonPostBattle::
-    .string "I can beat you when it comes to\n"
-    .string "knowledge about POKéMON!$"
+    .string "Fine then, you go catch it.\n"
+    .string "I'll just sulk over here.$"
 
 VictoryRoad_2F_Text_DaisukeIntro::
-    .string "This here is VICTORY ROAD.\n"
-    .string "It's the final test for TRAINERS!$"
+    .string "This here is Victroy Road.\n"
+    .string "It's the final test for Trainers!$"
 
 VictoryRoad_2F_Text_DaisukeDefeat::
     .string "Atcho!$"
 
 VictoryRoad_2F_Text_DaisukePostBattle::
-    .string "If you get stuck, try moving some\n"
-    .string "boulders around.$"
+    .string "I'm certain that I saw a strange\n"
+    .string "bird around here somewhere...$"
 
+@ Maybe a stock Moltress looking like a rubber chicken is too on the nose...
 VictoryRoad_2F_Text_NelsonIntro::
-    .string "Ah, so you wish to challenge the\n"
-    .string "ELITE FOUR?$"
+    .string "Hey, you. Seen any spicy chickens\n"
+    .string "around here recently?$"
 
 VictoryRoad_2F_Text_NelsonDefeat::
-    .string "You got me!$"
+    .string "I'm starving!$"
 
 VictoryRoad_2F_Text_NelsonPostBattle::
     .string "{RIVAL} also came through here.$"
+    .string "He hadn't seen one either.$"
 
 VictoryRoad_2F_Text_VincentIntro::
     .string "Come on!\n"

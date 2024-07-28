@@ -63,7 +63,7 @@ DUSTOX
 
 GROUDON
  ~ Is now Fire/Ground
- # This should absolutely benefit its Drought ability by adding some Fire STAB. Groudon's already a busted legendart anyway, but this should hopefully put him closer to par with Kyogre.
+ # This should absolutely benefit its Drought ability by adding some Fire STAB. Groudon's already a busted legendary anyway, but this should hopefully put him closer to par with Kyogre.
 
 TORCHIC
  + Ability is now Speed Boost
@@ -118,7 +118,7 @@ MAROWAK
  ~ Is now Ground/Ghost
 
 KANGASKAHN
- ~ Is now Normal/Ground
+ ~ Is now Fighting/Ground
 
 PSYDUCK
  ~ Is now Water/Psychic
@@ -142,7 +142,7 @@ ALTARIA
 
 HARIYAMA
  ~ Is now Fighting/Ground
- # This is to justify adding Headlong Rush (itself a sumo wrestling move; considering that Hariyama is a sumo wrestler) as well as to give it something unique over other Fighting-types
+ # This was to justify adding Headlong Rush (itself a sumo wrestling move; considering that Hariyama is a sumo wrestler) as well as to give it something unique over other Fighting-types. Now that Kangaskahn is a Fighting type in the hack though I'm more interested in giving it something else
 
 DUNSPARCE
  ~ Is now Dragon/Normal
@@ -221,10 +221,6 @@ VOLBEAT
 
 ILUMISE
  ~ Is now Bug/Psychic
-
-SEVIPER
- + Base Speed is now 100 
- # Buffs stolen from https://www.youtube.com/watch?v=6JI5y5h5QqA
 
 CHIMECHO
  ~ Is now Psychic/Ghost

@@ -240,6 +240,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectGlitzyGlow             @ EFFECT_GLITZY_GLOW
 	.4byte BattleScript_EffectBaddyBad            	 @ EFFECT_BADDY_BAD
 	.4byte BattleScript_EffectQuiverDance            @ EFFECT_QUIVER_DANCE
+	.4byte BattleScript_EffectRuthlessRaid           @ EFFECT_RUTHLESS_RAID
 
 BattleScript_EffectHit::
 	jumpifnotmove MOVE_SURF, BattleScript_HitFromAtkCanceler
@@ -2658,6 +2659,10 @@ BattleScript_EffectOverheat::
 	setmoveeffect MOVE_EFFECT_SP_ATK_TWO_DOWN | MOVE_EFFECT_AFFECTS_USER | MOVE_EFFECT_CERTAIN
 	goto BattleScript_EffectHit
 
+BattleScript_EffectRuthlessRaid::
+	setmoveeffect MOVE_EFFECT_ATK_TWO_DOWN | MOVE_EFFECT_AFFECTS_USER | MOVE_EFFECT_CERTAIN
+	goto BattleScript_EffectHit
+
 BattleScript_EffectTickle::
 	attackcanceler
 	attackstring
@@ -3661,6 +3666,17 @@ BattleScript_SAtkDown2::
 	printfromtable gStatDownStringIds
 	waitmessage B_WAIT_TIME_LONG
 BattleScript_SAtkDown2End::
+	return
+
+BattleScript_AtkDown2::
+	setbyte sSTAT_ANIM_PLAYED, 0
+	playstatchangeanimation BS_ATTACKER, BIT_SPATK, STAT_CHANGE_NEGATIVE | STAT_CHANGE_BY_TWO | STAT_CHANGE_CANT_PREVENT
+	setstatchanger STAT_ATK, 2, TRUE
+	statbuffchange MOVE_EFFECT_AFFECTS_USER | STAT_CHANGE_ALLOW_PTR | MOVE_EFFECT_CERTAIN, BattleScript_AtkDown2End
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, 2, BattleScript_AtkDown2End
+	printfromtable gStatDownStringIds
+	waitmessage B_WAIT_TIME_LONG
+BattleScript_AtkDown2End::
 	return
 
 BattleScript_FocusPunchSetUp::

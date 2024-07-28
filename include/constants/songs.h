@@ -365,6 +365,7 @@
 #define MUS_CERULEAN_CAVE     	  356
 #define MUS_ROCK_TUNNEL     	  357
 #define MUS_POKE_MART     	      358
+#define MUS_COLOUR_DUNGEON     	  359
 
 #define MUS_NONE                    0xFFFF
 
