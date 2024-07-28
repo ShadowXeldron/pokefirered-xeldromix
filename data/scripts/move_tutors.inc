@@ -579,29 +579,29 @@ EventScript_FuryCutterTaught::
 	release
 	end
 
-PewterCity_EventScript_MudSlapTutor::
+MtMoon_B1F_EventScript_RolloutTutor::
 	lock
 	faceplayer
 	@@goto_if_set FLAG_TUTOR_MEGA_PUNCH, EventScript_MegaPunchTaught
-	msgbox Text_MudSlapTeach, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, EventScript_MudSlapDeclined
+	msgbox Text_RolloutTeach, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_RolloutDeclined
 	call EventScript_CanOnlyBeLearnedOnce
-	goto_if_eq VAR_RESULT, NO, EventScript_MudSlapDeclined
-	msgbox Text_MudSlapWhichMon
-	setvar VAR_0x8005, MOVETUTOR_MUD_SLAP
+	goto_if_eq VAR_RESULT, NO, EventScript_RolloutDeclined
+	msgbox Text_RolloutWhichMon
+	setvar VAR_0x8005, MOVETUTOR_ROLLOUT
 	call EventScript_ChooseMoveTutorMon
-	goto_if_eq VAR_RESULT, FALSE, EventScript_MudSlapDeclined
+	goto_if_eq VAR_RESULT, FALSE, EventScript_RolloutDeclined
 	@setflag FLAG_TUTOR_MEGA_PUNCH
-	goto EventScript_MudSlapTaught
+	goto EventScript_RolloutTaught
 	end
 
-EventScript_MudSlapDeclined::
-	msgbox Text_MudSlapDeclined
+EventScript_RolloutDeclined::
+	msgbox Text_RolloutDeclined
 	release
 	end
 
-EventScript_MudSlapTaught::
-	msgbox Text_MudSlapTaught
+EventScript_RolloutTaught::
+	msgbox Text_RolloutTaught
 	release
 	end
 

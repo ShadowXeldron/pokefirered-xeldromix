@@ -3033,6 +3033,7 @@ static const u16 sLedybaLevelUpLearnset[] = {
     LEVEL_UP_MOVE(33, MOVE_BATON_PASS),
     LEVEL_UP_MOVE(36, MOVE_DUAL_WINGBEAT),
     LEVEL_UP_MOVE(40, MOVE_VOLT_TACKLE),
+    LEVEL_UP_MOVE(47, MOVE_METEOR_MASH),
     LEVEL_UP_END
 };
 
@@ -3053,6 +3054,7 @@ static const u16 sLedianLevelUpLearnset[] = {
     LEVEL_UP_MOVE(38, MOVE_BATON_PASS),
     LEVEL_UP_MOVE(42, MOVE_DUAL_WINGBEAT),
     LEVEL_UP_MOVE(47, MOVE_VOLT_TACKLE),
+    LEVEL_UP_MOVE(58, MOVE_METEOR_MASH),
     LEVEL_UP_END
 };
 
@@ -6911,6 +6913,7 @@ static const u16 sLaironLevelUpLearnset[] = {
 };
 
 static const u16 sAggronLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(1, MOVE_METEOR_MASH),
     LEVEL_UP_MOVE(1, MOVE_TACKLE),
     LEVEL_UP_MOVE(1, MOVE_HARDEN),
     LEVEL_UP_MOVE(4, MOVE_METAL_CLAW),
