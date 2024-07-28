@@ -5,6 +5,9 @@ Miscalaneous/QoL Changes
 - Flash is now considered a TM rather than a HM since it technically isn't required (I suffered through Rock Tunnel in my mono-Poison and mono-Water playthroughs without it)
 - Pokemon who had their stats buffed in later generations have had those buffs carried over
 - Fossil Pokemon are now revived at level 35
+- Slightly altered the Cerulean City side of Route 4 to make backtracking to Mt. Moon possible prior to getting Cut. It's still shorter to go through Diglett's Cave.
+- Made the running shoes available from the start because I run in my normal shoes all the time in the real world
+- Also made it possible to run indoors because I always run indoors in the real world
 
 TODO
 
@@ -17,13 +20,13 @@ TODO
 - British (i.e, correct) English is used where possible (with the exception of Pokemon Center. I would correct it to Centre but that would make scripting a pain)
 - Remove the silly noun capitalisation that all games prior to Gen 4 (and technically 5 when you consider that they weren't decapping the 'mon names in Gen 4)
 - Add nature mints. You can get them in Lavendar Town from the former Name Rater
-- Make move tutors have unlimited uses and add a cost to them (similar to Infinite Fusions)
+- Make move tutors have unlimited uses and add a cost to them (similar to Infinite Fusions) [Partly implemented - they're unlimited use, but they don't charge you anything yet]
 - Change the Marowak Ghost, the Snorlaxes and the Berry Woods Hypno into Totem Pokemon
-- Make the running shoes available from the start because I run in my normal shoes all the time in the real world
-- Also make it possible to run indoors because I always run indoors in the real world
+- Replace the guy who gives you the running shoes with something else. Right now I'm hoping to add Terastalisation because it's a very interesting (if ridiculously unbalanced and heavily underutilised in-game) gimmick
 
 MAYBE DO IF I REALLY THINK I SHOULD
 
+- Add Rock Climb as a HM
 - Add biome-specific wild battle music. In addition:
 	The vanilla legendary bird theme plays for 5% and 4% rarity encounters
 	The vanilla Mewtwo theme plays for the ultra-rare 1% encounters

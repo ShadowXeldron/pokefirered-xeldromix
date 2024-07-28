@@ -217,10 +217,16 @@ MASQUERAIN
 
 VOLBEAT
  ~ Is now Bug/Fire
- + Base Special Attack is now 120
+ ~ Now provides 1 Speed EV and 2 Attack EVs
+ + Base Attack is now 120
+ ~ Abilities are now Swarm and Flash Fire
 
 ILUMISE
  ~ Is now Bug/Psychic
+ ~ Now provides 1 Speed EV and 2 Special Attack EVs
+ + Base Special Attack is now 100
+ + Base Speed is now 105
+ + Ability is now Swarm and Flash Fire
 
 CHIMECHO
  ~ Is now Psychic/Ghost
@@ -228,7 +234,7 @@ CHIMECHO
  + Base Defence is now 110 
  + Base Special Defence is now 130
  + Base Speed is now 90
- # I think I've created a monster. Psychic/Ghost has two 4x weaknesses, so giving it the special bulk to eat those attacks 
+ # I think I've created a monster. Psychic/Ghost has two 4x weaknesses, so giving it the special bulk to eat those attacks will help withstand them better
  
 WIGGLYTUFF
  + Base Attack is now 85
@@ -262,6 +268,7 @@ TROPIUS
 
 DUSKNOIR
  + Base HP increased to 80
+ + Base Defence increased to 145
  ~ Is now Ghost/Dark
  # There's no Eviolite Dusclops to fall back on here, so this famous time traveling villain has recieved some nice buffs to help out on the defence side
 
@@ -280,7 +287,7 @@ BARBOACH
 WHISCASH
  + Base HP increased to 125
  + Base Special Attack increased to 110
- # I'm reimagining Whiscash as a bulky special attacker to differentiate it from Swampet.
+ # I'm reimagining Whiscash as a bulky special attacker to differentiate it from Swampert.
 
 VIBRAVA
  + Base attack increased to 120
@@ -348,12 +355,14 @@ ZANGOOSE
 
 LICKITUNG
  + Base speed increased to 50
+ ~ Is now Dragon-type
  ~ Ability is now Cloud Nine
  # Own up, you forgot it existed
 
 LICKILICKY
  + Base Speed increased to 60
  + Base HP increased to 125
+ ~ Is now Dragon-type
  ~ Ability is now Cloud Nine
  # Own up, you also forgot it evolves
 

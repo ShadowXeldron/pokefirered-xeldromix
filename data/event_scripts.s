@@ -1404,3 +1404,6 @@ Text_TestMsg::
 
 	.include "data/maps/ViridianForest_Grotto/scripts.inc"
 	.include "data/maps/ViridianForest_Grotto/text.inc"
+
+	.include "data/maps/ElegantValley_Entryway/scripts.inc"
+	.include "data/maps/ElegantValley_Entryway/text.inc"
