@@ -6378,11 +6378,11 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_TRIO_TUNNEL] =
     {
-        .effect = EFFECT_SEMI_INVULNERABLE,
-        .power = 100,
+        .effect = EFFECT_TRIPLE_KICK,
+        .power = 35,
         .type = TYPE_GROUND,
-        .accuracy = 100,
-        .pp = 15,
+        .accuracy = 90,
+        .pp = 5,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -6550,7 +6550,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_FREEZY_FROST] =
     {
         .effect = EFFECT_FREEZY_FROST,
-        .power = 100, // Since Freezy Frost eliminates your buffs and the opponent's debuffs, it can keep its frankly obscene power
+        .power = 100, // Since Freezy Frost eliminates your buffs and the opponent's debuffs, it can keep its base power
         .type = TYPE_ICE,
         .accuracy = 90,
         .pp = 10,
@@ -6798,5 +6798,19 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         .category= MOVE_CATEGORY_SPECIAL,
+    },
+
+    [MOVE_FLAME_CHARGE] =
+    {
+        .effect = EFFECT_HIT, // Temporary functionality until EFFECT_SPEED_UP_HIT can be implemented
+        .power = 40,
+        .type = TYPE_FIRE,
+        .accuracy = 100,
+        .pp = 20,
+        .secondaryEffectChance = 100,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+        .category= MOVE_CATEGORY_PHYSICAL,
     },
 };

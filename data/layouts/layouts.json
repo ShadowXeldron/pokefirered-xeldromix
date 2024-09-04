@@ -4548,6 +4548,18 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ElegantValley_Entryway/border.bin",
       "blockdata_filepath": "data/layouts/ElegantValley_Entryway/map.bin"
+    },
+    {
+      "id": "LAYOUT_ELEGANT_VALLEY_HPAREA",
+      "name": "ElegantValley_HPArea_Layout",
+      "width": 30,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PalletTown",
+      "border_filepath": "data/layouts/ElegantValley_HPArea/border.bin",
+      "blockdata_filepath": "data/layouts/ElegantValley_HPArea/map.bin"
     }
   ]
 }

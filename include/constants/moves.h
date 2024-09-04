@@ -504,8 +504,9 @@
 #define MOVE_WIDE_SLASH 482
 #define MOVE_METEOR_BEAM 483
 #define MOVE_RUTHLESS_RAID 484
+#define MOVE_FLAME_CHARGE 485
 
-#define MOVES_COUNT 485
+#define MOVES_COUNT 486
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

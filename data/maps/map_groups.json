@@ -250,7 +250,8 @@
     "OneIsland_KindleRoad_EmberSpa",
     "BirthIsland_Harbor",
     "NavelRock_Harbor",
-    "ElegantValley_Entryway"
+    "ElegantValley_Entryway",
+    "ElegantValley_HPArea"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PalletTown",

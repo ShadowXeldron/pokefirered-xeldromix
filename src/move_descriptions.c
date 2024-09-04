@@ -396,7 +396,7 @@ const u8 gMoveDescription_EnergyBall[] = _("Desc Here");
 const u8 gMoveDescription_FireFang[] = _("Desc Here");
 const u8 gMoveDescription_FlareBlitz[] = _("Desc Here");
 const u8 gMoveDescription_FlashCannon[] = _("Desc Here");
-const u8 gMoveDescription_FocusMiss[] = _("Desc Here");
+const u8 gMoveDescription_FocusBlast[] = _("More like Focus MISS, amirite");
 const u8 gMoveDescription_ForcePalm[] = _("Desc Here");
 const u8 gMoveDescription_GigaImpact[] = _("Desc Here");
 const u8 gMoveDescription_GrassKnot[] = _("Desc Here");
@@ -480,6 +480,9 @@ const u8 gMoveDescription_Megidolaon[] = _("An almighty attack\nthat ignores Pro
 const u8 gMoveDescription_Belch[] = _("Desc Here");
 const u8 gMoveDescription_HeadSmash[] = _("Desc Here");
 const u8 gMoveDescription_SteelBeam[] = _("Desc Here");
+const u8 gMoveDescription_WideSlash[] = _("Move from PMD");
+const u8 gMoveDescription_RuthlessRaid[] = _("Desc Here");
+const u8 gMoveDescription_FlameCharge[] = _("Desc Here");
 const u8 gMoveDescription_Unmaker[] = _("The user channels the\nunderworld to use this\ndeadly attack. It hurts\n the user as well.");
 
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
@@ -878,7 +881,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_FIRE_FANG     - 1] = gMoveDescription_FireFang,
     [MOVE_FLARE_BLITZ   - 1] = gMoveDescription_FlareBlitz,
     [MOVE_FLASH_CANNON  - 1] = gMoveDescription_FlashCannon,
-    [MOVE_FOCUS_BLAST   - 1] = gMoveDescription_FocusMiss,
+    [MOVE_FOCUS_BLAST   - 1] = gMoveDescription_FocusBlast,
     [MOVE_GRASS_KNOT    - 1] = gMoveDescription_GrassKnot,
     [MOVE_ICE_FANG      - 1] = gMoveDescription_IceFang,
     [MOVE_LAVA_PLUME    - 1] = gMoveDescription_LavaPlume,
@@ -958,5 +961,8 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_BELCH         - 1] = gMoveDescription_ZenHeadbutt,
     [MOVE_HEAD_SMASH    - 1] = gMoveDescription_HeadSmash,
     [MOVE_STEEL_BEAM    - 1] = gMoveDescription_SteelBeam,
-
+    [MOVE_UNMAKER    - 1] = gMoveDescription_Unmaker,
+    [MOVE_WIDE_SLASH    - 1] = gMoveDescription_SteelBeam,
+    [MOVE_FLAME_CHARGE    - 1] = gMoveDescription_FlameCharge,
+    [MOVE_RUTHLESS_RAID - 1] = gMoveDescription_RuthlessRaid,
 };

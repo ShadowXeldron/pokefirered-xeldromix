@@ -967,7 +967,8 @@ static const bool8 sMultiBattlePartnersPartyMask[PARTY_SIZE + 2] =
     FALSE,
 };
 
-static const u16 sTMHMMoves_Duplicate[] =
+// Commented out because it seems to be completely redundant
+/*static const u16 sTMHMMoves_Duplicate[] =
 {
     MOVE_FOCUS_PUNCH,
     MOVE_DRAGON_CLAW,
@@ -1031,7 +1032,7 @@ static const u16 sTMHMMoves_Duplicate[] =
     MOVE_ROCK_SMASH,
     MOVE_WATERFALL,
     MOVE_DIVE,
-};
+};*/
 
 enum
 {
@@ -1250,6 +1251,59 @@ static const u16 sTMHMMoves[] =
     MOVE_SKILL_SWAP,
     MOVE_SNATCH,
     MOVE_OVERHEAT,
+    // New Stuff
+    MOVE_POISON_JAB,
+    MOVE_BULLDOZE,
+    MOVE_DARK_PULSE,
+    MOVE_FOCUS_BLAST,
+    MOVE_GIGA_IMPACT,
+    MOVE_PSYCHIC_FANGS,
+    MOVE_POWER_GEM,
+    MOVE_DUAL_WINGBEAT,
+    MOVE_DAZZLING_GLEAM,
+    MOVE_WILD_CHARGE,
+    MOVE_FLASH_CANNON,
+    MOVE_ENERGY_BALL,
+    MOVE_INFESTATION,
+    MOVE_SMART_STRIKE,
+    MOVE_RECOVER,
+    MOVE_SHADOW_CLAW,
+    MOVE_DRAGON_PULSE,
+    MOVE_AIR_SLASH,
+    MOVE_CHARM,
+    MOVE_WILL_O_WISP,
+    MOVE_AURA_SPHERE,
+    MOVE_RAZOR_WIND,
+    MOVE_ROCK_CLIMB,
+    MOVE_WIDE_SLASH,
+    MOVE_STONE_EDGE,
+    MOVE_DRAINING_KISS,
+    MOVE_SPIKES,
+    MOVE_MEGAHORN,
+    MOVE_POWER_UP_PUNCH,
+    MOVE_SNARL,
+    MOVE_STRUGGLE_BUG,
+    MOVE_NATURE_POWER,
+    MOVE_BLAZE_KICK,
+    MOVE_RUTHLESS_RAID,
+    MOVE_PLAY_ROUGH,
+    MOVE_GRASS_KNOT,
+    MOVE_IRON_DEFENSE,
+    MOVE_IRON_HEAD,
+    MOVE_MYSTICAL_FIRE,
+    MOVE_DRAGON_DANCE,
+    MOVE_BATON_PASS,
+    MOVE_SEED_BOMB,
+    MOVE_AMNESIA,
+    MOVE_MACH_PUNCH,
+    MOVE_AGILITY,
+    MOVE_FLAME_CHARGE,
+    MOVE_ICICLE_CRASH,
+    MOVE_NASTY_PLOT,
+    MOVE_HURRICANE,
+    MOVE_MEGIDOLAON,
+
+    // Hidden machines
     MOVE_CUT,
     MOVE_FLY,
     MOVE_SURF,

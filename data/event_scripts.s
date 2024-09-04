@@ -1407,3 +1407,6 @@ Text_TestMsg::
 
 	.include "data/maps/ElegantValley_Entryway/scripts.inc"
 	.include "data/maps/ElegantValley_Entryway/text.inc"
+
+	.include "data/maps/ElegantValley_HPArea/scripts.inc"
+	.include "data/maps/ElegantValley_HPArea/text.inc"

@@ -3759,7 +3759,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_RivalOaksLabBulbasaur[] 
     {
         .iv = 0,
         .lvl = 5,
-        .species = SPECIES_BULBASAUR,
+        .species = SPECIES_SLUGMA,
     },
 };
 

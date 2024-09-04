@@ -67,6 +67,8 @@ ViridianCity_Mart_EventScript_Clerk::
 ViridianCity_Mart_Items::
 	.2byte ITEM_MASTER_BALL
 	.2byte ITEM_RARE_CANDY
+    .2byte ITEM_TM51
+    .2byte ITEM_TM52
 	@ This is not a QoL change and is just here for testing the hack. You all still have to actually play the game.
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_POTION

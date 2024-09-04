@@ -21,7 +21,7 @@ Fury Cutter - Viridian Forest [IMPLEMENTED!] (this is the Bug Catcher who looks 
 Swagger - Viridian City Pokemon Fan Club
 Elemental Punches, Dynamic Punch - Saffron Fighting Dojo
 Sleep Talk - Fuschia City (the old Move Deleter)
-Icy Wind
+Icy Wind - Silence Bridge
 Mud Slap - Pewter City [IMPLEMENTED!]
 Swift - Vermillion City
 Defence Curl, Psych Up, Snore, Endure - Viridian City Pokemon Trainers School 

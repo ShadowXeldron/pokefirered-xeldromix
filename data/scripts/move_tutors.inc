@@ -530,10 +530,7 @@ Movement_JumpInPlaceRight:
 PewterCity_EventScript_MudSlapTutor::
 	lock
 	faceplayer
-	@@goto_if_set FLAG_TUTOR_MEGA_PUNCH, EventScript_MegaPunchTaught
 	msgbox Text_MudSlapTeach, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, EventScript_MudSlapDeclined
-	call EventScript_CanOnlyBeLearnedOnce
 	goto_if_eq VAR_RESULT, NO, EventScript_MudSlapDeclined
 	msgbox Text_MudSlapWhichMon
 	setvar VAR_0x8005, MOVETUTOR_MUD_SLAP
@@ -558,8 +555,6 @@ ViridianForest_EventScript_FuryCutterTutor::
 	faceplayer
 	@@goto_if_set FLAG_TUTOR_MEGA_PUNCH, EventScript_MegaPunchTaught
 	msgbox Text_FuryCutterTeach, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, EventScript_MudSlapDeclined
-	call EventScript_CanOnlyBeLearnedOnce
 	goto_if_eq VAR_RESULT, NO, EventScript_MudSlapDeclined
 	msgbox Text_FuryCutterWhichMon
 	setvar VAR_0x8005, MOVETUTOR_FURY_CUTTER
@@ -603,6 +598,18 @@ EventScript_RolloutDeclined::
 EventScript_RolloutTaught::
 	msgbox Text_RolloutTaught
 	release
+	end
+
+IndigoPlateau_PokemonCenter_1F_EventScript_DracoMeteorTutor::
+	lock
+	faceplayer
+	msgbox Text_DracoMeteorTeach, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_MudSlapDeclined @ Temporary standin
+	msgbox Text_MudSlapWhichMon
+	setvar VAR_0x8005, MOVETUTOR_MUD_SLAP
+	call EventScript_ChooseMoveTutorMon
+	goto_if_eq VAR_RESULT, FALSE, EventScript_MudSlapDeclined
+	goto Text_DracoMeteorTaught
 	end
 
 @ Trainers' School Move Tutors

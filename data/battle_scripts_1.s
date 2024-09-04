@@ -241,6 +241,7 @@ gBattleScriptsForMoveEffects::
 	.4byte BattleScript_EffectBaddyBad            	 @ EFFECT_BADDY_BAD
 	.4byte BattleScript_EffectQuiverDance            @ EFFECT_QUIVER_DANCE
 	.4byte BattleScript_EffectRuthlessRaid           @ EFFECT_RUTHLESS_RAID
+	.4byte BattleScript_EffectSpeedUpHit             @ EFFECT_SPEED_UP_HIT
 
 BattleScript_EffectHit::
 	jumpifnotmove MOVE_SURF, BattleScript_HitFromAtkCanceler
@@ -936,6 +937,10 @@ BattleScript_EffectAttackUp2::
 
 BattleScript_EffectDefenseUp2::
 	setstatchanger STAT_DEF, 2, FALSE
+	goto BattleScript_EffectStatUp
+
+BattleScript_EffectSpeedUp::
+	setstatchanger STAT_SPEED, 1, FALSE
 	goto BattleScript_EffectStatUp
 
 BattleScript_EffectSpeedUp2::
@@ -1771,6 +1776,10 @@ BattleScript_EffectDefenseUpHit::
 
 BattleScript_EffectAttackUpHit::
 	setmoveeffect MOVE_EFFECT_ATK_PLUS_1 | MOVE_EFFECT_AFFECTS_USER
+	goto BattleScript_EffectHit
+
+BattleScript_EffectSpeedUpHit::
+	setmoveeffect MOVE_EFFECT_SPD_PLUS_1 | MOVE_EFFECT_AFFECTS_USER
 	goto BattleScript_EffectHit
 
 BattleScript_EffectAllStatsUpHit::

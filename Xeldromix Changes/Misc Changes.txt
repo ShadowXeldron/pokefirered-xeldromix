@@ -4,7 +4,7 @@ Miscalaneous/QoL Changes
 - TMs now have unlimited uses like in Gen 5
 - Flash is now considered a TM rather than a HM since it technically isn't required (I suffered through Rock Tunnel in my mono-Poison and mono-Water playthroughs without it)
 - Pokemon who had their stats buffed in later generations have had those buffs carried over
-- Fossil Pokemon are now revived at level 35
+- Fossil Pokemon are now revived at level 35 so that you can use them sooner
 - Slightly altered the Cerulean City side of Route 4 to make backtracking to Mt. Moon possible prior to getting Cut. It's still shorter to go through Diglett's Cave.
 - Made the running shoes available from the start because I run in my normal shoes all the time in the real world
 - Also made it possible to run indoors because I always run indoors in the real world
@@ -13,7 +13,8 @@ TODO
 
 - Add PokeStinks. These should be used to lure out rare Pokemon.
 - Replace the upper floor of every Pokemon Center with Pokemon Services. The name rater, move deleter and move reminder are now available in every Pokemon Center so you don't have to winge at me for having to use HMs (seriously, just git gud)
-- Remove all netplay functionality to reduce memory usage because, let's be honest, you're never going to encounter another person with a GBA, an Everdive (or similar flashcart) and this ROM hack
+- Make it possible to delete HM moves from a Pokemon. Unlike in Generation 1, there is not an inventory limit so you don't need to worry about being softlocked
+- Remove all netplay functionality to reduce memory usage because, let's be honest, you're never going to encounter another person with a GBA, an Everdrive (or similar flashcart) and this ROM hack
 - Make the National Dex available from the start
 - More music! (I've imported a few MIDIs from VGMusic.com, but they sound weird; I might need to import more samples somehow or even figure out how to change the sound driver entirely)
 - The Fighting Dojo now gives you a Tyrogue instead of a choice between two Hitmons. Now you can evolve it into whatever Hitmon you please.
@@ -23,9 +24,11 @@ TODO
 - Make move tutors have unlimited uses and add a cost to them (similar to Infinite Fusions) [Partly implemented - they're unlimited use, but they don't charge you anything yet]
 - Change the Marowak Ghost, the Snorlaxes and the Berry Woods Hypno into Totem Pokemon
 - Replace the guy who gives you the running shoes with something else. Right now I'm hoping to add Terastalisation because it's a very interesting (if ridiculously unbalanced and heavily underutilised in-game) gimmick
+- Remove the "last time on DBZ" segment from the game because it slows the pacing to a crawl when loading a save
 
 MAYBE DO IF I REALLY THINK I SHOULD
 
+- Disable mid-battle item use entirely, although doing so will make the X Items completely useless (unless they give a single buff stage when a Pokemon switches in, but that'll be too OP and make the stat berries completely redundant).
 - Add Rock Climb as a HM
 - Add biome-specific wild battle music. In addition:
 	The vanilla legendary bird theme plays for 5% and 4% rarity encounters

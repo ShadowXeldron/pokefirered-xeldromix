@@ -3811,8 +3811,9 @@ static u8 PokeSum_CanForgetSelectedMove(void)
 
     move = GetMonMoveBySlotId(&sMonSummaryScreen->currentMon, sMoveSelectionCursorPos);
 
-    if (IsMoveHm(move) == TRUE && sMonSummaryScreen->mode != PSS_MODE_FORGET_MOVE)
-        return FALSE;
+    // This has been commented out to allow the removal of HM moves from a Pokemon's moveset.
+    //if (IsMoveHm(move) == TRUE && sMonSummaryScreen->mode != PSS_MODE_FORGET_MOVE)
+    //    return FALSE;
 
     return TRUE;
 }

@@ -502,5 +502,5 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] = {
     [MOVE_STEEL_BEAM]    = _("Steel Beam"),
     [MOVE_UNMAKER]       = _("Unmaker"),
     [MOVE_RUTHLESS_RAID] = _("RuthlessRaid"),
-    
+    [MOVE_FLAME_CHARGE]  = _("Flame Charge"),
 };

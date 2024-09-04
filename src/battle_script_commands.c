@@ -4363,7 +4363,7 @@ static void Cmd_typecalc2(void)
     s32 i = 0;
     u8 moveType = gBattleMoves[gCurrentMove].type;
 
-    if (gBattleMons[gBattlerTarget].ability == ABILITY_LEVITATE && moveType == TYPE_GROUND)
+    if ((gBattleMons[gBattlerTarget].ability == ABILITY_LEVITATE && moveType == TYPE_GROUND) || (gBattleMons[gBattlerTarget].ability == ABILITY_MAGMA_ARMOR && moveType == TYPE_WATER) || (gBattleMons[gBattlerTarget].ability == ABILITY_LIGHTNING_ROD && moveType == TYPE_ELECTRIC)) // This will say that the attack missed for Lightning Rod and Magma Armour
     {
         gLastUsedAbility = gBattleMons[gBattlerTarget].ability;
         gMoveResultFlags |= (MOVE_RESULT_MISSED | MOVE_RESULT_DOESNT_AFFECT_FOE);

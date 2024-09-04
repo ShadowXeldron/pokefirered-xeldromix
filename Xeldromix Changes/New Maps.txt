@@ -23,12 +23,12 @@ PROGRESS - Argurably 5%. This one has a half completed map to its name and, for 
 PLANNED
 
 Elegant Valley
-Another area at the Sevii Islands. It's accessible by entering a cave at One Island. As the name suggests, it's meant as a place for you to grind out your effort values. The Elite Four and the eighth gym will be seeing a level spike that can be mitigated by the Sevii Islands sidequest and training at this location.
+Another area at the Sevii Islands. It's accessible by entering a cave at Two Island. As the name suggests, it's meant as a place for you to grind out your effort values. The Elite Four and the eighth gym will be seeing a level spike that can be mitigated by the Sevii Islands sidequest and training at this location.
 
 This was inspired by an old Roblox Pokemon fan game which had an area of the same name that served a similar purpose.
 
 The Valley is split into one area for every stat. 
-	HP AREA - The field accessed by surfing in. A Channeler in the center of the map will offer to reset your lead Pokemon's effort values in exchange for a Heart Scale. There's also a rest house where you can heal. Finally, Chansey is a semi-common encounter in this area.
+	HP AREA - The field accessed upon entering the area. A Channeler in the center of the map will offer to reset your lead Pokemon's effort values in exchange for a Heart Scale. There's also a rest house where you can heal. Finally, Chansey is a semi-common encounter in this area so you can grind for EXP if you need to.
 	ATTACK AREA - A craggy area. Outside of the Attack EVs, you'll want to come here for the free Choice Band
 	DEFENCE AREA - A cave full of rocky things. With Rock Smash in hand, you can break open the Secret Chamber.
 	SPECIAL ATTACK AREA - A waterfront. The Psychic TM has been moved here and is hidden behind a Strength puzzle.

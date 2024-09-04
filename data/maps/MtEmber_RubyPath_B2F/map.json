@@ -2,7 +2,7 @@
   "id": "MAP_MT_EMBER_RUBY_PATH_B2F",
   "name": "MtEmber_RubyPath_B2F",
   "layout": "LAYOUT_MT_EMBER_RUBY_PATH_B2F",
-  "music": "MUS_SEVII_CAVE",
+  "music": "MUS_BRAILE",
   "region_map_section": "MAPSEC_MT_EMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -13,7 +13,7 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "type": "object",
@@ -130,6 +130,10 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
-  "bg_events": []
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }

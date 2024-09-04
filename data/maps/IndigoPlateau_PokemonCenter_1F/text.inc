@@ -14,6 +14,24 @@ IndigoPlateau_PokemonCenter_1F_Text_FaceEliteFourGoodLuck::
     .string "If you win, a door opens to the\n"
     .string "next Trainer. Good luck!$"
 
+Text_DracoMeteorTeach::
+    .string "I am a move tutor!\n"
+    .string "I teach Draco Meteor.\p"
+    .string "Someone should tell ShadowXeldron\n"
+    .string "to give me real dialogue.\p"
+    .string "Learn Draco Meteor?$"
+
+Text_DracoMeteorDeclined::
+    .string "Awww... :($"
+
+Text_DracoMeteorWhichMon::
+    .string "Which Pokémon wants to learn\n"
+    .string "Mud-Slap?$"
+
+Text_DracoMeteorTaught::
+    .string "In a later version of the hack,\n"
+    .string "I will charge you a lot for this.$"
+
 IndigoPlateau_PokemonCenter_1F_Text_LoreleiIsAbsentClosedForTimeBeing::
     .string "I am so sorry, but you've wasted\n"
     .string "your time coming here.\p"

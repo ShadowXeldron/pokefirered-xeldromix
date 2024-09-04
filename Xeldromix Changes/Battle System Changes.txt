@@ -2,15 +2,11 @@ BATTLE SYSTEM CHANGES
 
  - STAB is now only a 1.25x boost
  - Critical hits only occur if they have been boosted by at least one stage
+ - To make the game harder, Revives cannot be used in battle
  - One stage of critical hit bonuses now provides a 5:1 critical hit ratio
- - Ice now resists Water and Dragon and is no longer weak to Steel and Rock.
- - Water now beats Steel and is now weak to Ice
- - Electric is now weak to Water (because WATER CAN DESTROY PULSEMAN) and now beats Steel 
- - Rock now resists Steel (because scisors are made of metal), now beats Steel (because rock beats Scizors) and is no longer weak to Steel and Grass. For those stuck on Brock, Makney remains an option. 
- - Ghost no longer resists Bug
- - Steel no longer resists Bug
- - Poison no longer resists Bug
- - Fairy no longer resists Bug
+ - Ice now resists Water and Dragon
+ - Fairy is now weak to Bug
+ - Magma Armour now provides an immunity to Water-type moves
 
 Ideas
  - Replace Freeze with Frostbite
