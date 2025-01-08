@@ -1,0 +1,1 @@
+arm-none-eabi-ld: warning: ../../pokefirered_modern.elf has a LOAD segment with RWX permissions

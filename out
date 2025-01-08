@@ -1,0 +1,43 @@
+make[1]: Entering directory '/home/xeldron/FireRed Stuff/pokefirered-xeldromix'
+make[1]: Leaving directory '/home/xeldron/FireRed Stuff/pokefirered-xeldromix'
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/pokedex_area_markers.o build/firered_modern/src/pokedex_area_markers.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/new_game.o build/firered_modern/src/new_game.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/minigame_countdown.o build/firered_modern/src/minigame_countdown.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/mystery_gift_show_news.o build/firered_modern/src/mystery_gift_show_news.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/menu_helpers.o build/firered_modern/src/menu_helpers.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/menu_indicators.o build/firered_modern/src/menu_indicators.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/mystery_gift_show_card.o build/firered_modern/src/mystery_gift_show_card.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/mystery_gift_menu.o build/firered_modern/src/mystery_gift_menu.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/pokemon_special_anim_scene.o build/firered_modern/src/pokemon_special_anim_scene.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/oak_speech.o build/firered_modern/src/oak_speech.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/pokemon_storage_system_graphics.o build/firered_modern/src/pokemon_storage_system_graphics.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/renewable_hidden_items.o build/firered_modern/src/renewable_hidden_items.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/roamer.o build/firered_modern/src/roamer.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/quest_log.o build/firered_modern/src/quest_log.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/save_location.o build/firered_modern/src/save_location.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/pokemon_storage_system_tasks.o build/firered_modern/src/pokemon_storage_system_tasks.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/quest_log_events.o build/firered_modern/src/quest_log_events.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/script.o build/firered_modern/src/script.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/overworld.o build/firered_modern/src/overworld.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/pokedex_screen.o build/firered_modern/src/pokedex_screen.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/title_screen.o build/firered_modern/src/title_screen.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/tilesets.o build/firered_modern/src/tilesets.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/pokemon_jump.o build/firered_modern/src/pokemon_jump.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/scrcmd.o build/firered_modern/src/scrcmd.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/trainer_tower.o build/firered_modern/src/trainer_tower.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/region_map.o build/firered_modern/src/region_map.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/slot_machine.o build/firered_modern/src/slot_machine.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/union_room_chat_objects.o build/firered_modern/src/union_room_chat_objects.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/wild_pokemon_area.o build/firered_modern/src/wild_pokemon_area.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/wireless_communication_status_screen.o build/firered_modern/src/wireless_communication_status_screen.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/wild_encounter.o build/firered_modern/src/wild_encounter.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/trainer_card.o build/firered_modern/src/trainer_card.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/pokemon_summary_screen.o build/firered_modern/src/pokemon_summary_screen.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/trade_scene.o build/firered_modern/src/trade_scene.s
+arm-none-eabi-as -mcpu=arm7tdmi --defsym FIRERED=1 --defsym REVISION=0 --defsym ENGLISH=1 --defsym MODERN=1 -o build/firered_modern/src/battle_script_commands.o build/firered_modern/src/battle_script_commands.s
+Memory region         Used Size  Region Size  %age Used
+           EWRAM:      259196 B       256 KB     98.88%
+           IWRAM:       30140 B        32 KB     91.98%
+             ROM:     9527964 B        32 MB     28.40%
+tools/gbafix/gbafix pokefirered_modern.elf -t"POKEMON FIRE" -cBPRE -m01 -r0 --silent
+arm-none-eabi-objcopy -O binary --gap-fill 0xFF --pad-to 0x9000000 pokefirered_modern.elf pokefirered_modern.gba
