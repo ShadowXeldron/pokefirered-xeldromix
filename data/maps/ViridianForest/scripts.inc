@@ -62,3 +62,23 @@ ViridianForest_EventScript_Charlie::
 	trainerbattle_single TRAINER_BUG_CATCHER_CHARLIE, ViridianForest_Text_CharlieIntro, ViridianForest_Text_CharlieDefeat
 	call ViridianForest_EventScript_FuryCutterTutor
 	end
+
+ViridianForest_EventScript_AlphaBeedrill::
+	lock
+	faceplayer
+	setwildbattle SPECIES_BEEDRILL, 20
+	waitse
+	playmoncry SPECIES_BEEDRILL, CRY_MODE_ENCOUNTER
+	message Text_WoofWoof
+	waitmessage
+	waitmoncry
+	delay 10
+	playbgm MUS_ENCOUNTER_GYM_LEADER, 0
+	waitbuttonpress
+	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	special StartLegendaryBattle
+	waitstate
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	specialvar VAR_RESULT, GetBattleOutcome
+	release
+	end

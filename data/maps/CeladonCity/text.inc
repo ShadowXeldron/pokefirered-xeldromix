@@ -17,7 +17,7 @@ CeladonCity_Text_BlewItAllAtSlots::
     .string "Moan…\n"
     .string "I blew it all at the slots!\p"
     .string "I knew I should have cashed in my\n"
-    .string "COINS for prizes!$"
+    .string "coins for prizes!$"
 
 CeladonCity_Text_MyTrustedPalPoliwrath::
     .string "This is my trusted pal, Poliwrath.\p"
@@ -25,7 +25,7 @@ CeladonCity_Text_MyTrustedPalPoliwrath::
     .string "I used a Water Stone.$"
 
 CeladonCity_Text_Poliwrath::
-    .string "POLIWRATH: Ribi ribit!$"
+    .string "Poliwrath: Ribi ribit!$"
 
 CeladonCity_Text_GetLostOrIllPunchYou::
     .string "What are you staring at?\n"
@@ -35,7 +35,7 @@ CeladonCity_Text_KeepOutOfTeamRocketsWay::
     .string "Keep out of Team Rocket's way!$"
 
 CeladonCity_Text_ExplainXAccuracyDireHit::
-    .string "TRAINER TIPS\p"
+    .string "Trainer Tips\p"
     .string "X Accuracy boosts the accuracy of\n"
     .string "techniques.\p"
     .string "Dire Hit jacks up the likelihood\n"
@@ -48,31 +48,31 @@ CeladonCity_Text_CitySign::
     .string "The City of Rainbow Dreams$"
 
 CeladonCity_Text_GymSign::
-    .string "CELADON CITY POKéMON GYM\n"
-    .string "LEADER: ERIKA\l"
+    .string "Celadon City Pokémon Gym\n"
+    .string "Leader: Erika\l"
     .string "The Nature-Loving Princess!$"
 
 CeladonCity_Text_MansionSign::
-    .string "CELADON CONDOMINIUMS$"
+    .string "Celadon Condominiums$"
 
 CeladonCity_Text_DeptStoreSign::
     .string "Find what you need at the\n"
     .string "Celadon Department Store!$"
 
 CeladonCity_Text_GuardSpecProtectsFromStatus::
-    .string "TRAINER TIPS\p"
+    .string "Trainer Tips\p"
     .string "Guard Spec. protects Pokémon\n"
     .string "from status-reduction moves during\l"
     .string "battle.\p"
     .string "Get your items at the\n"
-    .string "Celadon Departmenr Store!$"
+    .string "Celadon Department Store!$"
 
 CeladonCity_Text_PrizeExchangeSign::
     .string "Coins exchanged for prizes!\n"
-    .string "PRIZE EXCHANGE$"
+    .string "Prize Exchange$"
 
 CeladonCity_Text_GameCornerSign::
-    .string "ROCKET GAME CORNER\n"
+    .string "Rocket Game Corner\n"
     .string "The playground for grown-ups!$"
 
 CeladonCity_Text_ScaldedTongueOnTea::
@@ -112,3 +112,29 @@ CeladonCity_Text_SomeoneStoleSilphScope::
     .string "But I lost sight of him!\n"
     .string "Where'd he go?$"
 
+@ Now for the self-deprecation. If it's okay for GF to insert themselves into the game then it's okay for me to do the same!
+CeladonCity_Text_ShadowXeldronVoodooCurses::
+    .string "You see that guy who is standing\p"
+    .string "outside the Condodmiums?\n"
+    .string "He's been muttering incomprehensible\p"
+    .string "rubbish all day.\n"
+    .string "Maybe he's trying to place a curse\p"
+    .string "on the company that works there?\n"
+
+CeladonCity_Text_ShadowXeldronGrimbleGrumble::
+    .string "Grimble grimble grumble.\n"
+    .string "No, YOU'RE a basketball! Stop\p"
+    .string "being such a smelly stinker.\n"
+    .string "Yeah, but, the thing is, moustaches\p"
+    .string "are delicious.\n"
+
+CeladonCity_Text_ShadowXeldronYouWantAFight::
+    .string "Huh!? What!?\p"
+    .string "You want a battle!?$"
+
+CeladonCity_Text_ShadowXeldronOkay::
+    .string "Okay.$"
+
+CeladonCity_Text_ShadowXeldronWhatWasIDoing::
+    .string "Anyway, what exactly was I doing\p"
+    .string "again?$"

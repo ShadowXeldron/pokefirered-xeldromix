@@ -95,6 +95,30 @@ static const u16 sSlashMovesTable[] =
     MOVE_RAZOR_LEAF
 };
 
+// A custom function to get the current progress-based level cap.
+// This is to prevent players from just being able to grind around their problems. There will not be an infinite rare candy or anything like that added. If you just want to do Pokemon battles without having to actually train any Pokemon (like, y'know, a Pokemon TRAINER) then go play Showdown or something.
+u8 GetLevelCap() {
+    // If Champion, return MAX_LEVEL. Otherwise, return a badge-specific number.
+    if (FlagGet(FLAG_BADGE08_GET))
+        return MAX_LEVEL; //return 83;
+    else if (FlagGet(FLAG_BADGE07_GET))
+        return 65;
+    else if (FlagGet(FLAG_BADGE06_GET))
+        return 59;
+    else if (FlagGet(FLAG_BADGE05_GET))
+        return 50;
+    else if (FlagGet(FLAG_BADGE04_GET))
+        return 44;
+    else if (FlagGet(FLAG_BADGE03_GET))
+        return 31;
+    else if (FlagGet(FLAG_BADGE02_GET))
+        return 25; // This feels like too small of a jump
+    else if (FlagGet(FLAG_BADGE01_GET))
+        return 21;
+    else
+        return 15;
+}
+
 int isInPunchTable(u16 x)
 {
     // From https://www.tutorialkart.com/c-programming/c-check-if-array-contains-specified-element/#gsc.tab=0
@@ -2304,7 +2328,7 @@ static u8 GetLevelFromMonExp(struct Pokemon *mon)
     u32 exp = GetMonData(mon, MON_DATA_EXP, NULL);
     s32 level = 1;
 
-    while (level <= MAX_LEVEL && gExperienceTables[gSpeciesInfo[species].growthRate][level] <= exp)
+    while (level <MAX_LEVEL && gExperienceTables[gSpeciesInfo[species].growthRate][level] <= exp)
         level++;
 
     return level - 1;
@@ -2316,7 +2340,7 @@ u8 GetLevelFromBoxMonExp(struct BoxPokemon *boxMon)
     u32 exp = GetBoxMonData(boxMon, MON_DATA_EXP, NULL);
     s32 level = 1;
 
-    while (level <= MAX_LEVEL && gExperienceTables[gSpeciesInfo[species].growthRate][level] <= exp)
+    while (level <MAX_LEVEL && gExperienceTables[gSpeciesInfo[species].growthRate][level] <= exp)
         level++;
 
     return level - 1;
@@ -4305,7 +4329,7 @@ bool8 PokemonUseItemEffects(struct Pokemon *mon, u16 item, u8 partyIndex, u8 mov
 
             // Rare Candy
             if ((itemEffect[cmdIndex] & ITEM3_LEVEL_UP)
-             && GetMonData(mon, MON_DATA_LEVEL, NULL) != MAX_LEVEL)
+             && GetMonData(mon, MON_DATA_LEVEL, NULL) <= GetLevelCap())
             {
                 data = gExperienceTables[gSpeciesInfo[GetMonData(mon, MON_DATA_SPECIES, NULL)].growthRate][GetMonData(mon, MON_DATA_LEVEL, NULL) + 1];
                 SetMonData(mon, MON_DATA_EXP, &data);
@@ -4795,7 +4819,7 @@ bool8 PokemonItemUseNoEffect(struct Pokemon *mon, u16 item, u8 partyIndex, u8 mo
 
             // Rare Candy
             if ((itemEffect[cmdIndex] & ITEM3_LEVEL_UP)
-             && GetMonData(mon, MON_DATA_LEVEL, NULL) != MAX_LEVEL)
+             && GetMonData(mon, MON_DATA_LEVEL, NULL) <= GetLevelCap())
                 retVal = FALSE;
 
             // Cure status
@@ -5827,9 +5851,9 @@ void PartySpreadPokerus(struct Pokemon *party)
 
 static void SetMonExpWithMaxLevelCheck(struct Pokemon *mon, int species, u8 unused, u32 data)
 {
-    if (data > gExperienceTables[gSpeciesInfo[species].growthRate][MAX_LEVEL])
+    if (data > gExperienceTables[gSpeciesInfo[species].growthRate][GetLevelCap()])
     {
-        data = gExperienceTables[gSpeciesInfo[species].growthRate][MAX_LEVEL];
+        data = gExperienceTables[gSpeciesInfo[species].growthRate][GetLevelCap()];
         SetMonData(mon, MON_DATA_EXP, &data);
     }
 }

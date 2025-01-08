@@ -9524,7 +9524,7 @@ static void Cmd_handleballthrow(void)
                     ballMultiplier = 10;
                 break;
             case ITEM_DIVE_BALL:
-                if (GetCurrentMapType() == MAP_TYPE_UNDERWATER)
+                if (GetCurrentMapType() == MAP_TYPE_OCEAN_ROUTE) // This is a buff to account for the lack of underwater maps in FireRed
                     ballMultiplier = 35;
                 else
                     ballMultiplier = 10;
@@ -9595,17 +9595,23 @@ static void Cmd_handleballthrow(void)
             else
                 gBattleCommunication[MULTISTRING_CHOOSER] = 1;
         }
-        else // mon may be caught, calculate shakes
+        else
         {
             u8 shakes;
 
             odds = Sqrt(Sqrt(16711680 / odds));
             odds = 1048560 / odds;
-
-            for (shakes = 0; shakes < BALL_3_SHAKES_SUCCESS && Random() < odds; shakes++);
-
+            
+            // Firstly, the Master Ball forces a three shake success. This makes the Master Ball the only way to ignore the level cap and it adds an additional dimension to choosing to use it: Will you use it to catch Zapdos early to sweep the rest of the gyms, are you going to save it for one of the postgame legendaries, or will you keep it safe in case you come across a shiny?
             if (gLastUsedItem == ITEM_MASTER_BALL)
-                shakes = BALL_3_SHAKES_SUCCESS; // why calculate the shakes before that check?
+                shakes = BALL_3_SHAKES_SUCCESS; // Game Fream is Game Freak so the base game calculates the shakes before checking for the Master Ball. I think that is a huge waste of memory so I'm changing that.
+            
+            // If the target exceeds the level cap, force zero shakes. Possibly show another message?
+            else if (gBattleMons[gBattlerTarget].level > GetLevelCap())
+                shakes = 0;
+            
+            else
+                for (shakes = 0; shakes < BALL_3_SHAKES_SUCCESS && Random() < odds; shakes++);
 
             BtlController_EmitBallThrowAnim(BUFFER_A, shakes);
             MarkBattlerForControllerExec(gActiveBattler);

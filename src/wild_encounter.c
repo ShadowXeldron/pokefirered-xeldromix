@@ -68,14 +68,29 @@ void DisableWildEncounters(bool8 state)
     sWildEncountersDisabled = state;
 }
 
+/* This is the basic code for the PokeStink items. These are used to force higher grade encounters.
+u8 GetStinkLevel_Land()
+{
+    return 0; // Placeholder behaviour.
+}*/
+
 static u8 ChooseWildMonIndex_Land(void)
 {
+    // Base this on Stink quality
+    //u8 rand
+    
+    //while (rand > GetStinkLevel_Land())
+    //{
     u8 rand = Random() % ENCOUNTER_CHANCE_LAND_MONS_TOTAL;
+    //}
 
+    //No Stink
     if (rand < ENCOUNTER_CHANCE_LAND_MONS_SLOT_0)
         return 0;
     else if (rand >= ENCOUNTER_CHANCE_LAND_MONS_SLOT_0 && rand < ENCOUNTER_CHANCE_LAND_MONS_SLOT_1)
         return 1;
+    
+    // Super Stink
     else if (rand >= ENCOUNTER_CHANCE_LAND_MONS_SLOT_1 && rand < ENCOUNTER_CHANCE_LAND_MONS_SLOT_2)
         return 2;
     else if (rand >= ENCOUNTER_CHANCE_LAND_MONS_SLOT_2 && rand < ENCOUNTER_CHANCE_LAND_MONS_SLOT_3)
@@ -84,10 +99,12 @@ static u8 ChooseWildMonIndex_Land(void)
         return 4;
     else if (rand >= ENCOUNTER_CHANCE_LAND_MONS_SLOT_4 && rand < ENCOUNTER_CHANCE_LAND_MONS_SLOT_5)
         return 5;
+    // Ultra Stink
     else if (rand >= ENCOUNTER_CHANCE_LAND_MONS_SLOT_5 && rand < ENCOUNTER_CHANCE_LAND_MONS_SLOT_6)
         return 6;
     else if (rand >= ENCOUNTER_CHANCE_LAND_MONS_SLOT_6 && rand < ENCOUNTER_CHANCE_LAND_MONS_SLOT_7)
         return 7;
+    // Max Stink
     else if (rand >= ENCOUNTER_CHANCE_LAND_MONS_SLOT_7 && rand < ENCOUNTER_CHANCE_LAND_MONS_SLOT_8)
         return 8;
     else if (rand >= ENCOUNTER_CHANCE_LAND_MONS_SLOT_8 && rand < ENCOUNTER_CHANCE_LAND_MONS_SLOT_9)
@@ -102,12 +119,16 @@ static u8 ChooseWildMonIndex_WaterRock(void)
 {
     u8 rand = Random() % ENCOUNTER_CHANCE_WATER_MONS_TOTAL;
 
+    // No Stink
     if (rand < ENCOUNTER_CHANCE_WATER_MONS_SLOT_0)
         return 0;
+    // Super Stink
     else if (rand >= ENCOUNTER_CHANCE_WATER_MONS_SLOT_0 && rand < ENCOUNTER_CHANCE_WATER_MONS_SLOT_1)
         return 1;
+    // Ultra Stink
     else if (rand >= ENCOUNTER_CHANCE_WATER_MONS_SLOT_1 && rand < ENCOUNTER_CHANCE_WATER_MONS_SLOT_2)
         return 2;
+    // Max Stink
     else if (rand >= ENCOUNTER_CHANCE_WATER_MONS_SLOT_2 && rand < ENCOUNTER_CHANCE_WATER_MONS_SLOT_3)
         return 3;
     else

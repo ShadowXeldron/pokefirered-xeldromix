@@ -52,7 +52,9 @@ ViridianForest_Text_AnthonyDefeat::
     .string "Nothing went right.$"
 
 ViridianForest_Text_AnthonyPostBattle::
-    .string "I lost some of my allowance…$"
+    .string "First I got pursued by an angry\n"
+    .string "Beedrill, then I I lost some of my\p"
+    .string "allowance…$"
 
 ViridianForest_Text_CharlieIntro::
     .string "My Pokémon knows a strong move!\n"
@@ -103,6 +105,9 @@ ViridianForest_Text_WeakenMonsBeforeCapture::
 ViridianForest_Text_LeavingViridianForest::
     .string "LEAVING VIRIDIAN FOREST\n"
     .string "PEWTER CITY AHEAD$"
+
+ViridianForest_Text_AlphaBeedrill::
+    .string "BEEDRILL! BEEDRILL!$"
 
 Text_FuryCutterTeach::
     .string "I am a move tutor!\n"

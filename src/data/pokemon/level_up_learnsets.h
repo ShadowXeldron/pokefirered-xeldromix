@@ -1798,7 +1798,7 @@ static const u16 sExeggcuteLevelUpLearnset[] = {
     LEVEL_UP_MOVE(35, MOVE_ENERGY_BALL),
     LEVEL_UP_MOVE(40, MOVE_EXTRASENSORY),
     LEVEL_UP_MOVE(45, MOVE_UPROAR),
-    LEVEL_UP_MOVE(50, MOVE_SYNTHESIS),
+    LEVEL_UP_MOVE(50, MOVE_EARTH_POWER), // Realised Earth Power was on here twice so I gave it this as coverage
     LEVEL_UP_MOVE(55, MOVE_SOLAR_BEAM),
     LEVEL_UP_END
 };

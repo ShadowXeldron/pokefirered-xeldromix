@@ -25,6 +25,17 @@ TODO
 - Change the Marowak Ghost, the Snorlaxes and the Berry Woods Hypno into Totem Pokemon
 - Replace the guy who gives you the running shoes with something else. Right now I'm hoping to add Terastalisation because it's a very interesting (if ridiculously unbalanced and heavily underutilised in-game) gimmick
 - Remove the "last time on DBZ" segment from the game because it slows the pacing to a crawl when loading a save
+- Implement level caps for each gym leader. Specifically:
+	- 0 Badges - Level 15
+	- 1 Bagde  - Level 21
+	- 2 Badges - Level 25
+	- 3 Badges - Level 31
+	- 4 Badges - Level 44
+	- 5 Badges - Level 50
+	- 6 Badges - Level 59
+	- 7 Badges - Level 65
+	- 8 Badges - Level 83 (this significant jump is to encourage searching for legendaries and/or doing every remaining sidequest)
+	- Postgame - Level 100
 
 MAYBE DO IF I REALLY THINK I SHOULD
 
