@@ -69,7 +69,7 @@ ViridianForest_EventScript_AlphaBeedrill::
 	setwildbattle SPECIES_BEEDRILL, 20
 	waitse
 	playmoncry SPECIES_BEEDRILL, CRY_MODE_ENCOUNTER
-	message Text_WoofWoof
+	message ViridianForest_Text_AlphaBeedrill
 	waitmessage
 	waitmoncry
 	delay 10
@@ -80,5 +80,12 @@ ViridianForest_EventScript_AlphaBeedrill::
 	waitstate
 	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
 	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, ViridianForest_Text_AlphaBeedrillTreasure
 	release
+	end
+
+
+ViridianForest_EventScript_AlphaBeedrillTreasure::
+	msgbox ViridianForest_Text_AlphaBeedrillTreasure, MSGBOX_SIGN
+	giveitem_msg CeladonCity_Gym_Text_ReceivedTM19FromErika, ITEM_TM81
 	end

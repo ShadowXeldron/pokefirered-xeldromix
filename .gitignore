@@ -61,3 +61,7 @@ prefabs.json
 .vscode/*.*
 *.js
 *.sym
+error
+out
+make_error
+allout.txt

@@ -4865,7 +4865,7 @@
     {
       "english": "TM15",
       "itemId": "ITEM_TM15",
-      "price": 75000,
+      "price": 64000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
       "description_english": "A harsh attack that inflicts severe\\ndamage on the foe. However, the\\nuser must rest the next turn.",
@@ -5237,12 +5237,12 @@
       "moveId": "SludgeBomb"
     },
     {
-      "english": "TM37 Sandstorm",
+      "english": "TM37",
       "itemId": "ITEM_TM37",
       "price": 2000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "Summons a sandstorm that lasts for\\nfive turns. It damages all types\\nexcept ROCK, GROUND, and STEEL.",
+      "description_english": "Summons a sandstorm that lasts for\\nfive turns. It damages all types\\nexcept Rock, Ground, and Steel.",
       "importance": 1,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -5885,10 +5885,10 @@
     {
       "english": "TM75",
       "itemId": "ITEM_TM75",
-      "price": 75000,
+      "price": 7500,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "A harsh attack that inflicts severe\\ndamage on the foe. However, the\\nuser must rest the next turn.",
+      "description_english": "More like Stone MISS!",
       "importance": 1,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -5990,7 +5990,7 @@
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "Strikes the foe with a rock-hard\\nfist, etc. It shatters barriers such\\nas REFLECT and LIGHT SCREEN.",
+      "description_english": "Teaches Struggle Bug.",
       "importance": 0,
       "registrability": 0,
       "pocket": "POCKET_TM_CASE",
@@ -6669,7 +6669,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BICYCLE",
+      "english": "Bicycle",
       "itemId": "ITEM_BICYCLE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -6685,7 +6685,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TOWN MAP",
+      "english": "Town Map",
       "itemId": "ITEM_TOWN_MAP",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -6701,7 +6701,7 @@
       "secondaryId": 0
     },
     {
-      "english": "VS SEEKER",
+      "english": "Vs Seeker",
       "itemId": "ITEM_VS_SEEKER",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -6717,7 +6717,7 @@
       "secondaryId": 0
     },
     {
-      "english": "FAME CHECKER",
+      "english": "Fame Checker",
       "itemId": "ITEM_FAME_CHECKER",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -6733,7 +6733,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TM CASE",
+      "english": "TM Case",
       "itemId": "ITEM_TM_CASE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -6749,7 +6749,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BERRY POUCH",
+      "english": "Berry Pouch",
       "itemId": "ITEM_BERRY_POUCH",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -6765,7 +6765,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TEACHY TV",
+      "english": "Teachy TV",
       "itemId": "ITEM_TEACHY_TV",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -6781,7 +6781,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TRI-PASS",
+      "english": "Tri-Pass",
       "itemId": "ITEM_TRI_PASS",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -6797,7 +6797,7 @@
       "secondaryId": 0
     },
     {
-      "english": "RAINBOW PASS",
+      "english": "Rainbow Pass",
       "itemId": "ITEM_RAINBOW_PASS",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -6813,7 +6813,7 @@
       "secondaryId": 0
     },
     {
-      "english": "TEA",
+      "english": "Tea",
       "itemId": "ITEM_TEA",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -6829,12 +6829,12 @@
       "secondaryId": 0
     },
     {
-      "english": "MYSTICTICKET",
+      "english": "MysticTicket",
       "itemId": "ITEM_MYSTIC_TICKET",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "A ticket required to board the ship\\nto NAVEL ROCK.\\nIt glows with a mystic light.",
+      "description_english": "A ticket required to board the ship\\nto Navel Rock.\\nIt glows with a mystic light.",
       "importance": 1,
       "registrability": 1,
       "pocket": "POCKET_KEY_ITEMS",
@@ -6845,12 +6845,12 @@
       "secondaryId": 0
     },
     {
-      "english": "AURORATICKET",
+      "english": "AuroraTicket",
       "itemId": "ITEM_AURORA_TICKET",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "A ticket required to board the ship\\nto BIRTH ISLAND.\\nIt glows beautifully.",
+      "description_english": "A ticket required to board the ship\\nto Birth Island.\\nIt glows beautifully.",
       "importance": 1,
       "registrability": 1,
       "pocket": "POCKET_KEY_ITEMS",
@@ -6861,12 +6861,12 @@
       "secondaryId": 0
     },
     {
-      "english": "POWDER JAR",
+      "english": "Powder Jar",
       "itemId": "ITEM_POWDER_JAR",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "A jar for storing BERRY POWDER\\nmade using a BERRY CRUSHER.",
+      "description_english": "A jar for storing Berry Powder\\nmade using a Berry Crusher.",
       "importance": 1,
       "registrability": 1,
       "pocket": "POCKET_KEY_ITEMS",
@@ -6877,7 +6877,7 @@
       "secondaryId": 0
     },
     {
-      "english": "RUBY",
+      "english": "Ruby",
       "itemId": "ITEM_RUBY",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -6893,7 +6893,7 @@
       "secondaryId": 0
     },
     {
-      "english": "SAPPHIRE",
+      "english": "Sapphire",
       "itemId": "ITEM_SAPPHIRE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",

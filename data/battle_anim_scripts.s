@@ -481,6 +481,8 @@ gBattleAnims_Moves::
     .4byte Move_PLAY_ROUGH
 	@ Others
 	.4byte Move_MEGIDOLAON
+	.4byte Move_FLAME_CHARGE
+	.4byte Move_RUTHLESS_RAID
 
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
@@ -10524,6 +10526,8 @@ Move_DOUBLE_HIT:
 Move_DRAIN_PUNCH:
 Move_EARTH_POWER:
 Move_ENERGY_BALL:
+Move_FLAME_CHARGE:
+Move_RUTHLESS_RAID:
 Move_FIRE_FANG:
 	loadspritegfx ANIM_TAG_SHARP_TEETH
 	loadspritegfx ANIM_TAG_SMALL_EMBER
@@ -10631,13 +10635,14 @@ Move_DAZZLING_GLEAM:
 Move_DISARMING_VOICE:
 Move_DRAINING_KISS:
 Move_FAIRY_WIND:
-Move_MOONBLAST:
 Move_PLAY_ROUGH:
 	loadspritegfx ANIM_TAG_SLASH
 	createsprite gSlashSliceSpriteTemplate, ANIM_TARGET, 2, 1, -8, 0
 	playsewithpan SE_M_DOUBLE_SLAP, SOUND_PAN_TARGET
 	waitforvisualfinish
 	end
+
+Move_MOONBLAST:
 
 Move_COUNT:
 	loadspritegfx ANIM_TAG_IMPACT

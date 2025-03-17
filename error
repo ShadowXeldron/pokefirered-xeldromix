@@ -1,1 +1,12 @@
-arm-none-eabi-ld: warning: ../../pokefirered_modern.elf has a LOAD segment with RWX permissions
+audio_rules.mk:41: warning: overriding recipe for target 'sound/songs/midi/mus_caught_intro.s'
+audio_rules.mk:41: warning: ignoring old recipe for target 'sound/songs/midi/mus_caught_intro.s'
+audio_rules.mk:41: warning: overriding recipe for target 'sound/songs/midi/mus_caught_intro.s'
+audio_rules.mk:41: warning: ignoring old recipe for target 'sound/songs/midi/mus_caught_intro.s'
+audio_rules.mk:41: warning: overriding recipe for target 'sound/songs/midi/mus_caught_intro.s'
+audio_rules.mk:41: warning: ignoring old recipe for target 'sound/songs/midi/mus_caught_intro.s'
+audio_rules.mk:41: warning: overriding recipe for target 'sound/songs/midi/mus_caught_intro.s'
+audio_rules.mk:41: warning: ignoring old recipe for target 'sound/songs/midi/mus_caught_intro.s'
+src/cereader_tool.c:11: size of array `EReaderTrainerTowerSetFreeSpace' is negative
+make: *** [Makefile:301: build/firered/src/cereader_tool.o] Error 1
+make: *** Deleting file 'build/firered/src/cereader_tool.o'
+make: *** Waiting for unfinished jobs....

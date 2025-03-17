@@ -1998,8 +1998,28 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
         value = personality & 1;
         SetBoxMonData(boxMon, MON_DATA_ABILITY_NUM, &value);
     }
+    
+    // Uses my scuffed function to generate this
+    SetBoxMonData(boxMon, MON_DATA_TERA_TYPE, GenerateBoxMonTeraTypeFromIVs(MON_DATA_HP_IV, MON_DATA_ATK_IV, MON_DATA_DEF_IV, MON_DATA_SPEED_IV, MON_DATA_SPATK_IV, MON_DATA_SPDEF_IV));
 
     GiveBoxMonInitialMoveset(boxMon);
+}
+
+// As a Rustacean, this janky Game Freak C code truly disgusts me. Also long-arse function name
+u32 GenerateBoxMonTeraTypeFromIVs(u32 hp_IV, u32 hpIV, u32 attackIV, u32 defenseIV, u32 speedIV, u32 spAttackIV, u32 spDefenseIV)
+{
+    // This uses Hidden Power's old calculation to generate a starting Tera Type from a Pokemon's IVs
+    u32 typeBits = ((hp_IV & 1) << 0)
+                 | ((attackIV & 1) << 1)
+                 | ((defenseIV & 1) << 2)
+                 | ((speedIV & 1) << 3)
+                 | ((spAttackIV & 1) << 4)
+                 | ((spDefenseIV & 1) << 5);
+    
+    // Actually, that's a lie. The hidden power calculation can now produce Normal or Dark typings.
+
+    // Also, note to self, STOP TRYING TO USE 3 BYTES FOR TERA TYPES! I'm sure there's a single byte somewhere in the data-structure that I can co-opt, like that blockBoxRS thing.
+    return (NUMBER_OF_MON_TYPES * typeBits) / 63;
 }
 
 void CreateMonWithNature(struct Pokemon *mon, u16 species, u8 level, u8 fixedIV, u8 nature)
@@ -3405,8 +3425,8 @@ u32 GetBoxMonData(struct BoxPokemon *boxMon, s32 field, u8 *data)
     case MON_DATA_WORLD_RIBBON:
         retVal = substruct3->worldRibbon;
         break;
-    case MON_DATA_UNUSED_RIBBONS:
-        retVal = substruct3->unusedRibbons;
+    case MON_DATA_TERA_TYPE:
+        retVal = substruct3->teraType;
         break;
     case MON_DATA_MODERN_FATEFUL_ENCOUNTER:
         retVal = substruct3->modernFatefulEncounter;
@@ -3545,8 +3565,8 @@ void SetMonData(struct Pokemon *mon, s32 field, const void *dataArg)
         break;
     case MON_DATA_SPECIES_OR_EGG:
         break;
-    // why did FRLG go out of its way to specify all of these for default?
-    case MON_DATA_IVS:
+    // Because they all get defaulted anyway, I'm just commenting these out. I'll uncomment them if any issues arise.
+    /*case MON_DATA_IVS:
     case MON_DATA_CHAMPION_RIBBON:
     case MON_DATA_WINNING_RIBBON:
     case MON_DATA_VICTORY_RIBBON:
@@ -3563,7 +3583,7 @@ void SetMonData(struct Pokemon *mon, s32 field, const void *dataArg)
     case MON_DATA_MODERN_FATEFUL_ENCOUNTER:
     case MON_DATA_KNOWN_MOVES:
     case MON_DATA_RIBBON_COUNT:
-    case MON_DATA_RIBBONS:
+    case MON_DATA_RIBBONS:*/
     default:
         SetBoxMonData(&mon->box, field, data);
         break;
@@ -3813,8 +3833,8 @@ void SetBoxMonData(struct BoxPokemon *boxMon, s32 field, const void *dataArg)
     case MON_DATA_WORLD_RIBBON:
         SET8(substruct3->worldRibbon);
         break;
-    case MON_DATA_UNUSED_RIBBONS:
-        SET8(substruct3->unusedRibbons);
+    case MON_DATA_TERA_TYPE: // May only end up being used for Hidden Power
+        SET8(substruct3->teraType);
         break;
     case MON_DATA_MODERN_FATEFUL_ENCOUNTER:
         SET8(substruct3->modernFatefulEncounter);
@@ -6030,7 +6050,7 @@ static u16 GetBattleBGM(void)
             case TRAINER_CLASS_ELITE_FOUR:
                 return MUS_VS_ELITE_FOUR;
             case TRAINER_CLASS_BOSS:
-                return MUS_VS_GIOVANNI;
+            //    return MUS_VS_GIOVANNI;
             case TRAINER_CLASS_TEAM_ROCKET:
                 return MUS_VS_ROCKET;
             case TRAINER_CLASS_RIVAL_EARLY:

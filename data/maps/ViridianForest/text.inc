@@ -109,6 +109,20 @@ ViridianForest_Text_LeavingViridianForest::
 ViridianForest_Text_AlphaBeedrill::
     .string "BEEDRILL! BEEDRILL!$"
 
+ViridianForest_Text_AlphaBeedrillFlee::
+    .string "The Alpha Beedrill buzzed\n"
+    .string "off back to its hive.$"
+
+@ If you run from an Alpha, automatically apply the Escape Rope effect and show this message afterwards
+ViridianForest_Text_AlphaPokemonChaseBackToEntrance::
+    .string "The Alpha Pokémon chased\n"
+    .string "you back to the entrance!"
+
+ViridianForest_Text_AlphaBeedrillTreasure::
+    .string "Huh? It looks like the\n"
+    .string "Alpha had some treasure!"
+
+
 Text_FuryCutterTeach::
     .string "I am a move tutor!\n"
     .string "I teach Fury Cutter.\p"

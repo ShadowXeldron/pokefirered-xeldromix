@@ -309,7 +309,7 @@ static const s8 sPlayerThrowXTranslation[] = { -32, -16, -16, -32, -32, 0, 0, 0 
 // 10 is ×1.0 TYPE_MUL_NORMAL
 // 05 is ×0.5 TYPE_MUL_NOT_EFFECTIVE
 // 00 is ×0.0 TYPE_MUL_NO_EFFECT
-const u8 gTypeEffectiveness[372] =
+const u8 gTypeEffectiveness[378] =
 {
     // Original types
     TYPE_NORMAL, TYPE_ROCK, TYPE_MUL_NOT_EFFECTIVE,
@@ -3418,6 +3418,7 @@ u8 GetWhoStrikesFirst(u8 battler1, u8 battler2, bool8 ignoreChosenMoves)
     u8 holdEffect = 0;
     u8 holdEffectParam = 0;
     u16 moveBattler1 = 0, moveBattler2 = 0;
+	u8 prio1 = 0, prio2 = 0;
 
     if (WEATHER_HAS_EFFECT)
     {
@@ -3516,15 +3517,15 @@ u8 GetWhoStrikesFirst(u8 battler1, u8 battler2, bool8 ignoreChosenMoves)
     }
 
     // Triage code. Blame my brother for asking for this.
-    u8 prio1 = gBattleMoves[moveBattler1].priority;
-    u8 prio2 = gBattleMoves[moveBattler2].priority;
+    prio1 = gBattleMoves[moveBattler1].priority;
+    prio2 = gBattleMoves[moveBattler2].priority;
 
     if ((gBattleMons[battler1].ability == ABILITY_TRIAGE) && (gBattleMoves[moveBattler1].flags & FLAG_TRIAGE_AFFECTED))
     {
         prio1 += 3; // Boosts the priority of healing moves
     }
 
-    else if ((gBattleMons[battler1].ability == ABILITY_PRANKSTER) && (gBattleMoves[moveBattler1].category == MOVE_CATEGORY_PHYSICAL))
+    else if ((gBattleMons[battler1].ability == ABILITY_PRANKSTER) && (gBattleMoves[moveBattler1].category == MOVE_CATEGORY_STATUS))
     {
         prio1 += 1; // Boosts the priority of status moves
     }
@@ -3534,7 +3535,7 @@ u8 GetWhoStrikesFirst(u8 battler1, u8 battler2, bool8 ignoreChosenMoves)
         prio2 += 3; // Boosts the priority of healing moves
     }
 
-    else if ((gBattleMons[battler2].ability == ABILITY_PRANKSTER) && (gBattleMoves[moveBattler2].category == MOVE_CATEGORY_PHYSICAL))
+    else if ((gBattleMons[battler2].ability == ABILITY_PRANKSTER) && (gBattleMoves[moveBattler2].category == MOVE_CATEGORY_STATUS))
     {
         prio2 += 1; // Boosts the priority of status moves
     }

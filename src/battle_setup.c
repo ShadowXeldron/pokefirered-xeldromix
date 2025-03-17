@@ -329,7 +329,7 @@ void StartMarowakBattle(void)
     {
         gBattleTypeFlags = BATTLE_TYPE_GHOST;
     }
-    CreateBattleStartTask(GetWildBattleTransition(), 0);
+    CreateBattleStartTask(GetWildBattleTransition(), MUS_VS_ALPHA);
     SetMonData(&gEnemyParty[0], MON_DATA_NICKNAME, gText_Ghost);
     IncrementGameStat(GAME_STAT_TOTAL_BATTLES);
     IncrementGameStat(GAME_STAT_WILD_BATTLES);
@@ -355,22 +355,36 @@ void StartLegendaryBattle(void)
     species = GetMonData(&gEnemyParty[0], MON_DATA_SPECIES);
     switch (species)
     {
-    case SPECIES_MEWTWO:
-        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_MEWTWO);
-        break;
-    case SPECIES_DEOXYS:
-        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_DEOXYS);
-        break;
-    case SPECIES_MOLTRES:
-    case SPECIES_ARTICUNO:
-    case SPECIES_ZAPDOS:
-    case SPECIES_HO_OH:
-    case SPECIES_LUGIA:
-        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_LEGEND);
-        break;
-    default:
-        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RS_VS_TRAINER);
-        break;
+        case SPECIES_MEWTWO:
+            CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_MEWTWO);
+            break;
+        case SPECIES_DEOXYS:
+            CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_DEOXYS);
+            break;
+        // Minor Legendaries
+        case SPECIES_MOLTRES:
+        case SPECIES_ARTICUNO:
+        case SPECIES_ZAPDOS:
+        case SPECIES_REGIROCK: // Un Un Un
+        case SPECIES_REGISTEEL:
+        case SPECIES_REGICE:
+        case SPECIES_SUICUNE:
+        case SPECIES_ENTEI:
+        case SPECIES_RAIKOU:
+            CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_LEGEND);
+            break;
+        // Major Legendaries
+        case SPECIES_HO_OH:
+        case SPECIES_LUGIA:
+        case SPECIES_KYOGRE:
+        case SPECIES_GROUDON:
+        case SPECIES_RAYQUAZA:
+            CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_LEGEND);
+            break;
+            
+        default:
+            CreateBattleStartTask(B_TRANSITION_ANGLED_WIPES, MUS_VS_ALPHA);
+            break;
     }
     IncrementGameStat(GAME_STAT_TOTAL_BATTLES);
     IncrementGameStat(GAME_STAT_WILD_BATTLES);
@@ -381,10 +395,7 @@ void StartGroudonKyogreBattle(void)
     LockPlayerFieldControls();
     gMain.savedCallback = CB2_EndScriptedWildBattle;
     gBattleTypeFlags = BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_KYOGRE_GROUDON;
-    if (gGameVersion == VERSION_FIRE_RED)
-        CreateBattleStartTask(B_TRANSITION_ANGLED_WIPES, MUS_RS_VS_TRAINER);
-    else // pointless, exactly the same
-        CreateBattleStartTask(B_TRANSITION_ANGLED_WIPES, MUS_RS_VS_TRAINER);
+    CreateBattleStartTask(B_TRANSITION_ANGLED_WIPES, MUS_RS_VS_TRAINER);
     IncrementGameStat(GAME_STAT_TOTAL_BATTLES);
     IncrementGameStat(GAME_STAT_WILD_BATTLES);
 }

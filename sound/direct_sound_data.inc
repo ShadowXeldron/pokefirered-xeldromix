@@ -31,6 +31,10 @@ DirectSoundWaveData_sd90_classical_oboe::
 	.incbin "sound/direct_sound_samples/sd90_classical_oboe.bin"
 
 	.align 2
+DirectSoundWaveData_sc88pro_church_organ3_low::
+	.incbin "sound/direct_sound_samples/sc88pro_church_organ3_low.bin"
+
+	.align 2
 DirectSoundWaveData_unused_sd90_oboe::
 	.incbin "sound/direct_sound_samples/unused_sd90_oboe.bin"
 
